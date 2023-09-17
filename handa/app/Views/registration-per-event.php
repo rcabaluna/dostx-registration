@@ -57,7 +57,7 @@
                                         </div>
                                     </div>
                                     <div class="mt-3" id="registration-form-container">
-                                    <div class="alert alert-danger" id="exists-alert"> You are already registered to this event. Please click <a href="<?=base_url('handa/find-qr');?>">here</a> to check your QR Code. </div>
+                                    <div class="alert alert-danger" id="exists-alert"> You are already registered to this event. Please click <a href="<?=base_url('find-qr');?>">here</a> to check your QR Code. </div>
                                     <h3>Registration Details</h3>
                                     <p class="mb-4">Fill out the form below to register:</p>
                                         <form id="registration-event-form">
@@ -216,7 +216,7 @@
         function get_provinces_list(){
             var regCode = $("#seladdress-region").val();
 
-            $.get("<?=base_url('handa/get-provinces-list')?>",{
+            $.get("<?=base_url('get-provinces-list')?>",{
                 regCode:regCode
             },function(data){
                 $("#seladdress-provinces").html(data);
@@ -231,14 +231,14 @@
         });
 
         function registration_process(){
-            $.post("<?=base_url('handa/reg-process')?>",{
+            $.post("<?=base_url('reg-process')?>",{
                 data:$("#registration-event-form").serializeArray()
             },function(data){
                 if (data == "EXISTS") {
                     $("#exists-alert").show();
                     $(window).scrollTop(0);
                 }else{
-                    window.location.href = '<?=base_url('handa/qr-code/')?>'+data;
+                    window.location.href = '<?=base_url('qr-code/')?>'+data;
                 }
             });
         }

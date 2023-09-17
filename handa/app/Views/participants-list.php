@@ -79,7 +79,7 @@
                             <td><?=date("M d, Y h:i A",strtotime($participantsRow['date_registered']))?></td>
                             <td>
                                 <button class="btn btn-primary btn-xs"><i class="anticon anticon-edit"></i></button>
-                                <a href="<?=base_url('handa/participants/delete?participantid='.$participantsRow['participantid'])?>">
+                                <a href="<?=base_url('participants/delete?participantid='.$participantsRow['participantid'])?>">
                                     <button class="btn btn-danger btn-xs"><i class="anticon anticon-delete"></i></button>
                                 </a>
                             </td>
@@ -114,7 +114,7 @@
 
         function get_participants_by_event() {
             var event = $("#selevents").val();
-            window.location.replace("<?=base_url('/handa/participants?event=')?>"+event);
+            window.location.replace("<?=base_url('participants?event=')?>"+event);
         }
     </script>
 <?= $this->endSection() ?>

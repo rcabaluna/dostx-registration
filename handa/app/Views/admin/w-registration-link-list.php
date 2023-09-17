@@ -23,7 +23,7 @@
                                     </div>
                                     <p class="m-b-20"><?=substr($eventsRow['description'], 0, 100);?>...</p>
                                     <div class="text-right">
-                                        <a class="btn btn-danger btn-tone custom-class font-weight-semibold" href="<?=base_url('handa/w-registration/event/'.$eventsRow['shorthand'])?>">
+                                        <a class="btn btn-danger btn-tone custom-class font-weight-semibold" href="<?=base_url('w-registration/event/'.$eventsRow['shorthand'])?>">
                                             <span>Go</span>
                                         </a>
                                     </div>

@@ -24,7 +24,7 @@ class Registration extends BaseController
     {
 		$data['pagetitle'] = "HANDA Pilipinas 2023 | Registration";
         $uri = service('uri');
-        $eventshorthand = $uri->getSegment(4);
+        $eventshorthand = $uri->getSegment(3);
 
         $data['eventx'] = $this->registrationModel->get_data_where('tblevents',array('shorthand' => $eventshorthand));
 		$data['regions'] = $this->registrationModel->get_all_data('refregion');

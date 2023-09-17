@@ -36,7 +36,7 @@
                                         </div>
                                         <?php
                                     }?>
-                                    <form action="<?=base_url('handa/login')?>" method="POST">
+                                    <form action="<?=base_url('/login')?>" method="POST">
                                         <div class="form-group">
                                             <label class="font-weight-semibold" for="userName">Username:</label>
                                             <div class="input-affix">

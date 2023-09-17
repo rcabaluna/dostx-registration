@@ -505,7 +505,7 @@
         function get_provinces_list(){
             var regCode = $("#seladdress-region").val();
 
-            $.get("<?=base_url('handa/get-provinces-list')?>",{
+            $.get("<?=base_url('get-provinces-list')?>",{
                 regCode:regCode
             },function(data){
                 $("#seladdress-provinces").html(data);
@@ -548,7 +548,7 @@
         }   
 
         function evaluation_process(){
-                $.post("<?=base_url('handa/evaluation-process')?>",{
+                $.post("<?=base_url('evaluation-process')?>",{
                     data:$("#evaluation-form").serializeArray()
                 },function(data){
                     console.log(data);
@@ -556,7 +556,7 @@
                     //     $("#exists-alert").show();
                     //     $(window).scrollTop(0);
                     // }else{
-                    //     window.location.href = '<?=base_url('handa/qr-code/')?>'+data;
+                    //     window.location.href = '<?=base_url('qr-code/')?>'+data;
                     // }
                 });
 

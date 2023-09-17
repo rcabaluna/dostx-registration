@@ -12,7 +12,7 @@ class AuthGuard implements FilterInterface
     public function before(RequestInterface $request, $arguments = null)
     {
         if (!session()->get('logged_in')){
-            header('Location: '.base_url('handa/login'));
+            header('Location: '.base_url('login'));
             exit;
         }
     }

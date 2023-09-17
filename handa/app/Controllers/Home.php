@@ -34,7 +34,7 @@ class Home extends BaseController
                     ];
                         $this->session->set($userdata);
 
-                    return redirect()->to(base_url('handa/admin/dashboard')); 
+                    return redirect()->to(base_url('admin/dashboard')); 
                 }else{
                     $data['invalid'] = true;
                 }
@@ -47,7 +47,7 @@ class Home extends BaseController
 
     public function logout(){
         $this->session->destroy();
-        return redirect()->to(base_url('handa/login')); 
+        return redirect()->to(base_url('login')); 
 
     }
 
