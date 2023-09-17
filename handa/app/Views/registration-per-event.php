@@ -64,7 +64,7 @@
                                             <div class="form-row">
                                                 <div class="form-group col-md-12">
                                                     <label class="font-weight-semibold">Title (e.g. Dr., Mr., Mrs.) <small class="text-danger">*</small></label>
-                                                    <input type="hidden" name="event" value="<?=$uri->getSegment(4)?>">
+                                                    <input type="hidden" name="event" value="<?=$uri->getSegment(3)?>">
                                                     <select name="title" class="form-control" required>
                                                         <option value=""></option>
                                                         <option value="Mr.">Mr.</option>

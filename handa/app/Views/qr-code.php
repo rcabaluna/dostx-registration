@@ -1,7 +1,7 @@
 <?= $this->extend('templates/main') ?>
 <?= $this->section('content') ?>
 <?php $uri = service('uri');
-    $userid = $uri->getSegment(3);
+    $userid = $uri->getSegment(2);
 ?>
 
     <div class="container d-flex h-100">

@@ -67,6 +67,7 @@ class Registration extends BaseController
 				exit();
 			}
 
+
         $data['regnumber'] = $this->registrationModel->get_doc_number('registration');
 		
 		$insertData = $this->registrationModel->insert_data('tblparticipants',$data);
@@ -77,6 +78,7 @@ class Registration extends BaseController
 		}else{
 			exit();
 		}
+
     }
 
 	public function findQR(){
@@ -113,15 +115,17 @@ class Registration extends BaseController
 
     public function generateQRCode($event,$userid)
 	{
+		
         $ciqrcode = new Ciqrcode();
+
 		$qr_image=$userid.'.png';
 		$strData = $event."/".$userid;
 		$params['data'] = $strData;
 		$params['level'] = 'H';
 		$params['size'] = 8;
 		$params['savename'] =FCPATH.STORE_QR.$qr_image;
-		$ciqrcode->generate($params);
 
+		$ciqrcode->generate($params);
 	}
 
 	public function QRCode(){
