@@ -141,7 +141,7 @@ class Registration extends BaseController
 	public function walkinRegistration(){
 		$data['pagetitle'] = "HANDA Pilipinas 2023 | Walk-in Registration";
 		$uri = service('uri');
-        $eventshorthand = $uri->getSegment(4);
+        $eventshorthand = $uri->getSegment(3);
 
         $data['eventx'] = $this->registrationModel->get_data_where('tblevents',array('shorthand' => $eventshorthand));
 		$data['regions'] = $this->registrationModel->get_all_data('refregion');
