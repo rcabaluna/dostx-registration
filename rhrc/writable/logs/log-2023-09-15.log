@@ -1,0 +1,958 @@
+CRITICAL - 2023-09-15 11:55:26 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 11:55:26 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 11:55:55 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 11:56:20 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 11:56:21 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 11:56:59 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 11:56:59 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 11:59:44 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 11:59:44 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 12:00:09 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:38:23 --> Uncaught ErrorException: Undefined property: Config\Paths::$viewDirectory in C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php:93
+Stack trace:
+#0 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: /'.
+#0 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\CodeIgniter.php(967): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\CodeIgniter.php(362): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\handa-registration\handa\index.php(81): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Debug\ExceptionHandler.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-15 13:42:31 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:42:32 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:42:38 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:43:00 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:43:00 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:43:02 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:43:50 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:43:51 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:43:57 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:44:00 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:44:52 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:44:54 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:45:03 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:46:31 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:46:32 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:47:59 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:47:59 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:48:00 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:48:00 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:48:00 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:49:27 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:50:12 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 79.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 79)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:50:31 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 81.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 81)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:50:32 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 81.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 81)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:50:40 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:50:44 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 81.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 81)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:51:30 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 83.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 83)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:53:00 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:53:28 --> You must set an array with Proxy IP address key and HTTP header name value in Config\App::$proxyIPs.
+in SYSTEMPATH\HTTP\RequestTrait.php on line 67.
+ 1 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 2 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 3 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 4 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 5 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 6 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 7 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:53:28 --> Uncaught CodeIgniter\Exceptions\ConfigException: You must set an array with Proxy IP address key and HTTP header name value in Config\App::$proxyIPs. in C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php:67
+Stack trace:
+#0 C:\xampp\htdocs\handa-registration\handa\app\Views\errors\html\error_exception.php(211): CodeIgniter\HTTP\Request->getIPAddress()
+#1 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#3 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\ConfigException), 500, 'C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\ConfigException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 3)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#6 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+You must set an array with Proxy IP address key and HTTP header name value in Config\App::$proxyIPs.
+#0 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+#1 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#2 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#3 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#4 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+#5 C:\xampp\htdocs\handa-registration\handa\app\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#6 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#7 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+#8 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\handa-registration\handa\index.php(81): CodeIgniter\CodeIgniter->run()
+#10 {main}
+in SYSTEMPATH\HTTP\RequestTrait.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-15 13:53:29 --> You must set an array with Proxy IP address key and HTTP header name value in Config\App::$proxyIPs.
+in SYSTEMPATH\HTTP\RequestTrait.php on line 67.
+ 1 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 2 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 3 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 4 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 5 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 6 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 7 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:53:29 --> Uncaught CodeIgniter\Exceptions\ConfigException: You must set an array with Proxy IP address key and HTTP header name value in Config\App::$proxyIPs. in C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php:67
+Stack trace:
+#0 C:\xampp\htdocs\handa-registration\handa\app\Views\errors\html\error_exception.php(211): CodeIgniter\HTTP\Request->getIPAddress()
+#1 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#3 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\ConfigException), 500, 'C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\ConfigException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 3)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#6 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+You must set an array with Proxy IP address key and HTTP header name value in Config\App::$proxyIPs.
+#0 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+#1 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#2 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#3 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#4 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+#5 C:\xampp\htdocs\handa-registration\handa\app\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#6 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#7 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+#8 C:\xampp\htdocs\handa-registration\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\handa-registration\handa\index.php(81): CodeIgniter\CodeIgniter->run()
+#10 {main}
+in SYSTEMPATH\HTTP\RequestTrait.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-15 13:53:33 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:55:19 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:57:34 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:57:41 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:57:49 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:57:50 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:57:58 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:58:02 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:37:02 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:42:11 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration-2\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:42:32 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration-2\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:42:36 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration-2\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:42:39 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration-2\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:42:42 --> Undefined property: Config\App::$baseURL
+in SYSTEMPATH\HTTP\SiteURI.php on line 193.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\App::$baseURL', 'C:\\xampp\\htdocs\\handa-registration-2\\vendor\\codeigniter4\\framework\\system\\HTTP\\SiteURI.php', 193)
+ 2 SYSTEMPATH\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 3 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', null)
+ 5 SYSTEMPATH\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+ 6 SYSTEMPATH\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 8 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 9 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+10 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+11 SYSTEMPATH\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+12 SYSTEMPATH\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+14 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+15 SYSTEMPATH\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+16 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+17 SYSTEMPATH\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+18 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+19 SYSTEMPATH\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+20 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+21 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:42:42 --> Uncaught ErrorException: Undefined property: Config\App::$baseURL in C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\HTTP\SiteURI.php:193
+Stack trace:
+#0 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\HTTP\SiteURI.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193)
+#1 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#2 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#3 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', NULL)
+#4 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+#5 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#6 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#7 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#8 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#9 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#10 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#11 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#12 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#13 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#14 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\Services.php(519): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#15 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#16 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Debug\Exceptions.php(135): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#17 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#18 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: Config\App::$baseURL
+#0 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\HTTP\SiteURI.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193)
+#1 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\HTTP\SiteURI.php(143): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#2 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\HTTP\SiteURI.php(98): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#3 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\HTTP\SiteURIFactory.php(222): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', NULL)
+#4 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\HTTP\SiteURIFactory.php(43): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+#5 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\Services.php(798): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#6 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#7 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#8 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#9 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#10 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\Services.php(565): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#11 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\Services.php(523): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#12 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#13 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#14 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\Services.php(558): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#15 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#16 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\Services.php(538): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#17 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#18 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\CodeIgniter.php(639): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#19 C:\xampp\htdocs\handa-registration-2\vendor\codeigniter4\framework\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->getRequestObject()
+#20 C:\xampp\htdocs\handa-registration-2\handa\index.php(81): CodeIgniter\CodeIgniter->run()
+#21 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-15 17:42:44 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration-2\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:44:22 --> foreach() argument must be of type array|object, string given
+in SYSTEMPATH\HTTP\RequestTrait.php on line 82.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\handa-registration-2\\vendor\\codeigniter4\\framework\\system\\HTTP\\RequestTrait.php', 82)
+ 2 SYSTEMPATH\Config\Services.php(685): CodeIgniter\HTTP\Request->getIPAddress()
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 17:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 17:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 17:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 17:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 17:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 17:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 17:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 17:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 17:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 18:01:09 --> "authGuard" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 350.
+ 1 SYSTEMPATH\Filters\Filters.php(350): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authGuard')
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\Filters\Filters->enableFilter('authGuard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 18:01:42 --> "authGuard" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 350.
+ 1 SYSTEMPATH\Filters\Filters.php(350): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authGuard')
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\Filters\Filters->enableFilter('authGuard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 18:02:03 --> "authGuard" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 350.
+ 1 SYSTEMPATH\Filters\Filters.php(350): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authGuard')
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\Filters\Filters->enableFilter('authGuard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 18:02:04 --> "authGuard" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 350.
+ 1 SYSTEMPATH\Filters\Filters.php(350): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authGuard')
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\Filters\Filters->enableFilter('authGuard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 18:02:04 --> "authGuard" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 350.
+ 1 SYSTEMPATH\Filters\Filters.php(350): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authGuard')
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\Filters\Filters->enableFilter('authGuard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 18:02:04 --> "authGuard" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 350.
+ 1 SYSTEMPATH\Filters\Filters.php(350): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authGuard')
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\Filters\Filters->enableFilter('authGuard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 18:02:53 --> "authGuard" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 350.
+ 1 SYSTEMPATH\Filters\Filters.php(350): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authGuard')
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\Filters\Filters->enableFilter('authGuard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 18:02:54 --> "authGuard" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 350.
+ 1 SYSTEMPATH\Filters\Filters.php(350): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authGuard')
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\Filters\Filters->enableFilter('authGuard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 18:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-15 18:03:00 --> "authGuard" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 350.
+ 1 SYSTEMPATH\Filters\Filters.php(350): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authGuard')
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\Filters\Filters->enableFilter('authGuard', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-15 18:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 18:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
