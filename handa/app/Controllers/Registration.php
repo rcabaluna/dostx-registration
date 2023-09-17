@@ -22,6 +22,7 @@ class Registration extends BaseController
 
     public function event()
     {
+		$data['pagetitle'] = "HANDA Pilipinas 2023 | Registration";
         $uri = service('uri');
         $eventshorthand = $uri->getSegment(4);
 
@@ -124,6 +125,7 @@ class Registration extends BaseController
 	}
 
 	public function QRCode(){
+		$data['pagetitle'] = "HANDA Pilipinas 2023 | Registration - Thank you!";
 		$data['userid'] = $this->request->uri->getSegment(2);
 
 		return view('qr-code', $data);
@@ -133,6 +135,7 @@ class Registration extends BaseController
 	# WALK-IN REGISTRATION
 
 	public function walkinRegistration(){
+		$data['pagetitle'] = "HANDA Pilipinas 2023 | Walk-in Registration";
 		$uri = service('uri');
         $eventshorthand = $uri->getSegment(4);
 
