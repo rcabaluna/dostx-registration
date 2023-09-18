@@ -30,7 +30,7 @@
                             </div>
                         </div>
             <div class="m-t-25">
-                <table class="table table-condensed table-responsive" id="participants-table">
+                <table class="table-responsive hover display row-border" id="participants-table">
                     <thead>
                         <tr>
                             <th>No.</th>
@@ -135,7 +135,8 @@
             buttons: [
                 'copyHtml5',
                 'excelHtml5'
-            ]
+            ],
+            paging: true, scrollCollapse: true, scrollY: '50vh' 
         });
 
         function get_participants_by_event() {

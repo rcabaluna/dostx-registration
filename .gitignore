@@ -2,3 +2,6 @@ handa/uploads/
 rhrc/uploads/
 handa/.env
 rhrc/.env
+
+handa/app/Config/App.php
+rhrc/app/Config/App.php
