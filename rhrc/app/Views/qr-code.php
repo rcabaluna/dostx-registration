@@ -1,7 +1,7 @@
 <?= $this->extend('templates/main') ?>
 <?= $this->section('content') ?>
 <?php $uri = service('uri');
-    $userid = $uri->getSegment(3);
+    $userid = $uri->getSegment(2);
 ?>
 
     <div class="container d-flex h-100">
@@ -31,7 +31,7 @@
                                 <?php if (session()->get('logged_in')) {
                                     ?>
                                     <div class="col-md-12 mt-3 text-center">
-                                        <a class="text-primary" href="">
+                                        <a class="text-primary" href="<?=base_url('registration')?>">
                                             <u>Register Another</u>
                                         </a>
                                     </div>

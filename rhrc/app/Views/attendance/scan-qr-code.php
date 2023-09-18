@@ -77,7 +77,7 @@
       });
 
       function confirm_attendance(content){
-        $.post("<?=base_url('rhrc/confirm-attendance')?>",{
+        $.post("<?=base_url('confirm-attendance')?>",{
           data: content
         },function(data){
           if(data == "INVALID"){
@@ -115,7 +115,7 @@
 
       function save_attendance(){
 
-        $.post("<?=base_url('rhrc/save-attendance')?>",{
+        $.post("<?=base_url('save-attendance')?>",{
           data: contentdata
         },function(data){
           if (data == "SUCCESS") {

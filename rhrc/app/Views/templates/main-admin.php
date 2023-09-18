@@ -52,13 +52,13 @@
                 <!-- Header START -->
                 <div class="header">
                     <div class="logo logo-dark">
-                        <a href="<?=base_url('/rhrc/admin/dashboard')?>">
+                        <a href="<?=base_url('/admin/dashboard')?>">
                             <img src="assets/images/logo/logo.png" alt="Logo" />
                             <img class="logo-fold" src="assets/images/logo/logo-fold.png" alt="Logo" />
                         </a>
                     </div>
                     <div class="logo logo-white">
-                        <a href="<?=base_url('/rhrc/admin/dashboard')?>">
+                        <a href="<?=base_url('/admin/dashboard')?>">
                             <img style="margin-top: 10px;" src="<?=base_url('assets/images/logo/logo-white.png')?>" alt="Logo" />
                             <img class="logo-fold" style="margin-left: 33%; margin-top: 10%;" src="<?=base_url('assets/images/logo/logo-fold-white.png')?>" alt="Logo" />
                         </a>
@@ -85,7 +85,7 @@
                     <div class="side-nav-inner">
                         <ul class="side-nav-menu scrollable">
                             <li class="nav-item dropdown" id="ul-four">
-                                <a class="dropdown-toggle" href="<?=base_url('/rhrc/admin/dashboard')?>">
+                                <a class="dropdown-toggle" href="<?=base_url('/admin/dashboard')?>">
                                     <span class="icon-holder">
                                         <i class="anticon anticon-dashboard"></i>
                                     </span>
@@ -104,10 +104,10 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li id="li-reg-links">
-                                        <a href="<?=base_url('/rhrc/registration/links')?>">QR Codes/Links</a>
+                                        <a href="<?=base_url('/registration/links')?>">QR Codes/Links</a>
                                     </li>
                                     <li id="li-walkin">
-                                        <a href="<?=base_url('/rhrc/registration/w-list')?>">Walk-in QR Links</a>
+                                        <a href="<?=base_url('/registration/w-list')?>">Walk-in QR Links</a>
                                     </li>
                                 </ul>
                             </li>
@@ -123,7 +123,7 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li id="li-evaluation-links">
-                                        <a href="<?=base_url('/rhrc/evaluation/links')?>">Links</a>
+                                        <a href="<?=base_url('/evaluation/links')?>">Links</a>
                                     </li>
                                 </ul>
                             </li>
@@ -139,10 +139,10 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li id="li-participants">
-                                        <a href="<?=base_url('/rhrc/participants?event=all')?>">Participants List</a>
+                                        <a href="<?=base_url('/participants?event=all')?>">Participants List</a>
                                     </li>
                                     <li id="li-attendance">
-                                        <a href="<?=base_url('/rhrc/attendance?event=all')?>">Attendance List</a>
+                                        <a href="<?=base_url('/attendance?event=all')?>">Attendance List</a>
                                     </li>
                                 </ul>
                             </li>
@@ -158,12 +158,12 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li id="li-food-scanner">
-                                        <a href="<?=base_url('/rhrc/81525e75be630cc750ea7beeb81f2de1')?>">Attendance</a>
+                                        <a href="<?=base_url('/81525e75be630cc750ea7beeb81f2de1')?>">Attendance</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown" id="ul-five">
-                                <a class="dropdown-toggle" href="<?=base_url('/rhrc/logout')?>">
+                                <a class="dropdown-toggle" href="<?=base_url('/logout')?>">
                                     <span class="icon-holder">
                                         <i class="anticon anticon-logout"></i>
                                     </span>

@@ -11,7 +11,7 @@ class Dashboard extends BaseController
 
     public function index()
     {
-        $data['pagetitle'] = "HANDA 2023 - Dashboard";
+        $data['pagetitle'] = "6th Regional Health Research Conference | Dashboard";
         return view('dashboard',$data);
     }
 

@@ -26,7 +26,7 @@
                                     </div>
                                     <p class="m-b-20"><?=substr($eventsRow['description'], 0, 100);?>...</p>
                                     <div class="text-right">
-                                        <a class="btn btn-primary btn-tone custom-class font-weight-semibold" href="<?=base_url('rhrc/registration/'); ?>"
+                                        <a class="btn btn-primary btn-tone custom-class font-weight-semibold" href="<?=base_url('registration/'); ?>"
                                             <span>Register</span>
                                         </a>
                                     </div>

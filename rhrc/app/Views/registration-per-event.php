@@ -232,7 +232,7 @@
         function get_provinces_list(){
             var regCode = $("#seladdress-region").val();
 
-            $.get("<?=base_url('rhrc/get-provinces-list')?>",{
+            $.get("<?=base_url('get-provinces-list')?>",{
                 regCode:regCode
             },function(data){
                 $("#seladdress-provinces").html(data);
@@ -247,7 +247,7 @@
         });
 
         function registration_process(){
-            $.post("<?=base_url('rhrc/reg-process')?>",{
+            $.post("<?=base_url('reg-process')?>",{
                 data:$("#registration-event-form").serializeArray()
             },function(data){
 
@@ -255,7 +255,7 @@
                     $("#exists-alert").show();
                     $(window).scrollTop(0);
                 }else{
-                    window.location.href = '<?=base_url('rhrc/qr-code/')?>'+data;
+                    window.location.href = '<?=base_url('qr-code/')?>'+data;
                 }
             });
         }

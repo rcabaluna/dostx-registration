@@ -30,43 +30,43 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/rhrc','Home::index');
-$routes->get('/rhrc/registration/', 'Registration::event');
-$routes->post('rhrc/reg-process', 'Registration::registerProccess');
-$routes->get('rhrc/qr-code/(:any)', 'Registration::QRCode');
-$routes->get('rhrc/find-qr', 'Registration::findQR');
-$routes->post('rhrc/find-qr-process', 'Registration::findQRProcess');
-$routes->get('rhrc/get-provinces-list', 'Registration::getProvincesList');
+$routes->get('/registration/', 'Registration::event');
+$routes->post('reg-process', 'Registration::registerProccess');
+$routes->get('qr-code/(:any)', 'Registration::QRCode');
+$routes->get('find-qr', 'Registration::findQR');
+$routes->post('find-qr-process', 'Registration::findQRProcess');
+$routes->get('get-provinces-list', 'Registration::getProvincesList');
 
 
 # WALK-IN REGISTRATION
-$routes->get('/rhrc/w-registration/event/(:any)', 'Registration::walkinRegistration/$1');
-$routes->post('rhrc/w-reg-process', 'Registration::walkinRegistrationProcess');
+$routes->get('/w-registration', 'Registration::walkinRegistration');
+$routes->post('w-reg-process', 'Registration::walkinRegistrationProcess');
 
 
-$routes->get('rhrc/participants', 'Participants::index',['filter' => 'authGuard']);
-$routes->get('rhrc/participants/delete', 'Participants::deleteParticipant');
+$routes->get('participants', 'Participants::index',['filter' => 'authGuard']);
+$routes->get('participants/delete', 'Participants::deleteParticipant');
 
-$routes->get('rhrc/attendance', 'Attendance::index',['filter' => 'authGuard']);
-$routes->get('rhrc/attendance/delete', 'Attendance::deleteAttendance');
+$routes->get('attendance', 'Attendance::index',['filter' => 'authGuard']);
+$routes->get('attendance/delete', 'Attendance::deleteAttendance');
 
-$routes->get('rhrc/81525e75be630cc750ea7beeb81f2de1', 'Attendance::scanQRCode',['filter' => 'authGuard']);
-$routes->post('rhrc/confirm-attendance', 'Attendance::AttendanceConfirm');     
-$routes->post('rhrc/save-attendance', 'Attendance::AttendanceSave');     
+$routes->get('81525e75be630cc750ea7beeb81f2de1', 'Attendance::scanQRCode',['filter' => 'authGuard']);
+$routes->post('confirm-attendance', 'Attendance::AttendanceConfirm');     
+$routes->post('save-attendance', 'Attendance::AttendanceSave');     
 
-$routes->get('rhrc/admin/dashboard','Dashboard::index',['filter' => 'authGuard']);
+$routes->get('admin/dashboard','Dashboard::index',['filter' => 'authGuard']);
 
-$routes->match(['get','post'],'rhrc/login','Home::login');
-$routes->match(['get','post'],'rhrc/logout','Home::logout');
+$routes->match(['get','post'],'login','Home::login');
+$routes->match(['get','post'],'logout','Home::logout');
 
 
-$routes->get('rhrc/registration/links','Admin::registrationList',['filter' => 'authGuard']);
-$routes->get('/rhrc/registration/w-list','Admin::registrationWalkInList',['filter' => 'authGuard']);
-$routes->get('rhrc/evaluation/links','Admin::evaluationList',['filter' => 'authGuard']);
+$routes->get('registration/links','Admin::registrationList',['filter' => 'authGuard']);
+$routes->get('/registration/w-list','Admin::registrationWalkInList',['filter' => 'authGuard']);
+$routes->get('evaluation/links','Admin::evaluationList',['filter' => 'authGuard']);
 
 # EVALUATION
-$routes->get('/rhrc/evaluation', 'Evaluation::index');
-$routes->post('rhrc/evaluation-process', 'Evaluation::evaluationProccess');
-$routes->get('rhrc/evaluation-test', 'Evaluation::test');
+$routes->get('/evaluation', 'Evaluation::index');
+$routes->post('evaluation-process', 'Evaluation::evaluationProccess');
+$routes->get('evaluation-test', 'Evaluation::test');
 
 
 

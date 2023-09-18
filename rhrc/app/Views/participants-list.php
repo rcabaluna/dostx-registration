@@ -67,7 +67,7 @@
                             <td><?=date("M d, Y h:i A",strtotime($participantsRow['date_registered']))?></td>
                             <td>
                                 <button class="btn btn-primary btn-xs"><i class="anticon anticon-edit"></i></button>
-                                <a href="<?=base_url('rhrc/participants/delete?participantid='.$participantsRow['participantid'])?>">
+                                <a href="<?=base_url('participants/delete?participantid='.$participantsRow['participantid'])?>">
                                     <button class="btn btn-danger btn-xs"><i class="anticon anticon-delete"></i></button>
                                 </a>
                             </td>
