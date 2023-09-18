@@ -9,7 +9,7 @@
                                 <?php if(isset($_SESSION['delete'])){
                                                     ?>
                                 <div class="col-md-12">
-                                    <div class="alert alert-info">
+                                    <div class="alert alert-success">
                                         The participant has been deleted successfully!
                                     </div>
                                 </div>
@@ -78,16 +78,36 @@
                             </td>
                             <td><?=date("M d, Y h:i A",strtotime($participantsRow['date_registered']))?></td>
                             <td>
-                                <button class="btn btn-primary btn-xs"><i class="anticon anticon-edit"></i></button>
-                                <a href="<?=base_url('participants/delete?participantid='.$participantsRow['participantid'])?>">
-                                    <button class="btn btn-danger btn-xs"><i class="anticon anticon-delete"></i></button>
-                                </a>
+                                    <button type="button" class="btn btn-danger btn-rounded btn-tone btn-xs" onclick="set_delete_link(<?=$participantsRow['participantid']; ?>)" data-toggle="modal" data-target="#exampleModal">
+                                        <i class="anticon anticon-delete"></i>
+                                    </button>
                             </td>
                         </tr>
                         <?php
                                         }?>
                     </tbody>
                 </table>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Confirm Delete</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <h3>Are you sure you want to <br>delete this participant?</h3>
+                    <p>This process cannot be undone.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <a href="#" id="delete-link-href"><button type="button" class="btn btn-danger">Confirm</button></a>
+                </div>
             </div>
         </div>
     </div>
@@ -103,6 +123,10 @@
             $("#li-participants").addClass("active");
 
         });
+
+        function set_delete_link(participantid){
+            $("#delete-link-href").attr("href", "<?=base_url('participants/delete?participantid=')?>"+participantid);
+        }
         $('#participants-table').DataTable({
             responsive: true,
             dom: 'Bfrtip',

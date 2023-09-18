@@ -29,6 +29,8 @@ class Participants extends BaseController
         $param['participantid'] = $this->request->getGet('participantid');
         $this->participantsModel->delete_participant('tblparticipants',$param);
         
+        $this->session->setFlashdata('delete',true);
+        
         if (!empty($previousUrl)) {
             return redirect()->to($previousUrl);
         }
