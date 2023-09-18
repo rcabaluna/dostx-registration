@@ -4,7 +4,6 @@
     <div class="card">
         <div class="card-body">
             <h4>Participants List</h4>
-            <?=date('Y-m-d H:i A');?>
             <div class="d-flex align-items-center justify-content-between m-b-30">
                             <div class="row">
                                 <?php if(isset($_SESSION['delete'])){
