@@ -184,22 +184,22 @@
                                                 <div class="form-group col-md-6">
                                                     <label for="inputEmail4">Following events:</label>
                                                     <div class="checkbox">
-                                                        <input id="checkbox5" type="checkbox" value="Day 1" name="event[]">
+                                                        <input id="checkbox5" type="checkbox" value="Day 1" name="event[]" onclick="event_attend_check()">
                                                         <label for="checkbox5"><b>Day 1</b> - <i>Opening Ceremony and <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student Category Competitions</i></label>
                                                     </div>
                                                     <div class="checkbox">
-                                                        <input id="checkbox6" type="checkbox" value="Day 2" name="event[]">
+                                                        <input id="checkbox6" type="checkbox" value="Day 2" name="event[]" onclick="event_attend_check()">
                                                         <label for="checkbox6"><b>Day 2 - </b><i>Plenary Session and <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Professional Category Competitions</i></label>
                                                     </div>
                                                     <div class="checkbox">
-                                                        <input id="checkbox7" type="checkbox" value="Day 3" name="event[]">
+                                                        <input id="checkbox7" type="checkbox" value="Day 3" name="event[]" onclick="event_attend_check()">
                                                         <label for="checkbox7"><b>Day 3 - </b><i>Closing and Awarding <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ceremonies</i></label>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-row">
                                                 <div class="form-group col-md-12">
-                                                    <button type="submit" class="btn btn-primary custom-class float-right">Register</button>
+                                                    <button type="submit" id="reg-submit-btn" class="btn btn-primary custom-class float-right">Register</button>
                                                 </div>
                                             </div>
                                         </form>
@@ -220,8 +220,19 @@
         $(document).ready(function () {
             $("#registration-form-container").hide();
             $("#exists-alert").hide();
+            $("#reg-submit-btn").prop("disabled","disabled");
 
         });
+
+        function event_attend_check(){
+            var itemsCheck = $("input[name='event[]']:checked").length;
+
+            if (itemsCheck > 0) {
+                $("#reg-submit-btn").prop("disabled",false);
+            }else{
+                $("#reg-submit-btn").prop("disabled","disabled");
+            }
+        }
 
         function show_registration_details(){
             $("#registration-form-container").show();
