@@ -78,7 +78,7 @@
                                     <img src="<?=base_url('uploads/qr/').$participantsRow['regnumber']?>.png" />
                                 </div>
                             </td>
-                            <td><?=date("M d, Y h:i A",strtotime($participantsRow['date_registered']))?></td>
+                            <td><?=date("M d, Y h:i A",strtotime($participantsRow['date_registered'].'+8 hours'))?></td>
                             <td>
                                     <button type="button" class="btn btn-danger btn-rounded btn-tone btn-xs" onclick="set_delete_link(<?=$participantsRow['participantid']; ?>)" data-toggle="modal" data-target="#exampleModal">
                                         <i class="anticon anticon-delete"></i>

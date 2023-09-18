@@ -75,7 +75,7 @@
                                     <img src="<?=base_url('uploads/qr/').$attendanceRow['regnumber']?>.png" />
                                 </div>
                             </td>
-                            <td><?=date("M d, Y h:i A",strtotime($attendanceRow['date_registered']))?></td>
+                            <td><?=date("M d, Y h:i A",strtotime($attendanceRow['date_registered'].'+8 hours'))?></td>
                             <td>
                                 <button class="btn btn-primary btn-xs"><i class="anticon anticon-edit"></i></button>
                                 <a href="<?=base_url('handa/attendance/delete?attendanceid='.$attendanceRow['attendanceid'])?>">
