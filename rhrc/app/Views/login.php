@@ -26,7 +26,7 @@
                             <div class="card shadow-lg">
                                 <div class="card-body">
                                     <div class="d-flex align-items-center justify-content-between m-b-30">
-                                        <img class="img-fluid" alt="" src="<?=base_url('assets/images/logo/logo-black.png')?>">
+                                        <img class="img-fluid" alt="" src="<?=base_url('assets/images/logo/logo-black-login.png')?>">
                                         <h2 class="m-b-0">Log In</h2>
                                     </div>
                                     <?php if (isset($invalid)) {
