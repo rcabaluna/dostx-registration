@@ -42,6 +42,7 @@
                             <th>Sex</th>
                             <th>Address</th>
                             <th>Agency Name</th>
+                            <th>Position</th>
                             <th>Sector/Affiliation</th>
                             <th>Event</th>
                             <th>Privileges</th>
@@ -68,6 +69,7 @@
                             <td><?=$participantsRow['sex']?></td>
                             <td><small><?=$participantsRow['regDesc']." - <br>".$participantsRow['provDesc']?></small></td>
                             <td><?=$participantsRow['agency_name']?></td>
+                            <td><?=$participantsRow['position']?></td>
                             <td><?=$participantsRow['sectorname']?></td>
                             <td><small><?=$participantsRow['name']?></small></td>
                             <td><?=($participantsRow['privileges']) ? $participantsRow['privileges'] : '-' ?></td>

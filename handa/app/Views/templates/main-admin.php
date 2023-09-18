@@ -47,7 +47,7 @@
     </head>
 
     <body>
-        <div class="app is-danger">
+        <div class="app is-danger is-folded">
             <div class="layout">
                 <!-- Header START -->
                 <div class="header">

@@ -47,7 +47,7 @@
     </head>
 
     <body>
-        <div class="app is-primary">
+        <div class="app is-primary is-folded">
             <div class="layout">
                 <!-- Header START -->
                 <div class="header">
