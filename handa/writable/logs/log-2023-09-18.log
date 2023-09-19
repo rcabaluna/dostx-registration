@@ -3724,3 +3724,836 @@ INFO - 2023-09-18 15:47:26 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-09-18 15:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-09-18 15:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-09-18 15:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-18 16:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-18 16:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-18 16:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-18 16:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:24:50 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1749
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1749)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1749): mail('someone@example...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Mon, 18 S...', '-f your@example...')
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(93): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-09-18 16:24:50 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:24:50 --> 
+INFO - 2023-09-18 16:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:25:27 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1749
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1749)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1749): mail('someone@example...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Mon, 18 S...', '-f your@example...')
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(93): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-09-18 16:25:27 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:25:27 --> 
+ERROR - 2023-09-18 16:25:29 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1749
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1749)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1749): mail('someone@example...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Mon, 18 S...', '-f your@example...')
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(94): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-09-18 16:25:29 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:25:29 --> Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+CRITICAL - 2023-09-18 16:25:29 --> Class "App\Controllers\Exception" not found
+in APPPATH\Controllers\Evaluation.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-18 16:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:26:23 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1749
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1749)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1749): mail('someone@example...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Mon, 18 S...', '-f your@example...')
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(93): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-09-18 16:26:23 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:26:23 --> 
+INFO - 2023-09-18 16:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:26:33 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1749
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1749)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1749): mail('someone@example...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Mon, 18 S...', '-f your@example...')
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(93): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-09-18 16:26:33 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:26:33 --> 
+INFO - 2023-09-18 16:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:27:37 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1749
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1749)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1749): mail('someone@example...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Mon, 18 S...', '-f your@example...')
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(93): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-09-18 16:27:37 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:27:37 --> 
+INFO - 2023-09-18 16:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:27:58 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1749
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1749)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1749): mail('someone@example...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Mon, 18 S...', '-f your@example...')
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(93): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-09-18 16:27:58 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:27:58 --> 
+INFO - 2023-09-18 16:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:28:37 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known.  in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1888)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1888): fsockopen('ssl://ssl://smt...', 587, NULL, NULL, 60)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(93): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:28:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:28:37 --> 
+INFO - 2023-09-18 16:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:28:46 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known.  in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1888)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1888): fsockopen('ssl://ssl://smt...', 465, NULL, NULL, 60)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(93): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:28:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:28:46 --> 
+INFO - 2023-09-18 16:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:29:03 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1888)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1888): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(93): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:29:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:29:03 --> 
+INFO - 2023-09-18 16:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:29:06 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1888)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1888): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(93): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:29:06 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:29:06 --> 
+INFO - 2023-09-18 16:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-18 16:29:53 --> Invalid file: "email_template.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('email_template.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('email_template', [], true)
+ 3 APPPATH\Controllers\Evaluation.php(92): view('email_template', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-18 16:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-18 16:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-18 16:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-18 16:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:31:46 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1749
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1749)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1749): mail('rcabalunajr1@gm...', '=?UTF-8?Q?Your=...', 'Hello World!\n', 'Date: Mon, 18 S...', '-f rcabalunajr@...')
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(94): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-09-18 16:31:46 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:31:46 --> 
+INFO - 2023-09-18 16:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-18 16:34:07 --> Undefined variable $data
+in APPPATH\Controllers\Evaluation.php on line 104.
+ 1 APPPATH\Controllers\Evaluation.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Controllers\\Evaluation.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-18 16:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:34:23 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #157, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(113): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:34:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:34:23 --> Unable to locate the following email attachment: "/img/yourPhoto.jpg"
+220 smtp.gmail.com ESMTP ie18-20020a17090b401200b0026971450601sm6726950pjb.7 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:35:02 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #157, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(113): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:35:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:35:02 --> Unable to locate the following email attachment: "/img/yourPhoto.jpg"
+220 smtp.gmail.com ESMTP q8-20020a170902dac800b001c0af36dd64sm866521plx.162 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:35:19 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #155, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(108): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:35:19 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:35:19 --> 220 smtp.gmail.com ESMTP z12-20020a170903018c00b001b392bf9192sm7808902plg.145 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:35:40 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #155, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(107): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:35:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:35:40 --> 220 smtp.gmail.com ESMTP k6-20020aa790c6000000b0069028bdd24dsm6699514pfk.34 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:36:39 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #155, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(109): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:36:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:36:39 --> 220 smtp.gmail.com ESMTP 6-20020a170902c10600b001b9d335223csm7809869pli.26 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:38:03 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #155, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(107): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:38:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:38:03 --> 220 smtp.gmail.com ESMTP q20-20020a62ae14000000b0068fca9abbc3sm6763891pff.79 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:44:58 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #156, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(107): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:44:58 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:44:58 --> 220 smtp.gmail.com ESMTP l7-20020a170903120700b001b87bedcc6fsm7866282plh.93 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:45:13 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1888)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1888): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 15)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(107): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:45:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:45:13 --> 
+INFO - 2023-09-18 16:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:45:25 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1888)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1888): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 15)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(106): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:45:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:45:25 --> 
+INFO - 2023-09-18 16:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:45:27 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1888)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1888): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 15)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(106): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:45:27 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:45:27 --> 
+INFO - 2023-09-18 16:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:45:28 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1888)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1888): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 15)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(106): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:45:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:45:28 --> 
+INFO - 2023-09-18 16:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:46:24 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #155, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(106): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:46:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:46:24 --> 220 smtp.gmail.com ESMTP j13-20020aa7800d000000b0068fb1709f52sm6727680pfi.136 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:47:34 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #155, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(106): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:47:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:47:34 --> 220 smtp.gmail.com ESMTP e4-20020a170902d38400b001bd62419744sm7839250pld.147 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:48:05 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #155, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(106): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:48:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:48:05 --> 220 smtp.gmail.com ESMTP h7-20020a170902704700b001aaf2e8b1eesm7807337plt.248 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:48:21 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #155, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(106): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:48:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:48:21 --> 220 smtp.gmail.com ESMTP w2-20020a170902904200b001b567bbe82dsm7807518plz.150 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:48:28 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #155, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(106): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:48:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:48:28 --> 220 smtp.gmail.com ESMTP p17-20020a639511000000b005740aa41237sm5114930pgd.74 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:49:52 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #155, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(106): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:49:52 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:49:52 --> 220 smtp.gmail.com ESMTP b6-20020a17090a12c600b0027463889e72sm6662429pjg.55 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:50:08 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #156, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(106): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:50:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:50:08 --> 220 smtp.gmail.com ESMTP w4-20020a170902d3c400b001bda42a216bsm3338679plb.100 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:51:07 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL: An existing connection was forcibly closed by the remote host in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1888)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1888): fsockopen('ssl://smtp.goog...', 587, NULL, NULL, 15)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(106): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:51:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:51:07 --> 
+INFO - 2023-09-18 16:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:51:15 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #155, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(106): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:51:15 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:51:15 --> 220 smtp.gmail.com ESMTP ch5-20020a056a00288500b00690679df874sm2835702pfb.198 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:51:31 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #155, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(106): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:51:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:51:31 --> 220 smtp.gmail.com ESMTP a26-20020aa780da000000b0068ff267f094sm6766046pfn.158 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:51:37 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #155, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(106): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:51:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:51:37 --> 220 smtp.gmail.com ESMTP e5-20020a62ee05000000b006889664aa6csm6778108pfi.5 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 16:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 16:52:18 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #155, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(106): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 16:52:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 16:52:18 --> 220 smtp.gmail.com ESMTP ck11-20020a17090afe0b00b0025c1cfdb93esm6695554pjb.13 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+INFO - 2023-09-18 17:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-18 17:03:04 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp\htdocs\dostx-registration\system\Email\Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1909)
+#1 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1909): stream_socket_enable_crypto(Resource id #156, true, 121)
+#2 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\dostx-registration\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(106): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->sendEmail()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-09-18 17:03:04 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-18 17:03:04 --> 220 smtp.gmail.com ESMTP w4-20020a170902d3c400b001bda42a216bsm3362220plb.100 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [27.110.189.162]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+

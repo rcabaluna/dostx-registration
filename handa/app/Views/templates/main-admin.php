@@ -48,7 +48,7 @@
 
     <body>
         <div class="app is-danger is-folded">
-            <div class="layout">
+            <div class="layout is-side-nav-dark">
                 <!-- Header START -->
                 <div class="header">
                     <div class="logo logo-dark">

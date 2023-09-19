@@ -29,7 +29,7 @@
                             </div>
                         </div>
             <div class="m-t-25">
-                <table class="table-responsive hover display row-border" id="attendance-table">
+                <table class="table" id="attendance-table">
                     <thead>
                         <tr>
                             <th>No.</th>
@@ -111,6 +111,8 @@
             ],
             paging: true, scrollCollapse: true, scrollY: '50vh' 
         });
+
+        
 
         function get_participants_by_event() {
             var event = $("#selevents").val();

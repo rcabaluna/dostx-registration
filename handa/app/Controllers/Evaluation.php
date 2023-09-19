@@ -4,7 +4,6 @@ namespace App\Controllers;
 
 use App\Models\EvaluationModel;
 use App\ThirdParty\FPDF;
-use App\Libraries\EmailLib;
 
 class Evaluation extends BaseController
 {
@@ -79,16 +78,38 @@ class Evaluation extends BaseController
 
     public function sendEmail(){
         
-        $emailLib = new EmailLib();
-        $to = 'rcabalunajr1@example.com';
-        $subject = 'Test Email';
-        $message = 'This is a test email';
+        // $email = new Email();
 
-        if ($emailLib->sendEmail($to, $subject, $message)) {
-            echo "Email sent successfully";
+        // $email->setTo('rcabalunajr1@gmail.com');
+        // $email->setSubject('Your Email Subject');
+        // $email->setFrom('rcabalunajr@gmail.com', 'Mail Testing');
+
+    
+        // $message = "Hello World!";
+        
+        // $email->setMessage($message);
+        
+        // if ($email->send()) {
+        //     echo 'Email sent successfully';
+        // } else {
+        //     echo 'Email could not be sent';
+        //     echo $email->printDebugger(['headers']);
+        // }
+
+        $email = \Config\Services::email();
+
+        $email->setFrom('rcabalunajr@gmail.com', 'Test Header');
+        $email->setTo('rocabalunajr@region10.dost.gov.ph');
+        $email->setSubject('Your Subject here | tutsmake.com');
+        $email->setMessage('Test Message');//your message here
+      
+        if ($email->send()) {
+            echo 'Email sent successfully';
         } else {
-            echo "Error sending email";
+            echo 'Email could not be sent';
+            echo $email->printDebugger(['headers']);
         }
+
     }
 
 }
