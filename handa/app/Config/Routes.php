@@ -51,7 +51,6 @@ $routes->get('/attendance/delete', 'Attendance::deleteAttendance');
 $routes->get('/81525e75be630cc750ea7beeb81f2de1', 'Attendance::scanQRCode',['filter' => 'authGuard']);
 $routes->post('/confirm-attendance', 'Attendance::AttendanceConfirm');     
 $routes->post('/save-attendance', 'Attendance::AttendanceSave');     
-
 $routes->get('/admin/dashboard','Dashboard::index',['filter' => 'authGuard']);
 
 $routes->match(['get','post'],'/login','Home::login');
@@ -61,6 +60,7 @@ $routes->match(['get','post'],'/logout','Home::logout');
 $routes->get('/registration/links','Admin::registrationList',['filter' => 'authGuard']);
 $routes->get('/registration/w-list','Admin::registrationWalkInList',['filter' => 'authGuard']);
 $routes->get('/evaluation/links','Admin::evaluationList',['filter' => 'authGuard']);
+$routes->get('/registration/change-status/(:any)','Admin::changeRegistrationStatus/$1',['filter' => 'authGuard']);
 
 # EVALUATION
 $routes->get('/evaluation', 'Evaluation::index');

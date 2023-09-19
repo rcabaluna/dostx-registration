@@ -15,4 +15,13 @@ class AdminModel extends Model
         return $query->getResultArray();
     }
 
+    public function update_status($tablename,$param){
+        
+        $builder = $this->db->table($tablename);
+        $builder->set('is_closed', $param['is_closed']);
+        $builder->where('shorthand', $param['shorthand']);
+
+        $builder->update();
+
+    }
 }

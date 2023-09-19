@@ -32,5 +32,23 @@ class Admin extends BaseController
         $data['pagetitle'] = 'HANDA 2023 - Admin | Evaluation Links';
         return view('admin/evaluation-link-list', $data);
     }
+
+    public function changeRegistrationStatus(){
+        $uri = service('uri');
+        $forChangeStatus = $uri->getSegment(3);
+        $param['shorthand'] = $uri->getSegment(4);
+        
+        if ($forChangeStatus == 'c') {
+            $param['is_closed'] = 1;
+        }else{
+            $param['is_closed'] = 0;
+        }
+        
+        $changeStatus = $this->adminModel->update_status('tblevents',$param);
+        
+        $this->session->setFlashdata('update',true);
+        
+        return redirect()->to(base_url('registration/links'));
+    }
     
 }
