@@ -9,15 +9,27 @@
                     <thead>
                         <tr>
                             <th>Event</th>
-                            <th>No. of Pre-Registered Participants</th>
-                            <th>No. of Actual Participants</th>
+                            <th class="text-right">Target Participants</th>
+                            <th class="text-right">Buffer</th>
+                            <th class="text-right">Pre-Registered Participants</th>
+                            <th class="text-right">% <br>(Excluding Buffer)</th>
+                            <th class="text-right">Actual Participants</th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php foreach ($parrAttCount as $parrAttCountRow) { ?>
                             <tr>
-                                <td><?=$parrAttCountRow['name'];?></td>
+                                <td><b><?=$parrAttCountRow['name'];?></b></td>
+                                <td class="text-right"><?=$parrAttCountRow['targetparticipants'];?></td>
+                                <td class="text-right"><?=$parrAttCountRow['buffer'];?></td>
                                 <td class="text-right"><a href="<?=base_url('participants?event='.$parrAttCountRow['shorthand']);?>"><?=$parrAttCountRow['participantsno'];?></a></td>
+                                <td class="text-right">
+                                    <?php if ($parrAttCountRow['targetparticipants'] != '-') {
+                                        echo round(($parrAttCountRow['participantsno']/$parrAttCountRow['targetparticipants'])*100,0)."%";
+                                    }else{
+                                        echo "-";
+                                    }?>
+                                </td>
                                 <td class="text-right"><a href="<?=base_url('attendance?event='.$parrAttCountRow['shorthand']);?>"><?=$parrAttCountRow['attendanceno'];?></a></td>
                             </tr>
                         <?php } ?>
