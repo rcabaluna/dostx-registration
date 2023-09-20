@@ -156,7 +156,8 @@ class Registration extends BaseController
 	public function walkinRegistrationProcess(){
 
         $datax = $this->request->getPost('data');
-
+		$previousUrl = $this->request->getServer('HTTP_REFERER');
+		$this->session->setFlashdata('previous_url',$previousUrl);
 
 		$data = array();
 		$privilegesArr = array();

@@ -16,8 +16,8 @@
 
         <style>
             .activex {
-                color: #de4436 !important;
-                background-color: rgba(222, 68, 54, 0.15);
+                color: #fff !important;
+      
             }
 
             @media all and (max-width: 480px) {
@@ -156,7 +156,10 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li id="li-food-scanner">
-                                        <a href="<?=base_url('/81525e75be630cc750ea7beeb81f2de1')?>">Attendance</a>
+                                        <a href="<?=base_url('/81525e75be630cc750ea7beeb81f2de1')?>">Attendance (Mobile)</a>
+                                    </li>
+                                    <li id="li-food-scanner">
+                                        <a href="<?=base_url('/81525e75be630cc750ea7beeb81f2de1')?>">Attendance (PC)</a>
                                     </li>
                                     <li id="li-attendance-scanner">
                                         <a href="javascript:void(0)">Food</a>

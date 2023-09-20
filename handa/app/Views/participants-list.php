@@ -4,10 +4,17 @@
     <div class="card">
         <div class="card-body">
             <h4>Participants List</h4>
-                <div class="d-flex align-items-center justify-content-between m-b-30">
+                <div class="align-items-center justify-content-between m-b-30">
                     <div class="row">
-                        <?php if(isset($_SESSION['delete'])){
-                                            ?>
+                        <div class="col-md-12">
+                            <div class="alert alert-success" id="attendance-confirmed-success">
+                                Attendance confirmed!
+                            </div>
+                            <div class="alert alert-danger" id="attendance-exists">
+                                Attendance already exists!
+                            </div>
+                        </div>
+                        <?php if(isset($_SESSION['delete'])){ ?>
                         <div class="col-md-12">
                             <div class="alert alert-success">
                                 The participant has been deleted successfully!
@@ -46,7 +53,6 @@
                                 <th>Sector/Affiliation</th>
                                 <th>Event</th>
                                 <th>Privileges</th>
-                                <th>QR Code</th>
                                 <th>Participants Date</th>
                                 <!-- <th>Actions</th> -->
                             </tr>
@@ -54,7 +60,7 @@
                         <tbody>
                             <?php $count=0; foreach ($participants as $participantsRow) {
                                                 ?>
-                            <tr participantid="<?=$participantsRow['participantid']?>">
+                            <tr participantid="<?=$participantsRow['participantid']?>" shorthand="<?=$participantsRow['shorthand']?>">
                                 <td><?=$count+=1?></td>
                                 <td><?=$participantsRow['regnumber']?></td>
                                 <td><?=$participantsRow['title']?></td>
@@ -73,11 +79,6 @@
                                 <td><?=$participantsRow['sectorname']?></td>
                                 <td><small><?=$participantsRow['name']?></small></td>
                                 <td><?=($participantsRow['privileges']) ? $participantsRow['privileges'] : '-' ?></td>
-                                <td>
-                                    <div class="avatar avatar-image avatar-square">
-                                        <img src="<?=base_url('uploads/qr/').$participantsRow['regnumber']?>.png" />
-                                    </div>
-                                </td>
                                 <td><?=date("M d, Y h:i A",strtotime($participantsRow['date_registered'].'+8 hours'))?></td>
                                 <!-- <td>
                                         <button type="button" class="btn btn-danger btn-rounded btn-tone btn-xs" onclick="set_delete_link(<?=$participantsRow['participantid']; ?>)" data-toggle="modal" data-target="#exampleModal">
@@ -128,7 +129,7 @@
                         <img id="qr-options-mdl" class="w-100"/>
                     </div>
                     <div class="m-t-20">
-                        <button type="button" class="btn btn-warning btn-sm">Confirm Attendance</button><br>
+                        <button type="button" class="btn btn-warning" id="confirm-attendance-options-mdl">Confirm Attendance</button><br>
                         <button type="button" class="mt-3 btn btn-link btn-xs">Confirm to another Forum</button>
 
                     </div>
@@ -149,6 +150,9 @@
             $("#selevents").val(event);
             $("#ul-one").addClass("open");
             $("#li-participants").addClass("active");
+            $("#attendance-confirmed-success").hide();
+            $("#attendance-exists").hide();
+
 
         });
 
@@ -178,12 +182,32 @@
             let data = table.row(this).data();
 
             var participantid = $(this).closest("tr").attr('participantid');
+            var shorthand = $(this).closest("tr").attr('shorthand');
             
             $("#regnumber-options-mdl").html(data[3]);
             $("#event-title-options-mdl").html(data[11]);
             $("#qr-options-mdl").attr("src", "<?=base_url('uploads/qr/')?>"+data[1]+".png");
             $("#delete-icon-options-mdl").attr("onclick", "set_delete_link("+participantid+")");
+            $("#confirm-attendance-options-mdl").attr("onclick","confirm_forum_attendance('"+shorthand+"','"+data[1]+"')");
             $("#options-mdl").modal("show");
         });
+
+        function confirm_forum_attendance(shorthand,regnumber){
+            $.post("<?=base_url('attendance/reg-confirm-attendance')?>",{
+                event:shorthand,
+                regnumber:regnumber
+            },function(data){
+                if (data == "SUCCESS") {
+                    $("#attendance-confirmed-success").show();
+                    $("#attendance-confirmed-success").delay(3000).hide(500);
+                    $("#options-mdl").modal("hide");
+                }else{
+                    console.log("EXISTS");
+                    $("#attendance-exists").show();
+                    $("#attendance-exists").delay(3000).hide(500);
+                    $("#options-mdl").modal("hide");
+                }
+            });
+        }
     </script>
 <?= $this->endSection() ?>

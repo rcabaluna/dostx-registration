@@ -80,5 +80,21 @@ class Attendance extends BaseController
             return redirect()->to($previousUrl);
         }
     }
+
+    #CONFIRM ATTENDANCE FROM REGISTRATION LIST
+
+    public function regConfirmAttendance(){
+        $input = $this->request->getPost();
+
+        $check = $this->attendanceModel->get_att_data('tblattendance',$input);
+
+        if ($check) {
+            echo "EXISTS";
+        }else{
+            $insert = $this->attendanceModel->insert_data('tblattendance',$input);
+            echo "SUCCESS";
+        }
+
+    }
     
 }

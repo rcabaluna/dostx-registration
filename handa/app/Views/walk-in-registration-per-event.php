@@ -1,4 +1,4 @@
-<?= $this->extend('templates/main') ?>
+<?= $this->extend('templates/main-walk-in') ?>
 <?= $this->section('content') ?>
 <?php $uri = service('uri'); ?>
 <style>
@@ -6,69 +6,47 @@
         color: #2a2a2a !important;
     }
 </style>
-                <div class="container d-flex h-100 px-0">
+                <div class="container-fluid d-flex h-100 px-0">
                     <div class="row align-items-center w-100" style="margin-left: 0px;">
                         <div class="col-md-12 col-lg-12 m-h-auto">
                             <div class="card shadow-lg">
                                 <div class="card-body">
-                                    <div class="d-flex align-items-center justify-content-between m-b-30">
-                                        <div class="row">
+                                    <div class="align-items-center justify-content-between m-b-1">
+                                        <div class="row mb-3">
                                             <div class="col-12">
-                                                <img class="img-fluid" src="<?=base_url("assets/images/logo/handa-logo-black.png");?>">
+                                                <img class="img-fluid" src="<?=base_url("assets/images/logo/walk-in-reg-header.png");?>">
                                             </div>
-                                            <div id="privacy-notice-container">
-                                                <div class="mt-3 col-12">
-                                  
-                                                         <div id="event-title">
-                                                            <h1><b>Title:</b> <?=$eventx['name'];?></h1>
-                                                            <h5><b>Venue:</b> <?=$eventx['venue'];?></h5>
-                                                            <h5><b>Date and Time:</b> <?=$eventx['datetime'];?></h5>
-                                                            <h5><b>Description:</b></h5>
-                                                            <div style="color: #2a2a2a !important">
-                                                                <?=$eventx['description'];?></div>
-                                                            <hr>
-                                                        </div>
-                                                    <h3 class="mb-3 text-dark">Privacy Notice</h3>
-                                                    <p class="text-dark"><b>Introduction</b></p>
-                                                    <p class="text-dark mb-4">This Privacy Notice details what information we collect, why we collect it, and what we do with it. <br>Before you enter any personal information, please make sure that you have read and fully understood this Notice.</p>
-                                                    <p class="text-dark"><b>Data Collection</b></p>
-                                                    <p class="text-dark mb-4">The Department of Science and Technology - Region 10 remain committed to fulfilling its mission of providing science, technology, and innovation-based solutions anchored on ethical public service, contributing to a better quality of life in the Region. To this end, it collects data and information, including personal information, from various subjects, which may be used to identify the needs and opportunities in science, technology, and innovation in the Region. These data/information may also be used to improve further our Agency's programs and services.</p>
-                                                    <p class="text-dark"><b>Data Use</b></p>
-                                                    <p class="text-dark mb-4">This registration form serves as a means to collect information of the participants for production of statistical results.</p>
-                                                    <p class="text-dark"><b>List of Data to be Collected</b></p>
-                                                    <p class="text-dark mb-4"> 
-                                                        Title
-                                                        <br>Complete Name
-                                                        <br>Contact Number
-                                                        <br>Email Address
-                                                        <br>Sex
-                                                        <br>Address (Region)
-                                                        <br>Address (Province)
-                                                        <br>Name of Agency/Institution
-                                                        <br>Position
-                                                        <br>Sector or Affiliation
-                                                        <br>Previleges
-                                                    </p>
-                                                    <p class="text-dark"><b>Access and Correction</b></p>
-                                                    <p class="text-dark mb-4">All information we collect are treated with utmost confidentiality. Only authorized DOST-X personnel have access to the personal information collected. You have the right to ask for a copy of any personal information the DOST-X holds about you, as well as the right to ask for its correction, if found erroneous, or deletion on reasonable grounds.</p>
-
-                                                    <button class="btn btn-danger float-right custom-class" onclick="show_registration_details()">Next</button>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div id="event-title">
+                                                    <h1>
+                                                        <b>Title:</b>
+                                                        <?=$eventx['name'];?>
+                                                    </h1>
+                                                    <h5>
+                                                        <b>Venue:</b>
+                                                        <?=$eventx['venue'];?>
+                                                    </h5>
+                                                    <h5>
+                                                        <b>Date and Time:</b>
+                                                        <?=$eventx['datetime'];?>
+                                                    </h5>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="mt-3" id="registration-form-container">
-                                    <div class="alert alert-danger" id="exists-alert"> You are already registered to this event. 
-                                        <!-- Please click <a href="<?=base_url('find-qr');?>">here</a> to check your QR Code. -->
-                                </div>
-                                    <h3>Registration Details</h3>
-                                    <p class="mb-4">Fill out the form below to register:</p>
+                                    <hr>
+                                    <div id="registration-form-container">
+                                        <div class="alert alert-danger" id="exists-alert"> You are already registered to this event. 
+                                    </div>
+                                    <h4>Registration Details</h4>
                                         <form id="registration-event-form">
                                             <div class="form-row">
-                                                <div class="form-group col-md-12">
+                                                <div class="form-group col-md-2">
                                                     <label class="font-weight-semibold">Title (e.g. Dr., Mr., Mrs.) <small class="text-danger">*</small></label>
-                                                    <input type="hidden" name="event" value="<?=$uri->getSegment(4)?>">
-                                                    <select name="title" class="form-control" required>
+                                                    <input type="hidden" name="event" value="<?=$uri->getSegment(3)?>">
+                                                    <select name="title" class="form-control form-control-lg" required>
                                                         <option value=""></option>
                                                         <option value="Mr.">Mr.</option>
                                                         <option value="Ms.">Ms.</option>
@@ -79,23 +57,21 @@
                                                         <option value="Mx.">Mx.</option>
                                                     </select>
                                                 </div>
-                                            </div>
-                                            <div class="form-row">
                                                 <div class="form-group col-md-3">
                                                     <label class="font-weight-semibold">Last Name <small class="text-danger">*</small></label>
-                                                    <input type="text" class="form-control" name="lastname" placeholder="Last Name" required>
+                                                    <input type="text" class="form-control form-control-lg" name="lastname" placeholder="Last Name" required>
                                                 </div>
                                                 <div class="form-group col-md-3">
                                                     <label class="font-weight-semibold">First Name  <small class="text-danger">*</small></label>
-                                                    <input type="text" class="form-control" name="firstname" placeholder="First Name" required>
+                                                    <input type="text" class="form-control form-control-lg" name="firstname" placeholder="First Name" required>
                                                 </div>
                                                 <div class="form-group col-md-3">
                                                     <label class="font-weight-semibold">Middle Initial </label>
-                                                    <input type="text" class="form-control" name="middle_initial" placeholder="Middle Initial">
+                                                    <input type="text" class="form-control form-control-lg" name="middle_initial" placeholder="Middle Initial">
                                                 </div>
-                                                <div class="form-group col-md-3">
+                                                <div class="form-group col-md-1">
                                                     <label class="font-weight-semibold">Suffix</label>
-                                                    <select name="suffix" class="form-control">
+                                                    <select name="suffix" class="form-control form-control-lg">
                                                         <option value=""></option>
                                                         <option value="Sr.">Sr.</option>
                                                         <option value="Jr.">Jr.</option>
@@ -107,29 +83,29 @@
                                                 </div>
                                             </div>
                                             <div class="form-row">
-                                                
-                                                <div class="form-group col-md-6">
-                                                    <label for="">Contact Number</label>
-                                                    <input type="number" maxlength="11" class="form-control" name="contactno" placeholder="Contact Number">
-                                                </div>
-                                                <div class="form-group col-md-6">
-                                                    <label for="inputEmail4">Email Address</label>
-                                                    <input type="email" class="form-control" name="email" placeholder="Email Address">
-                                                </div>
-                                            </div>
-                                            <div class="form-row">
-                                                <div class="form-group col-md-12">
+                                                <div class="form-group col-md-4">
                                                     <label for="inputEmail4">Sex <small class="text-danger">*</small></label>
-                                                    <select class="form-control" name="sex" required>
+                                                    <select class="form-control form-control-lg" name="sex" required>
                                                         <option value=""></option>
                                                         <option value="Male">Male</option>
                                                         <option value="Female">Female</option>
                                                         <option value="Prefer not to say">Prefer not to say</option>
                                                     </select>
                                                 </div>
-                                                <div class="form-group col-md-6">
+                                                <div class="form-group col-md-4">
+                                                    <label for="">Contact Number</label>
+                                                    <input type="number" maxlength="11" class="form-control form-control-lg" name="contactno" placeholder="Contact Number">
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                    <label for="inputEmail4">Email Address</label>
+                                                    <input type="email" class="form-control form-control-lg" name="email" placeholder="Email Address">
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                
+                                                <div class="form-group col-md-4">
                                                     <label for="inputEmail4">Address (Region) <small class="text-danger">*</small></label>
-                                                    <select class="form-control" name="address_region" id="seladdress-region" onchange="get_provinces_list()" required>
+                                                    <select class="form-control form-control-lg" name="address_region" id="seladdress-region" onchange="get_provinces_list()" required>
                                                         <option value=""></option>
                                                         <?php foreach ($regions as $regionsRow) {
                                                             ?>
@@ -138,34 +114,32 @@
                                                         }?>
                                                     </select>
                                                 </div>
-                                                <div class="form-group col-md-6">
+                                                <div class="form-group col-md-4">
                                                     <label for="inputEmail4">Address (Province) <small class="text-danger">*</small></label>
-                                                    <select class="form-control" id="seladdress-provinces" name="address_province" required>
+                                                    <select class="form-control form-control-lg" id="seladdress-provinces" name="address_province" required>
                                                         <option value=""></option>
                                                     </select>
                                                 </div>
-                                            </div>
-                                            <div class="form-row">
-                                                <div class="form-group col-md-6">
-                                                    <label class="form-label">Agency/Unit/LGU</label>
-                                                    <input type="text" name="agency_name" class="form-control" placeholder="Name of Institution/Agency">
-                                                </div>    
-                                                <div class="form-group col-md-6">
-                                                    <label class="form-label">Position</label>
-                                                    <input type="text" name="position" class="form-control" placeholder="Position">
-                                                </div>
-                                            </div>
-                                            <div class="form-row">
-                                                <div class="form-group col-md-6">
+                                                <div class="form-group col-md-4">
                                                     <label for="inputEmail4">Sector or Affiliation<small class="text-danger">*</small></label>
-                                                    <select class="form-control" name="sector" required>
+                                                    <select class="form-control form-control-lg" name="sector" required>
                                                         <option></option>
                                                         <?php foreach ($sectors as $sectorsRow) { ?>
                                                             <option value="<?=$sectorsRow['sectorid']?>"><?=$sectorsRow['sectorname']?></option>
                                                         <?php } ?>
                                                     </select>
                                                 </div>
-                                                <div class="form-group col-md-6">
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-4">
+                                                    <label class="form-label">Name of Institution/Agency</label>
+                                                    <input type="text" name="agency_name" class="form-control form-control-lg" placeholder="Name of Institution/Agency">
+                                                </div>    
+                                                <div class="form-group col-md-4">
+                                                    <label class="form-label">Position</label>
+                                                    <input type="text" name="position" class="form-control form-control-lg" placeholder="Position">
+                                                </div>
+                                                <div class="form-group col-md-4">
                                                     <label for="inputEmail4">Privileges</label>
                                                     <div class="checkbox">
                                                         <input id="checkbox1" type="checkbox" value="PWD" name="privileges[]">
@@ -185,9 +159,10 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="form-row">
-                                                <div class="form-group col-md-12">
-                                                    <button type="submit" class="btn btn-danger custom-class float-right">Register</button>
+                                                <div class="form-row">
+                                                <div class="form-group col-md-12 mb-0">
+                                                    <button type="submit" class="btn btn-danger custom-class float-right mb-2">Register</button>
+                                                    <button type="reset" id="reset-btn" class="btn btn-danger btn-tone custom-class">Clear</button>
                                                 </div>
                                             </div>
                                         </form>
@@ -206,9 +181,7 @@
 
     <script>
         $(document).ready(function () {
-            $("#registration-form-container").hide();
             $("#exists-alert").hide();
-
         });
 
         function show_registration_details(){

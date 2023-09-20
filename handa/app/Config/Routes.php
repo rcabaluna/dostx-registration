@@ -28,7 +28,7 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/handa','Home::index');
+// $routes->get('/handa','Home::index');
 $routes->get('/registration/event/(:any)', 'Registration::event/$1');
 $routes->post('/reg-process', 'Registration::registerProccess');
 $routes->get('/qr-code/(:any)', 'Registration::QRCode');
@@ -51,6 +51,8 @@ $routes->get('/attendance/delete', 'Attendance::deleteAttendance');
 $routes->get('/81525e75be630cc750ea7beeb81f2de1', 'Attendance::scanQRCode',['filter' => 'authGuard']);
 $routes->post('/confirm-attendance', 'Attendance::AttendanceConfirm');     
 $routes->post('/save-attendance', 'Attendance::AttendanceSave');     
+$routes->post('/attendance/reg-confirm-attendance','Attendance::regConfirmAttendance');
+
 $routes->get('/admin/dashboard','Dashboard::index',['filter' => 'authGuard']);
 
 $routes->match(['get','post'],'/login','Home::login');

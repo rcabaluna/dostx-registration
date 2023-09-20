@@ -33,7 +33,7 @@
     </div>
   </div>
   <div class="modal fade bd-example-modal-lg" id="profile-modal">
-      <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
           <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalCenterTitle">Confirm Attendance</h5>
@@ -42,11 +42,11 @@
                 </button>
             </div>
             <div class="modal-body" id="profile-modal-body">
-                
+              
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                <button type="button" onclick="save_attendance()" class="btn btn-danger">Confirm</button>
+                <button type="button" onclick="save_attendance()" class="btn btn-danger">Confirm Attendance</button>
             </div>
           </div>
       </div>
@@ -77,7 +77,7 @@
       });
 
       function confirm_attendance(content){
-        $.post("<?=base_url('handa/confirm-attendance')?>",{
+        $.post("<?=base_url('confirm-attendance')?>",{
           data: content
         },function(data){
           if(data == "INVALID"){
@@ -101,8 +101,8 @@
           // $(selcameras).html(option);
 
           if (cameras.length > 0) {
-            // scanner.start(cameras[defaultcam]);
-            scanner.start(cameras[cameras.length-1]);
+            scanner.start(cameras[defaultcam]);
+            // scanner.start(cameras[cameras.length-1]);
 
             scanner.mirror = false;
           } else {
@@ -114,7 +114,7 @@
       }
 
       function save_attendance(){
-        $.post("<?=base_url('handa/save-attendance')?>",{
+        $.post("<?=base_url('save-attendance')?>",{
           data: contentdata
         },function(data){
           console.log(data);
