@@ -128,14 +128,14 @@
                     <div class="mb-3">
                         <img id="qr-options-mdl" class="w-100"/>
                     </div>
-                    <div class="m-t-20">
+                    <!-- <div class="m-t-20">
                         <button type="button" class="btn btn-warning" id="confirm-attendance-options-mdl">Confirm Attendance</button><br>
                         <button type="button" class="mt-3 btn btn-link btn-xs">Confirm to another Forum</button>
 
-                    </div>
+                    </div> -->
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default btn-xs" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-default btn-xs" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
