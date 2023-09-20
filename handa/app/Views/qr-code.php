@@ -31,7 +31,10 @@
                                 <?php if (session()->get('logged_in')) {
                                     ?>
                                     <div class="col-md-12 mt-3 text-center">
-                                        <a class="text-danger" href="<?=$_SESSION['previous_url'];?>">
+                                        <a class="text-danger" href="<?php if(isset($_SESSION['previous_url'])) {
+                                            echo $_SESSION['previous_url'];
+                                        }else{ echo "#"; }?>">
+                                    
                                             <u>Register Another</u>
                                         </a>
                                     </div>
