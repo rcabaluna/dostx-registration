@@ -76,6 +76,8 @@ class Attendance extends BaseController
         $param['attendanceid'] = $this->request->getGet('attendanceid');
         $this->attendanceModel->delete_attendance('tblattendance',$param);
         
+        $this->session->setFlashdata('delete',true);
+        
         if (!empty($previousUrl)) {
             return redirect()->to($previousUrl);
         }

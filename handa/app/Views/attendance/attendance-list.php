@@ -4,30 +4,30 @@
     <div class="card">
         <div class="card-body">
             <h4>Attendance List</h4>
-            <div class="d-flex align-items-center justify-content-between m-b-30">
-                            <div class="row">
-                                <?php if(isset($_SESSION['delete'])){
-                                                    ?>
-                                <div class="col-md-12">
-                                    <div class="alert alert-info">
-                                        The participant has been deleted successfully!
-                                    </div>
-                                </div>
-                                <?php
-                                                }?>
-                                <div class="col-md-12">
-                                    <select class="form-control" id="selevents" onchange="get_participants_by_event()">
-                                        <option value="all">All</option>
-                                        <?php foreach ($events as $eventsRow) { ?>
-                                        <option value="<?=$eventsRow['shorthand']?>"><?=$eventsRow['name']?></option>
-                                        <?php } ?>
-                                    </select>
-                                </div>
-                                <div class="mt-3 col-12">
-                                    
-                                </div>
-                            </div>
+            <div class="align-items-center justify-content-between m-b-30">
+                <div class="row">
+                    <?php if(isset($_SESSION['delete'])){
+                                        ?>
+                    <div class="col-md-12">
+                        <div class="alert alert-info alert-dismissible fade show">
+                            The attendance data has been deleted successfully!
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
                         </div>
+                    </div>
+                    <?php
+                        }?>
+                    <div class="col-md-12">
+                        <select class="form-control" id="selevents" onchange="get_participants_by_event()">
+                            <option value="all">All</option>
+                            <?php foreach ($events as $eventsRow) { ?>
+                            <option value="<?=$eventsRow['shorthand']?>"><?=$eventsRow['name']?></option>
+                            <?php } ?>
+                        </select>
+                    </div>
+                </div>
+            </div>
             <div class="m-t-25">
                 <table class="table" id="attendance-table">
                     <thead>
@@ -44,7 +44,6 @@
                             <th>Sector/Affiliation</th>
                             <th>Event</th>
                             <th>Privileges</th>
-                            <th>QR Code</th>
                             <th>Attendance Date</th>
                             <th>Actions</th>
                         </tr>
@@ -70,22 +69,36 @@
                             <td><?=$attendanceRow['sectorname']?></td>
                             <td><small><?=$attendanceRow['name']?></small></td>
                             <td><?=($attendanceRow['privileges']) ? $attendanceRow['privileges'] : '-' ?></td>
-                            <td>
-                                <div class="avatar avatar-image avatar-square">
-                                    <img src="<?=base_url('uploads/qr/').$attendanceRow['regnumber']?>.png" />
-                                </div>
-                            </td>
                             <td><?=date("M d, Y h:i A",strtotime($attendanceRow['date_registered'].'+8 hours'))?></td>
                             <td>
-                                <a href="<?=base_url('attendance/delete?attendanceid='.$attendanceRow['attendanceid'])?>">
-                                    <button class="btn btn-danger btn-xs"><i class="anticon anticon-delete"></i></button>
-                                </a>
+                                <button class="btn btn-danger btn-xs" onclick="set_delete_link(<?=$attendanceRow['attendanceid']?>)"><i class="anticon anticon-delete"></i></button>
                             </td>
                         </tr>
                         <?php
                                         }?>
                     </tbody>
                 </table>
+            </div>
+        </div>
+    </div>
+        <!-- Modal -->
+        <div class="modal fade" id="confirm-delete-mdl">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Confirm Delete</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <h3>Are you sure you want to <br>delete this attendance data?</h3>
+                    <p>This process cannot be undone.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <a href="#" id="delete-link-href"><button type="button" class="btn btn-danger">Confirm</button></a>
+                </div>
             </div>
         </div>
     </div>
@@ -116,6 +129,12 @@
         function get_participants_by_event() {
             var event = $("#selevents").val();
             window.location.replace("<?=base_url('attendance?event=')?>"+event);
+        }
+
+        function set_delete_link(attendanceid){
+            $("#options-mdl").modal("hide");
+            $("#confirm-delete-mdl").modal("show");
+            $("#delete-link-href").attr("href", "<?=base_url('attendance/delete?attendanceid=')?>"+attendanceid);
         }
     </script>
 <?= $this->endSection() ?>

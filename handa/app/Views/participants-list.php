@@ -22,6 +22,7 @@
                         </div>
                         <?php
                         }?>
+                        <?php if($_SESSION['usertype'] == 'admin'){  ?>
                         <div class="col-md-12">
                             <label>Select forum/event:</label>
                             <select class="form-control" id="selevents" onchange="get_participants_by_event()">
@@ -31,9 +32,8 @@
                                 <?php } ?>
                             </select>
                         </div>
-                        <div class="mt-3 col-12">
-                            
-                        </div>
+                        <?php
+                        }?>
                     </div>
                 </div>
                 <div class="m-t-25">

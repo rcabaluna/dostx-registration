@@ -14,6 +14,7 @@ class AuthGuard implements FilterInterface
         if (!session()->get('logged_in')){
             header('Location: '.base_url('login'));
             exit;
+
         }
     }
     

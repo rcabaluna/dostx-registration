@@ -30,11 +30,19 @@ class Home extends BaseController
                     $userdata = [
                         'userid'  => $check['userid'],
                         'username' => $check['username'],
-                        'logged_in' => true
+                        'logged_in' => true,
+                        'usertype' => $check['usertype'],
+                        'eventaccess' => $check['eventaccess']
+
                     ];
                         $this->session->set($userdata);
 
-                    return redirect()->to(base_url('admin/dashboard')); 
+                    if ($check['usertype'] == 'admin') {
+                        return redirect()->to(base_url('admin/dashboard')); 
+                    }else{
+                        return redirect()->to(base_url('participants?event='.$check['eventaccess'])); 
+                        
+                    }
                 }else{
                     $data['invalid'] = true;
                 }

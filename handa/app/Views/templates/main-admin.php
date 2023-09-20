@@ -82,14 +82,18 @@
                 <div class="side-nav">
                     <div class="side-nav-inner">
                         <ul class="side-nav-menu scrollable">
-                            <li class="nav-item dropdown" id="ul-four">
-                                <a class="dropdown-toggle" href="<?=base_url('/admin/dashboard')?>">
-                                    <span class="icon-holder">
-                                        <i class="anticon anticon-dashboard"></i>
-                                    </span>
-                                    <span class="title">Dashboard</span>
-                                </a>
-                            </li>
+                            <?php if ($_SESSION['usertype'] != 'user') {
+                                ?>
+                                <li class="nav-item dropdown" id="ul-four">
+                                    <a class="dropdown-toggle" href="<?=base_url('/admin/dashboard')?>">
+                                        <span class="icon-holder">
+                                            <i class="anticon anticon-dashboard"></i>
+                                        </span>
+                                        <span class="title">Dashboard</span>
+                                    </a>
+                                </li>
+                                
+                                
                             <li class="nav-item dropdown" id="ul-three">
                                 <a class="dropdown-toggle" href="javascript:void(0);">
                                     <span class="icon-holder">
@@ -125,6 +129,7 @@
                                     </li>
                                 </ul>
                             </li>
+                            
                             <li class="nav-item dropdown" id="ul-one">
                                 <a class="dropdown-toggle" href="javascript:void(0);">
                                     <span class="icon-holder">
@@ -166,6 +171,32 @@
                                     </li>
                                 </ul>
                             </li>
+                            <?php
+                            }?>
+
+<?php if ($_SESSION['usertype'] == 'user') {
+                                ?>
+           
+                            
+                            <li class="nav-item dropdown" id="ul-one">
+                                <a class="dropdown-toggle" href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                        <i class="anticon anticon-ordered-list"></i>
+                                    </span>
+                                    <span class="title">Lists</span>
+                                    <span class="arrow">
+                                        <i class="arrow-icon"></i>
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li id="li-participants">
+                                        <a href="<?=base_url('/participants?event='.$_SESSION['eventaccess'])?>">Participants List</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <?php
+                            }?>
+
                             <li class="nav-item dropdown" id="ul-five">
                                 <a class="dropdown-toggle" href="<?=base_url('/logout')?>">
                                     <span class="icon-holder">
@@ -174,6 +205,7 @@
                                     <span class="title">Logout</span>
                                 </a>
                             </li>
+                           
                         </ul>
                     </div>
                 </div>

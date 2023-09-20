@@ -101,8 +101,8 @@
           // $(selcameras).html(option);
 
           if (cameras.length > 0) {
-            scanner.start(cameras[defaultcam]);
-            // scanner.start(cameras[cameras.length-1]);
+            // scanner.start(cameras[defaultcam]);
+            scanner.start(cameras[cameras.length-1]);
 
             scanner.mirror = false;
           } else {

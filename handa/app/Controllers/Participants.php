@@ -15,7 +15,14 @@ class Participants extends BaseController
 
     public function index()
     {
-        $data['pagetitle'] = "HANDA 2023 - Participants List";
+
+        $eventshorthand = $this->request->getGet('event');
+
+        if ($_SESSION['usertype'] != 'admin' && $_SESSION['eventaccess'] != $eventshorthand) {
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+        }
+
+        $data['pagetitle'] = "HANDA Pilipinas 2023 - Participants List";
         $param['event'] = $this->request->getGet('event');
         $data['events'] = $this->participantsModel->get_all_data('tblevents');
         $data['participants'] = $this->participantsModel->get_participants_list('tblparticipants',$param);
