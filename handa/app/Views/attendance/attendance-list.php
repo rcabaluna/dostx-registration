@@ -77,7 +77,7 @@
                             </td>
                             <td><?=date("M d, Y h:i A",strtotime($attendanceRow['date_registered'].'+8 hours'))?></td>
                             <td>
-                                <a href="<?=base_url('handa/attendance/delete?attendanceid='.$attendanceRow['attendanceid'])?>">
+                                <a href="<?=base_url('attendance/delete?attendanceid='.$attendanceRow['attendanceid'])?>">
                                     <button class="btn btn-danger btn-xs"><i class="anticon anticon-delete"></i></button>
                                 </a>
                             </td>
