@@ -34,7 +34,6 @@
                                         <a class="text-danger" href="<?php if(isset($_SESSION['previous_url'])) {
                                             echo $_SESSION['previous_url'];
                                         }else{ echo "#"; }?>">
-                                    
                                             <u>Register Another</u>
                                         </a>
                                     </div>

@@ -6,14 +6,6 @@
             <h4>Participants List</h4>
                 <div class="align-items-center justify-content-between m-b-30">
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="alert alert-success" id="attendance-confirmed-success">
-                                Attendance confirmed!
-                            </div>
-                            <div class="alert alert-danger" id="attendance-exists">
-                                Attendance already exists!
-                            </div>
-                        </div>
                         <?php if(isset($_SESSION['delete'])){ ?>
                         <div class="col-md-12">
                             <div class="alert alert-success">
@@ -150,9 +142,6 @@
             $("#selevents").val(event);
             $("#ul-one").addClass("open");
             $("#li-participants").addClass("active");
-            $("#attendance-confirmed-success").hide();
-            $("#attendance-exists").hide();
-
 
         });
 
