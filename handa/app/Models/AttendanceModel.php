@@ -70,4 +70,20 @@ class AttendanceModel extends Model
         $builder->where($param);
         $builder->delete();
     }
+
+    public function get_participants_list_limit_5($tablename){
+
+
+        $builder = $this->db->table($tablename);
+        $builder->select('*');
+        $builder->join('tblsector', 'tblsector.sectorid = tblparticipants.sector');
+        $builder->join('refregion', 'refregion.regCode = tblparticipants.address_region');
+        $builder->join('refprovince', 'refprovince.provCode = tblparticipants.address_province');
+        $builder->join('tblevents', 'tblevents.shorthand = tblparticipants.event');
+
+        $query = $builder->orderBy('tblparticipants.regnumber','DESC');
+        $query = $builder->get();
+
+        return $query->getResultArray();
+    }
 }

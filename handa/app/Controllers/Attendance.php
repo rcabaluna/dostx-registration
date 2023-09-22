@@ -15,11 +15,11 @@ class Attendance extends BaseController
     }
 
     public function index(){
-        $data['pagetitle'] = "HANDA 2023 - Attendance List";
+        $data['pagetitle'] = "HANDA Pilipinas 2023 - Attendance List";
         $param['event'] = $this->request->getGet('event');
         $data['events'] = $this->attendanceModel->get_all_data('tblevents');
         $data['attendance'] = $this->attendanceModel->get_attendance_list('tblattendance',$param);
-        return view('attendance/attendance-list',$data);
+        return view('admin/attendance/attendance-list',$data);
     }
 
     public function AttendanceConfirm(){
@@ -66,8 +66,8 @@ class Attendance extends BaseController
     }
 
     public function scanQRCode(){
-        $data['pagetitle'] = 'HANDA 2023 - Attendance QR Scanner';
-        return view('attendance/scan-qr-code',$data);
+        $data['pagetitle'] = 'HANDA Pilipinas 2023 - Attendance QR Scanner';
+        return view('admin/attendance/scan-qr-code',$data);
     }
 
     public function deleteAttendance(){
@@ -83,20 +83,12 @@ class Attendance extends BaseController
         }
     }
 
-    #CONFIRM ATTENDANCE FROM REGISTRATION LIST
+    # CONFIRM ATTENDANCE BY USER SEARCH
 
-    public function regConfirmAttendance(){
-        $input = $this->request->getPost();
-
-        $check = $this->attendanceModel->get_att_data('tblattendance',$input);
-
-        if ($check) {
-            echo "EXISTS";
-        }else{
-            $insert = $this->attendanceModel->insert_data('tblattendance',$input);
-            echo "SUCCESS";
-        }
-
+    public function AttendanceSearchUser(){
+        $data['pagetitle'] = 'HANDA Pilipinas 2023 - Attendance (Search User)';
+        $data['participants'] = $this->attendanceModel->get_participants_list_limit_5('tblparticipants');
+        return view('admin/attendance/search-user',$data);
     }
     
 }

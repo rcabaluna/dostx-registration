@@ -48,10 +48,10 @@ $routes->get('/participants/delete', 'Participants::deleteParticipant');
 $routes->get('/attendance', 'Attendance::index',['filter' => 'authGuard']);
 $routes->get('/attendance/delete', 'Attendance::deleteAttendance');
 
-$routes->get('/81525e75be630cc750ea7beeb81f2de1', 'Attendance::scanQRCode',['filter' => 'authGuard']);
+$routes->get('attendance/m-scan-qr', 'Attendance::scanQRCode',['filter' => 'authGuard']);
 $routes->post('/confirm-attendance', 'Attendance::AttendanceConfirm');     
 $routes->post('/save-attendance', 'Attendance::AttendanceSave');     
-$routes->post('/attendance/reg-confirm-attendance','Attendance::regConfirmAttendance');
+$routes->get('/attendance/search-user', 'Attendance::AttendanceSearchUser');     
 
 $routes->get('/admin/dashboard','Dashboard::index',['filter' => 'authGuard']);
 

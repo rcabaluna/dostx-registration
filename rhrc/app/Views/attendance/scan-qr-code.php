@@ -64,7 +64,7 @@
         $("#alert-success").hide();
         $("#alert-exists").hide();
         $("#alert-invalid").hide();
-        $("#ul-two").addClass("open");
+        $("#ul-one").addClass("open");
         $("#li-food-scanner").addClass("active");
 
         start_camera();

@@ -17,20 +17,20 @@ class Admin extends BaseController
 
         $data['events'] = $this->adminModel->get_all_data('tblevents');
         $data['pagetitle'] = 'HANDA 2023 - Admin | Registration Links';
-        return view('admin/registration-link-list', $data);
+        return view('admin/registration/registration-link-list', $data);
     }
 
     public function registrationWalkInList(){
         $data['events'] = $this->adminModel->get_all_data('tblevents');
         $data['pagetitle'] = 'HANDA 2023 - Admin | Walk-in Registration Links';
-        return view('admin/w-registration-link-list', $data);
+        return view('admin/registration/w-registration-link-list', $data);
     }
 
     public function evaluationList()
     {
         $data['events'] = $this->adminModel->get_all_data('tblevents');
         $data['pagetitle'] = 'HANDA 2023 - Admin | Evaluation Links';
-        return view('admin/evaluation-link-list', $data);
+        return view('admin/evaluation/evaluation-link-list', $data);
     }
 
     public function changeRegistrationStatus(){

@@ -26,7 +26,7 @@ class Participants extends BaseController
         $param['event'] = $this->request->getGet('event');
         $data['events'] = $this->participantsModel->get_all_data('tblevents');
         $data['participants'] = $this->participantsModel->get_participants_list('tblparticipants',$param);
-        return view('participants-list',$data);
+        return view('admin/registration/participants-list',$data);
     }
 
     public function deleteParticipant(){

@@ -8,19 +8,30 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?=base_url("assets/images/logo/favicon.png")?>">
-
-    <!-- page css -->
-
     <!-- Core css -->
     <link href="<?=base_url("assets/css/app.min.css")?>" rel="stylesheet">
+    <link rel="stylesheet" href="<?=base_url('assets/vendors/datatables/buttons.dataTables.min.css')?>" />
 
     <style>
         @media all and (max-width:480px) {
-   .custom-class { width: 100%; display:block; }
-}   
+        .custom-class { width: 100%; display:block; }
+        }   
     </style>
 
-    <script src="<?=base_url('assets/js/jquery.min.js')?>"></script>
+    <!-- SCRIPTS -->
+        <!-- Core Vendors JS -->
+        <script src="<?=base_url('assets/js/jquery.min.js')?>"></script>
+        <script src="<?=base_url('assets/js/vendors.min.js')?>"></script>
+
+        <!-- page js -->
+        <script src="<?=base_url('assets/vendors/datatables/jquery.dataTables.min.js')?>"></script>
+        <script src="<?=base_url('assets/vendors/datatables/dataTables.bootstrap.min.js')?>"></script>
+        <script src="<?=base_url('assets/vendors/datatables/dataTables.buttons.min.js')?>"></script>
+        <script src="<?=base_url('assets/vendors/datatables/jszip.min.js')?>"></script>
+        <script src="<?=base_url('assets/vendors/datatables/buttons.html5.min.js')?>"></script>
+        <!-- Core JS -->
+        <script src="<?=base_url('assets/js/app.min.js')?>"></script>
+
 </head>
 
 <?php $uri = service('uri'); ?>
@@ -38,11 +49,7 @@
         </div>
     </div>
 
-    
-    <!-- Core Vendors JS -->
-    <script src="<?=base_url("assets/js/vendors.min.js")?>"></script>
 
-    <!-- page js -->
 
     <!-- Core JS -->
     <script src="<?=base_url("assets/js/app.min.js")?>"></script>

@@ -20,7 +20,7 @@ class Dashboard extends BaseController
 
         $data['parrAttCount'] = $this->dashboardModel->get_par_att_data();
 
-        return view('dashboard',$data);
+        return view('admin/dashboard',$data);
     }
 
 }

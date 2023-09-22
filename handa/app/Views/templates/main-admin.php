@@ -10,7 +10,7 @@
 
         <!-- page css -->
         <link href="<?=base_url('assets/vendors/datatables/dataTables.bootstrap.min.css')?>" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css" />
+        <link rel="stylesheet" href="<?=base_url('assets/vendors/datatables/buttons.dataTables.min.css')?>" />
         <!-- Core css -->
         <link href="<?=base_url('assets/css/app.min.css')?>" rel="stylesheet" />
 
@@ -36,9 +36,9 @@
         <!-- page js -->
         <script src="<?=base_url('assets/vendors/datatables/jquery.dataTables.min.js')?>"></script>
         <script src="<?=base_url('assets/vendors/datatables/dataTables.bootstrap.min.js')?>"></script>
-        <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
-        <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
+        <script src="<?=base_url('assets/vendors/datatables/dataTables.buttons.min.js')?>"></script>
+        <script src="<?=base_url('assets/vendors/datatables/jszip.min.js')?>"></script>
+        <script src="<?=base_url('assets/vendors/datatables/buttons.html5.min.js')?>"></script>
         <!-- Core JS -->
         <script src="<?=base_url('assets/js/app.min.js')?>"></script>
         <script src="<?=base_url('assets/js/instascan.min.js')?>"></script>
@@ -111,6 +111,31 @@
                                     <li id="li-walkin">
                                         <a href="<?=base_url('/registration/w-list')?>">Walk-in QR Links</a>
                                     </li>
+                                    <li id="li-participants">
+                                        <a href="<?=base_url('/participants?event=all')?>">Participants List</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" id="ul-one">
+                                <a class="dropdown-toggle" href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                        <i class="anticon anticon-idcard"></i>
+                                    </span>
+                                    <span class="title">Attendance</span>
+                                    <span class="arrow">
+                                        <i class="arrow-icon"></i>
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li id="li-attendance-search-user">
+                                        <a href="<?=base_url('/attendance/search-user')?>">Confirm Attendance <small>(Search)</small></a>
+                                    </li>
+                                    <li id="li-m-attendance-qr-scanner">
+                                        <a href="<?=base_url('attendance/m-scan-qr')?>">Confirm Attendance <small>(QR)</small></a>
+                                    </li>
+                                    <li id="li-attendance">
+                                        <a href="<?=base_url('/attendance?event=all')?>">Attendance List</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown" id="ul-six">
@@ -129,26 +154,6 @@
                                     </li>
                                 </ul>
                             </li>
-                            
-                            <li class="nav-item dropdown" id="ul-one">
-                                <a class="dropdown-toggle" href="javascript:void(0);">
-                                    <span class="icon-holder">
-                                        <i class="anticon anticon-ordered-list"></i>
-                                    </span>
-                                    <span class="title">Lists</span>
-                                    <span class="arrow">
-                                        <i class="arrow-icon"></i>
-                                    </span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li id="li-participants">
-                                        <a href="<?=base_url('/participants?event=all')?>">Participants List</a>
-                                    </li>
-                                    <li id="li-attendance">
-                                        <a href="<?=base_url('/attendance?event=all')?>">Attendance List</a>
-                                    </li>
-                                </ul>
-                            </li>
                             <li class="nav-item dropdown" id="ul-two">
                                 <a class="dropdown-toggle" href="javascript:void(0);">
                                     <span class="icon-holder">
@@ -160,23 +165,15 @@
                                     </span>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li id="li-food-scanner">
-                                        <a href="<?=base_url('/81525e75be630cc750ea7beeb81f2de1')?>">Attendance (Mobile)</a>
-                                    </li>
-                                    <li id="li-food-scanner">
-                                        <a href="<?=base_url('/81525e75be630cc750ea7beeb81f2de1')?>">Attendance (PC)</a>
-                                    </li>
+                                    
                                     <li id="li-attendance-scanner">
                                         <a href="javascript:void(0)">Food</a>
                                     </li>
                                 </ul>
                             </li>
-                            <?php
-                            }?>
+                            <?php } ?>
 
-<?php if ($_SESSION['usertype'] == 'user') {
-                                ?>
-           
+                            <?php if ($_SESSION['usertype'] == 'user') { ?>
                             
                             <li class="nav-item dropdown" id="ul-one">
                                 <a class="dropdown-toggle" href="javascript:void(0);">
