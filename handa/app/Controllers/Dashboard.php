@@ -14,13 +14,18 @@ class Dashboard extends BaseController
         $this->dashboardModel = new DashboardModel();
 	}
 
-    public function index()
+    public function regAtt()
     {
-        $data['pagetitle'] = "HANDA Pilipinas 2023 | Admin - Dashboard";
-
+        $data['pagetitle'] = "HANDA Pilipinas 2023 | Registration and Attendance Statistics";
         $data['parrAttCount'] = $this->dashboardModel->get_par_att_data();
 
-        return view('admin/dashboard',$data);
+        return view('admin/dashboard/reg-att',$data);
+    }
+
+    public function evaluation(){
+        $data['pagetitle'] = "HANDA Pilipinas 2023 | Evaluation Statistics";
+        $data['evalCount'] = $this->dashboardModel->get_par_att_data();
+        return view('admin/dashboard/evaluation',$data);
     }
 
 }

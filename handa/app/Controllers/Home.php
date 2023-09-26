@@ -38,10 +38,9 @@ class Home extends BaseController
                         $this->session->set($userdata);
 
                     if ($check['usertype'] == 'admin') {
-                        return redirect()->to(base_url('admin/dashboard')); 
+                        return redirect()->to(base_url('admin/dashboard/reg-att')); 
                     }else{
                         return redirect()->to(base_url('participants?event='.$check['eventaccess'])); 
-                        
                     }
                 }else{
                     $data['invalid'] = true;

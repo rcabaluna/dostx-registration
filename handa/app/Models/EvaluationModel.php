@@ -22,7 +22,7 @@ class EvaluationModel extends Model
         return $query->getResultArray();
     }
 
-    public function get_event_data($tablename,$param){
+    public function get_single_data($tablename,$param){
 
         $builder = $this->db->table($tablename);
         $builder->where($param);
@@ -55,5 +55,13 @@ class EvaluationModel extends Model
 		}catch (\Exception $e){
             die($e->getMessage());
 		}
+    }
+
+    public function get_event_data($tablename,$param){
+        $builder = $this->db->table($tablename);
+        $builder->where($param);
+        $query   = $builder->get();
+
+        return $query->getRowArray();
     }
 }

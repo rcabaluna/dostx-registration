@@ -467,7 +467,6 @@
             $("#css-feedback-form-1").hide();
             $("#css-feedback-form-2").hide();
             $("#next-btn-1").attr("disabled", true);
-
             $("#back-btn").hide();
         });
 
@@ -551,13 +550,12 @@
                 $.post("<?=base_url('evaluation-process')?>",{
                     data:$("#evaluation-form").serializeArray()
                 },function(data){
-                    console.log(data);
-                    // if (data == "EXISTS") {
-                    //     $("#exists-alert").show();
-                    //     $(window).scrollTop(0);
-                    // }else{
-                    //     window.location.href = '<?=base_url('qr-code/')?>'+data;
-                    // }
+                    var output = data.split("/");
+                    if (output[0] == "SUCCESS") {
+                        window.location.href = '<?=base_url('evaluation-success?certnumber=')?>'+output[1];
+                    }else{
+                        console.log(data);
+                    }
                 });
 
         }

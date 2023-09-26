@@ -85,12 +85,23 @@
                             <?php if ($_SESSION['usertype'] != 'user') {
                                 ?>
                                 <li class="nav-item dropdown" id="ul-four">
-                                    <a class="dropdown-toggle" href="<?=base_url('/admin/dashboard')?>">
+                                    <a class="dropdown-toggle" href="javascript:void(0);">
                                         <span class="icon-holder">
                                             <i class="anticon anticon-dashboard"></i>
                                         </span>
                                         <span class="title">Dashboard</span>
+                                        <span class="arrow">
+                                            <i class="arrow-icon"></i>
+                                        </span>
                                     </a>
+                                    <ul class="dropdown-menu">
+                                        <li id="li-reg-att-stats">
+                                            <a href="<?=base_url('/admin/dashboard/reg-att')?>">Registration and Attendance</a>
+                                        </li>
+                                        <li id="li-evaluation-stats">
+                                            <a href="<?=base_url('/admin/dashboard/evaluation')?>">Evaluation</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 
                                 

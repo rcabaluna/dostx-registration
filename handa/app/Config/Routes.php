@@ -53,7 +53,10 @@ $routes->post('/confirm-attendance', 'Attendance::AttendanceConfirm');
 $routes->post('/save-attendance', 'Attendance::AttendanceSave');     
 $routes->get('/attendance/search-user', 'Attendance::AttendanceSearchUser');     
 
-$routes->get('/admin/dashboard','Dashboard::index',['filter' => 'authGuard']);
+# DASHBOARD
+$routes->get('/admin/dashboard/reg-att','Dashboard::regAtt',['filter' => 'authGuard']);
+$routes->get('/admin/dashboard/evaluation','Dashboard::evaluation',['filter' => 'authGuard']);
+
 
 $routes->match(['get','post'],'/login','Home::login');
 $routes->match(['get','post'],'/logout','Home::logout');
@@ -67,8 +70,11 @@ $routes->get('/registration/change-status/(:any)','Admin::changeRegistrationStat
 # EVALUATION
 $routes->get('/evaluation', 'Evaluation::index');
 $routes->post('/evaluation-process', 'Evaluation::evaluationProccess');
+$routes->get('/evaluation-success/','Evaluation::evaluationSuccess');
 $routes->get('/evaluation-test', 'Evaluation::test');
-$routes->get('/export-db', 'Home::exportDB');
+
+#CERTIFICATES
+$routes->get('/certificates','Certificates::index');
 
 
 

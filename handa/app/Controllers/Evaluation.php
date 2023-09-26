@@ -3,7 +3,6 @@
 namespace App\Controllers;
 
 use App\Models\EvaluationModel;
-use App\ThirdParty\FPDF;
 
 class Evaluation extends BaseController
 {
@@ -20,6 +19,7 @@ class Evaluation extends BaseController
 
         $data['regions'] = $this->evaluationModel->get_all_data('refregion');
         $data['sectors'] = $this->evaluationModel->get_all_data('tblsector');
+
         $event = $this->evaluationModel->get_event_data('tblevents',$param);
 
         if ($event) {
@@ -38,42 +38,30 @@ class Evaluation extends BaseController
     }
 
     public function evaluationProccess(){
-        // $datax = $this->request->getPost('data');
-        // $data = [];
-        // $privilegesArr = [];
-        // foreach ($datax as $key => $value) {
-        //     $data[$value['name']] = $value['value'];
-        //     if ($value['name'] == 'privileges[]') {
-        //         array_push($privilegesArr, $value['value']);
-        //     }
-        // }
-        // unset($data['privileges[]']);
-        // unset($data['infoentered']);
-        // $data['privileges'] = implode(", ", $privilegesArr);
+        $datax = $this->request->getPost('data');
+        $data = [];
+        $privilegesArr = [];
+        foreach ($datax as $key => $value) {
+            $data[$value['name']] = $value['value'];
+            if ($value['name'] == 'privileges[]') {
+                array_push($privilegesArr, $value['value']);
+            }
+        }
+        unset($data['privileges[]']);
+        unset($data['infoentered']);
+        $data['privileges'] = implode(", ", $privilegesArr);
 
-        // $data['certnumber'] = $this->evaluationModel->get_doc_number('evaluation');
-        // $data['certnumber_hashed'] = md5($this->evaluationModel->get_doc_number('evaluation'));
+        $data['certnumber'] = $this->evaluationModel->get_doc_number('evaluation');
+        $data['certnumber_hashed'] = md5($data['certnumber']);
 
-        // $insertData = $this->evaluationModel->insert_data('tblevaluation',$data);
-        // $this->generatePdf('Ruel Cabaluna Jr');
 
-       
+        
+        $insertData = $this->evaluationModel->insert_data('tblevaluation',$data);
+        
+        if ($insertData) {
+            echo "SUCCESS/".$data['certnumber_hashed'];
+        }
 
-    }
-
-    public function generatePdf($name)
-    {
-
-        $pdf = new FPDF();
-        $pdf->AliasNbPages();
-        $pdf->SetAutoPageBreak(1,13);
-        $pdf->AddPage('L','A4');
-        $pdf->Image('assets/images/test.jpg', 0, 0,300,null,'jpg');
-        $pdf->SetTitle('Ruel O. Cabaluna Jr.');
-        $pdf->SetFont('Arial', 'B', 50);
-        $pdf->Cell(280, 170, $name, 0,0, 'C', false,'');
-        $this->response->setHeader('Content-Type', 'application/pdf');
-        $pdf->Output();
     }
 
     public function sendEmail(){
@@ -112,4 +100,18 @@ class Evaluation extends BaseController
 
     }
 
+    public function evaluationSuccess(){
+        $data['pagetitle'] = "HANDA Pilipinas 2023 | Evaluation Successful";
+        $data['certnumber'] = $this->request->getGet('certnumber');
+
+        $evaldata =  $this->evaluationModel->get_single_data('tblevaluation', array('certnumber_hashed' => $data['certnumber']));
+
+        if ($evaldata) {
+            $data['eventx'] = $this->evaluationModel->get_single_data('tblevents', array('shorthand' => $evaldata['event']));
+            return view("evaluation-success",$data);
+        }else{
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+        }
+        
+    }
 }
