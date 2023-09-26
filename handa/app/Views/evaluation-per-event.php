@@ -462,13 +462,6 @@
 
     <script>
 
-        $('#submit-btn').on('click', function(e) {
-            $(this).addClass("is-loading");
-            setTimeout(function() { $("#submit-btn").removeClass("is-loading");}, 25000);
-            e.preventDefault();
-        });
-
-
         var nextCounter = 1;
         $(document).ready(function () {
             $("#next-btn-2").hide();
@@ -557,6 +550,10 @@
         }   
 
         function evaluation_process(){
+
+                $(this).addClass("is-loading");
+                setTimeout(function() { $("#submit-btn").removeClass("is-loading");}, 25000);
+
                 $.post("<?=base_url('evaluation-process')?>",{
                     data:$("#evaluation-form").serializeArray()
                 },function(data){
