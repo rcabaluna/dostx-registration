@@ -550,8 +550,7 @@
         }   
 
         function evaluation_process(){
-
-                $(this).addClass("is-loading");
+                $("#submit-btn").addClass("is-loading");
                 setTimeout(function() { $("#submit-btn").removeClass("is-loading");}, 25000);
 
                 $.post("<?=base_url('evaluation-process')?>",{
