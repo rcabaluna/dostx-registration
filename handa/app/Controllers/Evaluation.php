@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Libraries\Ciqrcode;
 use App\Models\EvaluationModel;
 
 class Evaluation extends BaseController
@@ -29,7 +30,6 @@ class Evaluation extends BaseController
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
         }
         return view('evaluation-per-event',$data);
-
     }
 
     public function test(){

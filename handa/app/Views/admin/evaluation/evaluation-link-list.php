@@ -13,7 +13,7 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <img class="img-fluid" src="<?=base_url('assets/images/programs/'.$eventsRow['shorthand'].'.png')?>" alt="">
+                                    <img class="img-fluid" src="<?=base_url('assets/images/evaluation/'.$eventsRow['shorthand'].'.png')?>" alt="">
                                 </div>
                                 <div class="col-md-8">
                                     <h5 class="m-b-10 text-dark"><b> <?=$eventsRow['name']?></b></h5>
