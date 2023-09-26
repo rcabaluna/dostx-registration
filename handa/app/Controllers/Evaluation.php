@@ -78,11 +78,12 @@ class Evaluation extends BaseController
         $email->setTo($data['email']);
         $email->setSubject($subject);
 
-        $message = "Dear ".$data['title']." ".$data['fullname'].",</br>";
-        $message .= "<p>We wanted to express our gratitude for your participation in <b>".$events['name']."</b>. Your presence and contribution were truly appreciated.</p>";
-        $message .= "<p>As a token of our appreciation, we are pleased to share your Certificate of Participation. You can download it by clicking on the link below:</p></br></br>";
+        $message = "<p>Good day, ".$data['title']." ".$data['fullname'].", </p>";
+        $message .= "<p>Thank you for attending the <b>".$events['name']."<b> during the HANDA PILIPINAS: Innovations in Disaster Risk Reduction and Management Exposition 2023 (Mindanao Leg), with the theme “Enhance resilience and sustainability for Mindanao!” on 4-6 October 2023 at the Limketkai Center, Cagayan de Oro City.</p>";
+        $message .= "<p>With this, please find attached a scanned copy of your Certificate of participation.</p><br>";
+        $message .= "<p>To download a copy of your Certificate of Participation , please access the link below:</p>";
         $message .="<a href=".base_url()."certificates?certnumber=".$data['certnumber_hashed'].">Download Certificate</a></br>";
-        $message .= "<p>Thank you once again for being a part of ".$events['name'].". We look forward to your continued participation in future events.</p>";
+        $message .= "<p>Stay safe and have a great day.</p>";
 
         $email->setMessage($message);//your message here
 

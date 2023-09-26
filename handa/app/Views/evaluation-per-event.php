@@ -445,7 +445,7 @@
                                     <button type="button" id="back-btn" onclick="go_previous_form()" class="btn btn-default btn-tone">Back</button>
                                     <button type="submit" id="next-btn-1" class="btn btn-danger float-right">Next</button>
                                     <button type="submit" id="next-btn-2" class="btn btn-danger float-right">Next</button>
-                                    <button type="submit" id="submit-btn" class="btn btn-danger float-right">Submit</button>
+                                    <button type="submit" id="submit-btn" class="btn btn-danger float-right"><i class="anticon anticon-loading m-r-5"></i></i>Submit</button>
                                 </div>
                             </div>
                         </form>
@@ -457,8 +457,18 @@
 </div>
 
 
+
+
+
     <script>
-    
+
+        $('#submit-btn').on('click', function(e) {
+            $(this).addClass("is-loading");
+            setTimeout(function() { $("#submit-btn").removeClass("is-loading");}, 25000);
+            e.preventDefault();
+        });
+
+
         var nextCounter = 1;
         $(document).ready(function () {
             $("#next-btn-2").hide();
