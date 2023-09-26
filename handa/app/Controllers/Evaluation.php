@@ -34,7 +34,6 @@ class Evaluation extends BaseController
 
     public function test(){
         $this->sendEmail();
-        // $this->generatePdf('Ruel O. Cabaluna Jr.');
     }
 
     public function evaluationProccess(){
@@ -58,9 +57,7 @@ class Evaluation extends BaseController
         
         $insertData = $this->evaluationModel->insert_data('tblevaluation',$data);
         
-        if ($insertData) {
             echo "SUCCESS/".$data['certnumber_hashed'];
-        }
 
     }
 
