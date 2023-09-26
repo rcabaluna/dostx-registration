@@ -53,46 +53,43 @@ class Evaluation extends BaseController
         $data['certnumber'] = $this->evaluationModel->get_doc_number('evaluation');
         $data['certnumber_hashed'] = md5($data['certnumber']);
 
-
-        
         $insertData = $this->evaluationModel->insert_data('tblevaluation',$data);
         
+        $sendemail = $this->sendEmail($data);
+        
+        if ($sendemail) {
             echo "SUCCESS/".$data['certnumber_hashed'];
-
+        }else{
+            echo "INVALID";
+            exit();
+        }
+        
     }
 
-    public function sendEmail(){
+    public function sendEmail($data){
+        $email = \Config\Services::email();
         
-        // $email = new Email();
+        $events =  $this->evaluationModel->get_single_data('tblevents', array('shorthand' => $data['event']));
 
-        // $email->setTo('rcabalunajr1@gmail.com');
-        // $email->setSubject('Your Email Subject');
-        // $email->setFrom('rcabalunajr@gmail.com', 'Mail Testing');
+        $subject = '['.$data['certnumber'].'] Certificate of Participation for '.$events['name'];
 
     
-        // $message = "Hello World!";
-        
-        // $email->setMessage($message);
-        
-        // if ($email->send()) {
-        //     echo 'Email sent successfully';
-        // } else {
-        //     echo 'Email could not be sent';
-        //     echo $email->printDebugger(['headers']);
-        // }
+        $email->setFrom('handapilipinas@region10.dost.gov.ph', 'DOST 10 Handa Pilipinas');
+        $email->setTo($data['email']);
+        $email->setSubject($subject);
+        $message = "<p>We wanted to express our gratitude for your participation in <b>".$events['name']."</b>. Your presence and contribution were truly appreciated.</p>";
+        $message .= "<p>As a token of our appreciation, we are pleased to share your Certificate of Participation. You can download it by clicking on the link below:</p></br></br>";
+        $message .="<a href=".base_url()."certificates?certnumber='>Download Certificate</a></br>";
+        $message .= "<p>Thank you once again for being a part of ".$events['name'].". We look forward to your continued participation in future events.</p>";
 
-        $email = \Config\Services::email();
+        $email->setMessage($message);//your message here
 
-        $email->setFrom('rcabalunajr@gmail.com', 'Test Header');
-        $email->setTo('rocabalunajr@region10.dost.gov.ph');
-        $email->setSubject('Your Subject here | tutsmake.com');
-        $email->setMessage('Test Message');//your message here
-      
         if ($email->send()) {
-            echo 'Email sent successfully';
+            return true;
         } else {
             echo 'Email could not be sent';
             echo $email->printDebugger(['headers']);
+            return false;
         }
 
     }

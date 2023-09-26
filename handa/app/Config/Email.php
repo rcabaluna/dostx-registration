@@ -33,12 +33,12 @@ class Email extends BaseConfig
     /**
      * SMTP Username
      */
-    public string $SMTPUser = 'rcabalunajr@gmail.com';
+    public string $SMTPUser = 'handapilipinas@region10.dost.gov.ph';
 
     /**
      * SMTP Password
      */
-    public string $SMTPPass = 'akgj llnp akcl eufp';
+    public string $SMTPPass = 'wrzw svqp keha ugis';
 
     /**
      * SMTP Port
