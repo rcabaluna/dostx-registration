@@ -68,7 +68,7 @@ class Evaluation extends BaseController
 
     public function sendEmail($data){
         $email = \Config\Services::email();
-        
+
         $events =  $this->evaluationModel->get_single_data('tblevents', array('shorthand' => $data['event']));
 
         $subject = '['.$data['certnumber'].'] Certificate of Participation for '.$events['name'];
@@ -79,7 +79,7 @@ class Evaluation extends BaseController
         $email->setSubject($subject);
         $message = "<p>We wanted to express our gratitude for your participation in <b>".$events['name']."</b>. Your presence and contribution were truly appreciated.</p>";
         $message .= "<p>As a token of our appreciation, we are pleased to share your Certificate of Participation. You can download it by clicking on the link below:</p></br></br>";
-        $message .="<a href=".base_url()."certificates?certnumber='>Download Certificate</a></br>";
+        $message .="<a href=".base_url()."certificates?certnumber=".$data['certnumber_hashed']."'>Download Certificate</a></br>";
         $message .= "<p>Thank you once again for being a part of ".$events['name'].". We look forward to your continued participation in future events.</p>";
 
         $email->setMessage($message);//your message here
