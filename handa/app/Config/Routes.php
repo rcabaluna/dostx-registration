@@ -64,14 +64,15 @@ $routes->match(['get','post'],'/logout','Home::logout');
 
 $routes->get('/registration/links','Admin::registrationList',['filter' => 'authGuard']);
 $routes->get('/registration/w-list','Admin::registrationWalkInList',['filter' => 'authGuard']);
-$routes->get('/evaluation/links','Admin::evaluationList',['filter' => 'authGuard']);
 $routes->get('/registration/change-status/(:any)','Admin::changeRegistrationStatus/$1',['filter' => 'authGuard']);
 
 # EVALUATION
 $routes->get('/evaluation', 'Evaluation::index');
 $routes->post('/evaluation-process', 'Evaluation::evaluationProccess');
 $routes->get('/evaluation-success/','Evaluation::evaluationSuccess');
-$routes->get('/evaluation-test', 'Evaluation::test');
+$routes->get('/evaluation/links','Admin::evaluationList',['filter' => 'authGuard']);
+$routes->get('/evaluation/participants', 'Evaluation::participants',['filter' => 'authGuard']);
+$routes->get('/evaluation/delete', 'Evaluation::deleteEvaluation');
 
 #CERTIFICATES
 $routes->get('/certificates','Certificates::index');

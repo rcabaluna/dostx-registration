@@ -42,6 +42,28 @@
         <!-- Core JS -->
         <script src="<?=base_url('assets/js/app.min.js')?>"></script>
         <script src="<?=base_url('assets/js/instascan.min.js')?>"></script>
+        <script>
+            function show_notification_delete(xtype) {
+                var toastHTML = `<div class="toast fade hide" data-delay="3000">
+                    <div class="toast-header">
+                        <i class="anticon anticon-info-circle text-danger m-r-5"></i>
+                        <strong class="mr-auto text-danger">Deleted</strong>
+                        <button type="button" class="ml-2 close" data-dismiss="toast" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="toast-body">
+                        The `+xtype+` data has been deleted.
+                    </div>
+                </div>`
+
+                $('#notification-toast').append(toastHTML)
+                $('#notification-toast .toast').toast('show');
+                setTimeout(function(){ 
+                    $('#notification-toast .toast:first-child').remove();
+                }, 5000);
+            }
+        </script>
     </head>
 
     <body>
@@ -163,6 +185,9 @@
                                     <li id="li-evaluation-links">
                                         <a href="<?=base_url('/evaluation/links')?>">Links</a>
                                     </li>
+                                    <li id="li-evaluation-participants">
+                                        <a href="<?=base_url('/evaluation/participants')?>">Participants List</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown" id="ul-two">
@@ -241,5 +266,6 @@
                 <!-- Page Container END -->
             </div>
         </div>
+        
     </body>
 </html>

@@ -6,18 +6,6 @@
             <h4>Attendance List</h4>
             <div class="align-items-center justify-content-between m-b-30">
                 <div class="row">
-                    <?php if(isset($_SESSION['delete'])){
-                                        ?>
-                    <div class="col-md-12">
-                        <div class="alert alert-info alert-dismissible fade show">
-                            The attendance data has been deleted successfully!
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                    </div>
-                    <?php
-                        }?>
                     <div class="col-md-12">
                         <select class="form-control" id="selevents" onchange="get_participants_by_event()">
                             <option value="all">All</option>
@@ -102,8 +90,10 @@
             </div>
         </div>
     </div>
+    <div class="notification-toast top-right" id="notification-toast"></div>
 </div>
-                
+
+    <?php if(isset($_SESSION['delete'])){ echo '<script>show_notification_delete("attendance");</script>'; } ?>      
     <script>
         $(document).ready(function () {
             const queryString = window.location.search;

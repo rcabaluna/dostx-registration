@@ -64,4 +64,26 @@ class EvaluationModel extends Model
 
         return $query->getRowArray();
     }
+
+    public function get_participants_list($tablename, $param){
+        $builder = $this->db->table($tablename);
+        $builder->select('*');
+        $builder->join('tblevents', 'tblevents.shorthand = tblevaluation.event');
+        $builder->join('refregion', 'refregion.regCode = tblevaluation.address_region');
+        $builder->join('refprovince', 'refprovince.provCode = tblevaluation.address_province');
+
+        if ($param['event'] != 'all' && $param['event'] != '') {
+            $builder->where($param);
+        }
+        $query = $builder->orderBy('tblevaluation.evaluationid','DESC');
+        $query = $builder->get();
+        
+        return $query->getResultArray();
+    }
+
+    public function delete_evaluation($tablename,$param){
+        $builder = $this->db->table($tablename);
+        $builder->where($param);
+        $builder->delete();
+    }
 }

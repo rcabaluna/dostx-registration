@@ -109,6 +109,32 @@ class Evaluation extends BaseController
         }else{
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
         }
+    }
+
+    public function participants(){
+        $param['event'] = $this->request->getGet('event');
+
+        if ($_SESSION['usertype'] != 'admin' && $_SESSION['eventaccess'] != $param['event']) {
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+        }
+        $data['pagetitle'] = "HANDA Pilipinas 2023 | Evaluation - Participants List";
+        $data['events'] = $this->evaluationModel->get_all_data('tblevents');
+        $data['evaluation'] = $this->evaluationModel->get_participants_list('tblevaluation',$param);
+
+        return view("admin/evaluation/evaluation-participants-list",$data);
+    }
+
+    public function deleteEvaluation(){
+
+        $previousUrl = $this->request->getServer('HTTP_REFERER');
+
+        $param['evaluationid'] = $this->request->getGet('evaluationid');
+        $this->evaluationModel->delete_evaluation('tblevaluation',$param);
         
+        $this->session->setFlashdata('delete',true);
+        
+        if (!empty($previousUrl)) {
+            return redirect()->to($previousUrl);
+        }
     }
 }

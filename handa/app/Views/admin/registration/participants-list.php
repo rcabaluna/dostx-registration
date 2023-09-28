@@ -6,14 +6,6 @@
             <h4>Participants List</h4>
             <div class="align-items-center justify-content-between m-b-30">
                 <div class="row">
-                    <?php if(isset($_SESSION['delete'])){ ?>
-                    <div class="col-md-12">
-                        <div class="alert alert-success">
-                            The participant has been deleted successfully!
-                        </div>
-                    </div>
-                    <?php
-                        }?>
                     <?php if($_SESSION['usertype'] == 'admin'){  ?>
                     <div class="col-md-12">
                         <label>Select forum/event:</label>
@@ -140,9 +132,10 @@
             </div>
         </div>
     </div>
+    <div class="notification-toast top-right" id="notification-toast"></div>
 </div>
 
-                
+<?php if(isset($_SESSION['delete'])){ echo '<script>show_notification_delete("participant");</script>'; } ?>             
     <script>
         $(document).ready(function () {
             const queryString = window.location.search;
