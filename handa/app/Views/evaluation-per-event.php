@@ -16,10 +16,11 @@
 .radio-toolbar label {
     display: inline-block;
     background-color: #ddd;
-    padding: 8px 8%;
+    padding: 8px 7%;
     font-size: 16px;
     cursor: pointer;
     color: #53535f;
+    text-align: center;
 }
 
 .radio-toolbar input[type="radio"]:checked+label {
@@ -147,8 +148,7 @@
                                     </div>
                                 </div>
                                 
-                                <fieldset class="form-group col-md-6">
-                                    
+                                <div class="form-group col-md-6">
                                     <label for="sourceinfo">9. How/Where did you learn about this forum/event? <small class="text-danger">*</small></label>
                                         
                                         <div class="radio">
@@ -187,7 +187,7 @@
                                             <input id="radio11"  value="Brochures/Flyers/Newsletter" name="sourceinfo" type="radio" />
                                             <label for="radio11">Brochures/Flyers/Newsletter</label>
                                         </div>
-                                </fieldset>
+                                </div>
                             </div>
                             <div class="form-row" id="css-feedback-form-1">
                                 <div class="form-group col-md-12">
@@ -397,7 +397,7 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4">
-                                        21. <b>Considering your complete experience with our agency, how likely would you recommend our services to others? </b> <br />
+                                        21. <b>Considering your complete experience with our agency, how likely would you recommend our services to others? </b> <small class="text-danger">*</small> <br />
                                         <i>(Base sa inyong pangkalahatang karanasan sa aming ahensya, gaano mo inirekomenda ang aming mga serbisyo?)</i>
                                     </label>
                                     <div class="radio">
@@ -443,9 +443,9 @@
                             <div class="form-row">
                                 <div class="form-group col-md-12">
                                     <button type="button" id="back-btn" onclick="go_previous_form()" class="btn btn-default btn-tone">Back</button>
-                                    <button type="submit" id="next-btn-1" class="btn btn-danger float-right">Next</button>
-                                    <button type="submit" id="next-btn-2" class="btn btn-danger float-right">Next</button>
-                                    <button type="submit" id="submit-btn" class="btn btn-danger float-right"><i class="anticon anticon-loading m-r-5"></i></i>Submit</button>
+                                    <button type="submit" id="next-btn-1" class="btn btn-danger float-right" disabled>Next</button>
+                                    <button type="submit" id="next-btn-2" class="btn btn-danger float-right" disabled>Next</button>
+                                    <button type="submit" id="submit-btn" class="btn btn-danger float-right"disabled><i class="anticon anticon-loading m-r-5"></i></i>Submit</button>
                                 </div>
                             </div>
                         </form>
@@ -460,112 +460,177 @@
 
 
 
-    <script>
+<script>
+    var nextCounter = 1;
 
-        var nextCounter = 1;
-        $(document).ready(function () {
-            $("#next-btn-2").hide();
+    $(document).ready(function () {
+        $("#next-btn-2").hide();
+        $("#submit-btn").hide();
+        $("#personal-info-form").show();
+        $("#css-feedback-form-1").hide();
+        $("#css-feedback-form-2").hide();
+        $("#back-btn").hide();
+
+        // Attach the function to the change event of inputs and selects in #personal-info-form
+        $("#personal-info-form input, #personal-info-form select").change(checkInputs_personal_info);
+
+        checkInputs_personal_info();
+    });
+
+    // FORM VALIDATION PART 1
+    function checkInputs_personal_info() {
+        var allInputsFilled = true;
+        $("#personal-info-form input, #personal-info-form select").each(function () {
+            if ($(this).val() === "" || $(this).val() === null) {
+                allInputsFilled = false;
+                return false;
+            }
+        });
+
+        var infoEntered = $('input[name="infoentered"]:checked').val() === "Yes";
+        var sourceInfoSelected = $('input[name="sourceinfo"]:checked').val() !== undefined;
+
+        if (allInputsFilled && infoEntered && sourceInfoSelected) {
+            $("#next-btn-1").prop("disabled", false);
+        } else {
+            $("#next-btn-1").prop("disabled", true);
+        }
+    }
+
+    // FORM VALIDATION CSS 1
+    $('#css-feedback-form-1 input[type="radio"]').change(checkInputs_css_part_1);
+    function checkInputs_css_part_1() {
+        var distinctRadioNames = {};
+
+        $('#css-feedback-form-1 input[type="radio"]').each(function() {
+            distinctRadioNames[this.name] = true;
+        });
+
+        var totalDistinctRadioNames = Object.keys(distinctRadioNames).length;
+        var totalSelectedRadioButtons = $('#css-feedback-form-1 input[type="radio"]:checked').length;
+
+        if (totalSelectedRadioButtons === totalDistinctRadioNames) {
+            $('#next-btn-2').prop('disabled', false);
+        } else {
+            $('#next-btn-2').prop('disabled', true);
+        }
+    }
+    
+    // FORM VALIDATION CSS 2
+    $('#css-feedback-form-2 input[name="overall_satisfaction"], #css-feedback-form-2 input[name="recommend"]').change(checkInputs_css_part_2);
+    function checkInputs_css_part_2() {
+        var overallSatisfactionChecked = $('input[name="overall_satisfaction"]:checked').length > 0;
+        var recommendChecked = $('input[name="recommend"]:checked').length > 0;
+
+        // Enable or disable the submit button based on conditions
+        if (overallSatisfactionChecked && recommendChecked) {
+            $('#submit-btn').prop('disabled', false);
+        } else {
+            $('#submit-btn').prop('disabled', true);
+        }
+    }
+
+    function show_next_btn() {
+        if (nextCounter == 1) {
+            nextCounter += 1;
+            $("#next-btn-1").hide();
+            $("#next-btn-2").show();
             $("#submit-btn").hide();
+            $("#personal-info-form").hide();
+            $("#css-feedback-form-1").show();
+            $("html,body").scrollTop(0);
+            $("#back-btn").show();
+            $("#next-btn-2").prop("disabled", "disabled");
+            checkInputs_personal_info();
+            checkInputs_css_part_1();
+        } else if (nextCounter == 2) {
+            nextCounter += 1;
+            $("#next-btn-1").hide();
+            $("#next-btn-2").hide();
+            $("#submit-btn").show();
+            $("#css-feedback-form-1").hide();
+            $("#css-feedback-form-2").show();
+            $("html,body").scrollTop(0);
+            $("#back-btn").show();
+            checkInputs_css_part_1();
+        } else if (nextCounter == 3){
+            checkInputs_css_part_2();
+        }
+    }
+
+    function show_registration_details() {
+        $("#registration-form-container").show();
+        $("#privacy-notice-container").hide();
+        $(window).scrollTop(0);
+    }
+
+    function get_provinces_list() {
+        var regCode = $("#seladdress-region").val();
+
+        $.get(
+            "<?=base_url('get-provinces-list')?>",
+            {
+                regCode: regCode,
+            },
+            function (data) {
+                $("#seladdress-provinces").html(data);
+            }
+        );
+    }
+
+    $("#evaluation-form").submit(function (e) {
+        if (nextCounter != 3) {
+            show_next_btn();
+        } else {
+            evaluation_process();
+        }
+
+        e.preventDefault();
+    });
+
+    function go_previous_form() {
+        if (nextCounter == 2) {
             $("#personal-info-form").show();
             $("#css-feedback-form-1").hide();
-            $("#css-feedback-form-2").hide();
-            $("#next-btn-1").attr("disabled", true);
-            $("#back-btn").hide();
-        });
-
-        function show_next_btn(){
-            if (nextCounter == 1) {
-                nextCounter+=1;
-                $("#next-btn-1").hide();
-                $("#next-btn-2").show();
-                $("#submit-btn").hide();
-                $("#personal-info-form").hide();
-                $("#css-feedback-form-1").show();
-                $('html,body').scrollTop(0);
-                $("#back-btn").show();
-
-            }else if(nextCounter == 2){
-                nextCounter+=1;
-                $("#next-btn-1").hide();
-                $("#next-btn-2").hide();
-                $("#submit-btn").show();
-                $("#css-feedback-form-1").hide();
-                $("#css-feedback-form-2").show();
-                $('html,body').scrollTop(0);
-                $("#back-btn").show();
-            }else{
-
-            }
-        }
-
-        function show_registration_details(){
-            $("#registration-form-container").show();
-            $("#privacy-notice-container").hide();
             $(window).scrollTop(0);
+            $("#back-btn").hide();
+            $("#next-btn-1").show();
+            $("#next-btn-2").hide();
+            checkInputs_personal_info();
+            nextCounter -= 1;
+        } else if (nextCounter == 3) {
+            $("#css-feedback-form-1").show();
+            $("#css-feedback-form-2").hide();
+            $(window).scrollTop(0);
+            $("#next-btn-2").show();
+            $("#submit-btn").hide();
+            checkInputs_css_part_1();
+            nextCounter -= 1;
         }
+    }
 
-        function get_provinces_list(){
-            var regCode = $("#seladdress-region").val();
+    function evaluation_process() {
+        $("#submit-btn").addClass("is-loading");
+        setTimeout(function () {
+            $("#submit-btn").removeClass("is-loading");
+        }, 25000);
 
-            $.get("<?=base_url('get-provinces-list')?>",{
-                regCode:regCode
-            },function(data){
-                $("#seladdress-provinces").html(data);
-            });
-        }
-
-        $("#evaluation-form").submit(function (e) { 
-            if (nextCounter != 3) {
-                show_next_btn();
-            }else{
-                evaluation_process();
-            }
-            
-            e.preventDefault();
-            
-        });
-
-        $("input[name='infoentered']").on('change', function () {
-            if ($("input[name='infoentered']:checked").val() == "Yes") {
-                $("#next-btn-1").prop("disabled", false);
-                
-            }else{
-                $("#next-btn-1").prop("disabled", "disabled");
-            }
-        });
-
-        function go_previous_form(){
-            if (nextCounter == 2) {
-                $("#personal-info-form").show();
-                $("#css-feedback-form-1").hide();
-                $(window).scrollTop(0);
-                $("#back-btn").hide();
-                nextCounter-=1;   
-            }else if(nextCounter == 3){
-                $("#css-feedback-form-1").show();
-                $("#css-feedback-form-2").hide();
-                $(window).scrollTop(0);
-                nextCounter-=1;   
-            }
-        }   
-
-        function evaluation_process(){
-                $("#submit-btn").addClass("is-loading");
-                setTimeout(function() { $("#submit-btn").removeClass("is-loading");}, 25000);
-
-                $.post("<?=base_url('evaluation-process')?>",{
-                    data:$("#evaluation-form").serializeArray()
-                },function(data){
+        $.post(
+            "<?=base_url('evaluation-process')?>",
+            {
+                data: $("#evaluation-form").serializeArray(),
+            },
+            function (data) {
+                console.log(data);
+                var output = data.split("/");
+                if (output[0] == "SUCCESS") {
+                    window.location.href = '<?=base_url('evaluation-success?certnumber=')?>'+output[1];
+                } else {
                     console.log(data);
-                    var output = data.split("/");
-                    if (output[0] == "SUCCESS") {
-                        window.location.href = '<?=base_url('evaluation-success?certnumber=')?>'+output[1];
-                    }else{
-                        console.log(data);
-                    }
-                });
+                }
+            }
+        );
+    }
 
-        }
-
-    </script>
+</script>
 <?= $this->endSection() ?>

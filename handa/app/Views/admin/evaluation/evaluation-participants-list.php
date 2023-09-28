@@ -32,24 +32,25 @@
                             <th>Gender</th>
                             <th>Address</th>
                             <th>Privileges</th>
-                            <th>How/Where did you learn about this forum/event?</th>
-                            <th class="text-right table-primary"><small>I spent an acceptable amount of time to complete this training. <b>(Responsiveness)</b></small></th>
-                            <th class="text-right table-info"><small>The office accurately informed and followed the training’s requirements and steps. <b>(Reliability)</b></small></th>
-                            <th class="text-right table-success"><small>My training process (including steps) was simple and convenient. <b>(Access and Facilities)</b></small></th>
-                            <th class="text-right table-warning"><small>I easily found information about the training from the office staff or internet. <b>(Communication)</b></small></th>
-                            <th class="text-right table-danger"><small>I did not pay any fees for this training. <b>(Cash)</b></small></th>
-                            <th class="text-right table-primary"><small>I am confident this training was secure. <b>(Integrity)</b></small></th>
-                            <th class="text-right table-info"><small>The office staff was quick to respond to my queries. <b>(Assurance)</b></small></th>
-                            <th class="text-right table-success"><small>I got what I needed from this government office <b>(Outcome)</b></small></th>
-                            <th class="text-right table-warning"><small><b>Overall Satisfaction</b></small></th>
-                            <th><small>If you rated 2-Fair or 1-Poor in the OVERALL SATISFACTION, may we know the reason so that we can improve our services?</small></th>
-                            <th><small>If you rated 5-Excellent in the OVERALL SATISFACTION, we would appreciate your feedback to improve our services continuously.</small></th>
-                            <th class="text-right"><small>Considering your complete experience with our agency, how likely would you recommend our services to others?</small></th>
-                            <th><small>Other request/s or services needed</small></th>
-                            <th><small>Is there a technology presented this morning you are interested in?</small></th>
-                            <th><small>Do you have other questions you were not able to relay during the forum? If so, you can share it here and we'll try to get back to you.</small></th>
+                            <th>How did you hear about this event?</th>
+                            <th class="text-right" data-toggle="tooltip" data-placement="top" title="I spent an acceptable amount of time to complete this training."><small><span hidden>I spent an acceptable amount of time to complete this training. </span><b>(Responsiveness)</b></small></th>
+                            <th class="text-right" data-toggle="tooltip" data-placement="top" title="The office accurately informed and followed the training’s requirements and steps."><small><span hidden>The office accurately informed and followed the training’s requirements and steps.</span> <b>(Reliability)</b></small></th>
+                            <th class="text-right" data-toggle="tooltip" data-placement="top" title="My training process (including steps) was simple and convenient."><small><span hidden>My training process (including steps) was simple and convenient.</span> <b>(Access and Facilities)</b></small></th>
+                            <th class="text-right" data-toggle="tooltip" data-placement="top" title="I easily found information about the training from the office staff or internet."><small><span hidden>I easily found information about the training from the office staff or internet.</span> <b>(Communication)</b></small></th>
+                            <th class="text-right" data-toggle="tooltip" data-placement="top" title="I did not pay any fees for this training."><small><span hidden>I did not pay any fees for this training.</span> <b>(Cash Free)</b></small></th>
+                            <th class="text-right" data-toggle="tooltip" data-placement="top" title="I am confident this training was secure."><small><span hidden>I am confident this training was secure.</span> <b>(Integrity)</b></small></th>
+                            <th class="text-right" data-toggle="tooltip" data-placement="top" title="The office staff was quick to respond to my queries."><small><span hidden>The office staff was quick to respond to my queries.</span> <b>(Assurance)</b></small></th>
+                            <th class="text-right" data-toggle="tooltip" data-placement="top" title="I got what I needed from this government office"><small><span hidden>I got what I needed from this government office</span> <b>(Outcome)</b></small></th>
+                            <th class="text-right"><small><b>Overall Satisfaction</b></small></th>
+                            <th>If you rated 2-Fair or 1-Poor in the OVERALL SATISFACTION.</th>
+                            <th>If you rated 5-Excellent in the OVERALL SATISFACTION</th>
+                            <th>How likely would you recommend our services to others?</th>
+                            <th>Other Requests</th>
+                            <th>Interested Technology</th>
+                            <th><span hidden>Do you have other questions you were not able to relay during the forum? If so, you can share it here and we'll try to get back to you.</span>Other Questions</small></th>
                             <th>Event</th>
                             <th>Evaluation Date</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -67,18 +68,18 @@
                                 </td>
                                 <td><small><?=$evaluationRow['privileges']?></small></td>
                                 <td><small><?=$evaluationRow['sourceinfo']?></small></td>
-                                <td class="text-right table-primary"><?=$evaluationRow['responsiveness']?></td>
-                                <td class="text-right table-info"><?=$evaluationRow['reliability']?></td>
-                                <td class="text-right table-success"><?=$evaluationRow['access_and_facilities']?></td>
-                                <td class="text-right table-warning"><?=$evaluationRow['communication']?></td>
-                                <td class="text-right table-danger"><?=$evaluationRow['cash']?></td>
-                                <td class="text-right table-primary"><?=$evaluationRow['integrity']?></td>
-                                <td class="text-right table-info"><?=$evaluationRow['assurance']?></td>
-                                <td class="text-right table-success"><?=$evaluationRow['outcome']?></td>
-                                <td class="text-right table-warning"><?=$evaluationRow['overall_satisfaction']?></td>
+                                <td class="text-right"><?=$evaluationRow['responsiveness']?></td>
+                                <td class="text-right"><?=$evaluationRow['reliability']?></td>
+                                <td class="text-right"><?=$evaluationRow['access_and_facilities']?></td>
+                                <td class="text-right"><?=$evaluationRow['communication']?></td>
+                                <td class="text-right"><?=$evaluationRow['cash']?></td>
+                                <td class="text-right"><?=$evaluationRow['integrity']?></td>
+                                <td class="text-right"><?=$evaluationRow['assurance']?></td>
+                                <td class="text-right"><?=$evaluationRow['outcome']?></td>
+                                <td class="text-right"><?=$evaluationRow['overall_satisfaction']?></td>
                                 <td><?=$evaluationRow['if_fair_poor']?></td>
                                 <td><?=$evaluationRow['if_excellent']?></td>
-                                <td class="text-right"><?=$evaluationRow['recommend']?></td>
+                                <td><?=$evaluationRow['recommend']?></td>
                                 <td><?=$evaluationRow['other_request']?></td>
                                 <td><?=$evaluationRow['interest_technology']?></td>
                                 <td><?=$evaluationRow['other_questions']?></td>
@@ -153,8 +154,8 @@
             const urlParams = new URLSearchParams(queryString);
             const event = urlParams.get('event');
             $("#selevents").val(event);
-            $("#ul-three").addClass("open");
-            $("#li-participants").addClass("active");
+            $("#ul-six").addClass("open");
+            $("#li-evaluation-participants").addClass("active");
         });
 
         function set_delete_link(evaluationid){

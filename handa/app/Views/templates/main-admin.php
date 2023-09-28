@@ -186,7 +186,7 @@
                                         <a href="<?=base_url('/evaluation/links')?>">Links</a>
                                     </li>
                                     <li id="li-evaluation-participants">
-                                        <a href="<?=base_url('/evaluation/participants')?>">Participants List</a>
+                                        <a href="<?=base_url('/evaluation/participants?event=all')?>">Participants List</a>
                                     </li>
                                 </ul>
                             </li>
