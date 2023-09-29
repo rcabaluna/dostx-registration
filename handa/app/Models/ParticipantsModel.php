@@ -28,7 +28,7 @@ class ParticipantsModel extends Model
         if ($param['event'] != 'all' && $param['event'] != '') {
             $builder->where($param);
         }
-        $query = $builder->orderBy('tblparticipants.regnumber','DESC');
+        $query = $builder->orderBy('tblparticipants.participantid','DESC');
         $query = $builder->get();
 
         return $query->getResultArray();
