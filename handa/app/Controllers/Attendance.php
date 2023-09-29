@@ -38,7 +38,7 @@ class Attendance extends BaseController
                 echo "EXISTS";
                 exit();
             }else{
-                return view("attendance/profile",$profile);
+                return view("admin/attendance/profile",$profile);
             }
         }else{
             echo "INVALID";
@@ -87,7 +87,7 @@ class Attendance extends BaseController
 
     public function AttendanceSearchUser(){
         $data['pagetitle'] = 'HANDA Pilipinas 2023 - Attendance (Search User)';
-        $data['participants'] = $this->attendanceModel->get_participants_list_limit_5('tblparticipants');
+        $data['participants'] = $this->attendanceModel->get_attendance_list_recent_5('tblattendance');
         return view('admin/attendance/search-user',$data);
     }
     

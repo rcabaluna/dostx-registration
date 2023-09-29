@@ -71,17 +71,18 @@ class AttendanceModel extends Model
         $builder->delete();
     }
 
-    public function get_participants_list_limit_5($tablename){
+    public function get_attendance_list_recent_5($tablename){
 
 
         $builder = $this->db->table($tablename);
-        $builder->select('*');
+        $builder->select('tblparticipants.*,tblattendance.date_registered AS date_registeredx,tblevents.shorthand,refregion.regDesc,refprovince.provDesc,tblsector.sectorname,tblevents.name');
+        $builder->join('tblparticipants', 'tblparticipants.regnumber = tblattendance.regnumber');
         $builder->join('tblsector', 'tblsector.sectorid = tblparticipants.sector');
         $builder->join('refregion', 'refregion.regCode = tblparticipants.address_region');
         $builder->join('refprovince', 'refprovince.provCode = tblparticipants.address_province');
         $builder->join('tblevents', 'tblevents.shorthand = tblparticipants.event');
-
-        $query = $builder->orderBy('tblparticipants.regnumber','DESC');
+        $query = $builder->orderBy('tblattendance.date_registered','DESC');
+        $query = $builder->limit(5);
         $query = $builder->get();
 
         return $query->getResultArray();

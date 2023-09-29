@@ -16,9 +16,9 @@
                         </div>
                     </div>
                     <hr />
-                    <h4>Search by Registration Number or Full Name</h4>
+                    <h4>Recent Attendance</h4>
                     <div class="m-t-25">
-                        <table class="table" id="participants-table">
+                        <table class="table table-hover table-condensed" id="participants-table">
                             <thead>
                                 <tr>
                                     <th>No.</th>
@@ -65,7 +65,7 @@
                                         <small><?=$participantsRow['name']?></small>
                                     </td>
                                     <td><?=($participantsRow['privileges']) ? $participantsRow['privileges'] : '-' ?></td>
-                                    <td><?=date("M d, Y h:i A",strtotime($participantsRow['date_registered'].'+8 hours'))?></td>
+                                    <td><?=date("M d, Y h:i A",strtotime($participantsRow['date_registeredx'].'+8 hours'))?></td>
                                     <!-- <td>
                                                         <button type="button" class="btn btn-danger btn-rounded btn-tone btn-xs" onclick="set_delete_link(<?=$participantsRow['participantid']; ?>)" data-toggle="modal" data-target="#exampleModal">
                                                             <i class="anticon anticon-delete"></i>
@@ -96,7 +96,7 @@
 
     $('#participants-table').DataTable({
         responsive: true,
-        paging: true, scrollCollapse: true, scrollY: '50vh' 
+        paging: false, scrollCollapse: true, scrollY: '50vh' 
     });
 
 </script>
