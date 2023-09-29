@@ -15,7 +15,7 @@ class Home extends BaseController
 	}
 
     public function index(){
-        return view('landing-page');
+        return redirect()->to(base_url('login'));
     }
 
     public function login()
