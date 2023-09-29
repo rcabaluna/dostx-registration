@@ -210,22 +210,13 @@
                             <?php } ?>
 
                             <?php if ($_SESSION['usertype'] == 'user') { ?>
-                            
-                            <li class="nav-item dropdown" id="ul-one">
-                                <a class="dropdown-toggle" href="javascript:void(0);">
+                            <li class="nav-item dropdown active" id="ul-one">
+                                <a class="dropdown-toggle" href="<?=base_url('user-links?event='.$_SESSION['eventaccess'])?>">
                                     <span class="icon-holder">
                                         <i class="anticon anticon-ordered-list"></i>
                                     </span>
-                                    <span class="title">Lists</span>
-                                    <span class="arrow">
-                                        <i class="arrow-icon"></i>
-                                    </span>
+                                    <span class="title">Event Links</span>
                                 </a>
-                                <ul class="dropdown-menu">
-                                    <li id="li-participants">
-                                        <a href="<?=base_url('/participants?event='.$_SESSION['eventaccess'])?>">Participants List</a>
-                                    </li>
-                                </ul>
                             </li>
                             <?php
                             }?>
@@ -257,7 +248,7 @@
                             <p class="m-b-0">
                                 Copyright ©
                                 <?=date('Y')?>
-                                Developed by DOST 10 MIS - Unit <small>(ROCJ)</small>. All rights reserved.
+                                Developed by DOST 10 MIS - Unit. All rights reserved.
                             </p>
                         </div>
                     </footer>

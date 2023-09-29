@@ -63,7 +63,7 @@
                     </div>
                 </div>
                 <div class="d-none d-md-flex p-h-40 justify-content-between">
-                    <span class="text-white">© <?=date('Y')?> DOST 10 - MIS Unit <small>(ROCJ)</small></span>
+                    <span class="text-white">© <?=date('Y')?> DOST 10 - MIS Unit</span>
                 </div>
             </div>
         </div>

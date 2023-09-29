@@ -77,6 +77,8 @@ $routes->get('/evaluation/delete', 'Evaluation::deleteEvaluation');
 #CERTIFICATES
 $routes->get('/certificates','Certificates::index');
 
+$routes->get('user-links','Admin::userLinksDeck',['filter' => 'authGuard']);
+
 
 
 

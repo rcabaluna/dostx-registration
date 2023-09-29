@@ -188,7 +188,7 @@
                             <p class="m-b-0">
                                 Copyright ©
                                 <?=date('Y')?>
-                                Developed by DOST 10 MIS - Unit <small>(ROCJ)</small>. All rights reserved.
+                                Developed by DOST 10 MIS - Unit. All rights reserved.
                             </p>
                         </div>
                     </footer>

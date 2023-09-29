@@ -29,7 +29,7 @@ class Admin extends BaseController
     public function evaluationList()
     {
         $data['events'] = $this->adminModel->get_all_data('tblevents');
-        $data['pagetitle'] = 'HANDA 2023 - Admin | Evaluation Links';
+        $data['pagetitle'] = 'HANDA Pilipinas 2023 - Admin | Evaluation Links';
         return view('admin/evaluation/evaluation-link-list', $data);
     }
 
@@ -49,6 +49,23 @@ class Admin extends BaseController
         $this->session->setFlashdata('update',true);
         
         return redirect()->to(base_url('registration/links'));
+    }
+
+    public function userLinksDeck(){
+
+        $eventshorthand = $this->request->getGet('event');
+
+        if ($_SESSION['usertype'] != 'user' && $_SESSION['eventaccess'] != $eventshorthand) {
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+        }else{
+            $data['event'] = $this->adminModel->get_event_data('tblevents',array('shorthand' => $eventshorthand));
+        }
+
+
+        $data['pagetitle'] = 'HANDA Pilipinas 2023 - User Links';
+
+        return view('user-link-deck',$data);
+        
     }
     
 }

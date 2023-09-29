@@ -6,7 +6,9 @@
             <h4>Attendance List</h4>
             <div class="align-items-center justify-content-between m-b-30">
                 <div class="row">
+                <?php if($_SESSION['usertype'] == 'admin'){  ?>
                     <div class="col-md-12">
+                        <label>Select forum/event:</label>
                         <select class="form-control" id="selevents" onchange="get_participants_by_event()">
                             <option value="all">All</option>
                             <?php foreach ($events as $eventsRow) { ?>
@@ -14,6 +16,8 @@
                             <?php } ?>
                         </select>
                     </div>
+                    <?php
+                        }?>
                 </div>
             </div>
             <div class="m-t-25">

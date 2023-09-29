@@ -22,6 +22,14 @@ class AdminModel extends Model
         $builder->where('shorthand', $param['shorthand']);
 
         $builder->update();
+    }
 
+    public function get_event_data($tablename,$param){
+
+        $builder = $this->db->table($tablename);
+        $builder->where($param);
+        $query   = $builder->get();
+
+        return $query->getRowArray();
     }
 }
