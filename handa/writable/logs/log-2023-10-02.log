@@ -1,0 +1,77 @@
+INFO - 2023-10-02 01:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 01:50:30 --> fopen(C:\xampp\htdocs\dostx-registration\handa\app\/cert-templates/ca/mousigning.pdf): Failed to open stream: No such file or directory
+in APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/ca/mousigning.pdf): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\fpdi\\src\\PdfParser\\StreamReader.php', 42)
+ 2 APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php(42): fopen('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/ca/mousigning.pdf', 'rb')
+ 3 APPPATH\Libraries\fpdi\src\FpdiTrait.php(177): setasign\Fpdi\PdfParser\StreamReader::createByFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/ca/mousigning.pdf')
+ 4 APPPATH\Libraries\fpdi\src\FpdiTrait.php(233): setasign\Fpdi\Tcpdf\Fpdi->getPdfReaderId('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/ca/mousigning.pdf', [])
+ 5 APPPATH\Libraries\fpdi\src\FpdiTrait.php(216): setasign\Fpdi\Tcpdf\Fpdi->setSourceFileWithParserParams('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/ca/mousigning.pdf')
+ 6 APPPATH\Controllers\Certificates.php(78): setasign\Fpdi\Tcpdf\Fpdi->setSourceFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/ca/mousigning.pdf')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->certApperance()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-02 01:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 01:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 02:07:39 --> fopen(C:\xampp\htdocs\dostx-registration\handa\app\/cert-templates/opening-ceremony.pdf): Failed to open stream: No such file or directory
+in APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/opening-ceremony.pdf): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\fpdi\\src\\PdfParser\\StreamReader.php', 42)
+ 2 APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php(42): fopen('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/opening-ceremony.pdf', 'rb')
+ 3 APPPATH\Libraries\fpdi\src\FpdiTrait.php(177): setasign\Fpdi\PdfParser\StreamReader::createByFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/opening-ceremony.pdf')
+ 4 APPPATH\Libraries\fpdi\src\FpdiTrait.php(233): setasign\Fpdi\Tcpdf\Fpdi->getPdfReaderId('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/opening-ceremony.pdf', [])
+ 5 APPPATH\Libraries\fpdi\src\FpdiTrait.php(216): setasign\Fpdi\Tcpdf\Fpdi->setSourceFileWithParserParams('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/opening-ceremony.pdf')
+ 6 APPPATH\Controllers\Certificates.php(37): setasign\Fpdi\Tcpdf\Fpdi->setSourceFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/opening-ceremony.pdf')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->certParticipation()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-02 02:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 02:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

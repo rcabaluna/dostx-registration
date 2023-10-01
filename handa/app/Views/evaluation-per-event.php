@@ -317,7 +317,7 @@
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4">
                                         16. <b>The office staff was quick to respond to my queries. (Assurance) <small class="text-danger">*</small></b> <br />
-                                        <i>(Ako ay tiwalang ang pagsasanay ay ligtas.)</i>
+                                        <i>(Maagap ang mga tauhan sa opisina sa pagsagot sa aking mga katanungan.)</i>
                                     </label>
                                     <fieldset class="radio-toolbar mt-3">
                                         <input type="radio" id="assurance1" name="assurance" value="1" >
@@ -436,8 +436,23 @@
                                     <input type="text" class="form-control" name="interest_technology" placeholder="Your answer" />
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="inputEmail4">24. <b>Do you have other questions you were not able to relay during the forum? If so, you can share it here and we’ll try to get back to you.</b> <br /> </label>
+                                    <label for="inputEmail4">
+                                        24. <b>Do you have other questions you were not able to relay during the forum? If so, you can share it here and we’ll try to get back to you.</b> <br /> </label>
                                     <input type="text" class="form-control" name="other_questions" placeholder="Your answer" />
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="inputEmail4">
+                                        25. <b>Would you like an electronic copy of your Certificate of Appearance? If not, please proceed to the registration area to request a hard copy.</b> <small class="text-danger">*</small> <br />
+                                        <i>(Gusto mo ba ng kopya sa elektronikong anyo ng iyong "Certificate of Appearance"? Kung hindi, mangyaring pumunta sa "registration area" para humiling ng kopya sa papel.)</i>
+                                    </label>
+                                    <div class="radio">
+                                        <input id="eca1" name="ecacopy" type="radio" value="1"/>
+                                        <label for="eca1">Yes</label>
+                                    </div>
+                                    <div class="radio">
+                                        <input id="eca2" name="ecacopy" type="radio" value="0"/>
+                                        <label for="eca2">No</label>
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-row">
@@ -517,16 +532,19 @@
     }
     
     // FORM VALIDATION CSS 2
-    $('#css-feedback-form-2 input[name="overall_satisfaction"], #css-feedback-form-2 input[name="recommend"]').change(checkInputs_css_part_2);
+    $('#css-feedback-form-2 input[name="overall_satisfaction"], #css-feedback-form-2 input[name="recommend"], #css-feedback-form-2 input[name="ecacopy"]').change(checkInputs_css_part_2);
     function checkInputs_css_part_2() {
         var overallSatisfactionChecked = $('input[name="overall_satisfaction"]:checked').length > 0;
         var recommendChecked = $('input[name="recommend"]:checked').length > 0;
-
-        // Enable or disable the submit button based on conditions
-        if (overallSatisfactionChecked && recommendChecked) {
-            $('#submit-btn').prop('disabled', false);
-        } else {
-            $('#submit-btn').prop('disabled', true);
+        var ecaChecked = $('input[name="ecacopy"]:checked').length > 0;
+        
+        if (ecaChecked) {
+            // Enable or disable the submit button based on conditions
+            if ((overallSatisfactionChecked && recommendChecked)) {
+                $('#submit-btn').prop('disabled', false);
+            } else {
+                $('#submit-btn').prop('disabled', true);
+            }
         }
     }
 

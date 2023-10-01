@@ -780,3 +780,31 @@ INFO - 2023-09-30 04:13:44 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-09-30 04:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-09-30 04:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-09-30 04:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 23:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 23:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 23:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 23:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 23:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 23:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 23:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 23:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 23:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 23:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 23:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 23:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-30 23:59:40 --> fopen(C:\xampp\htdocs\dostx-registration\handa\app\/cert-templates/drrmtechcomm.pdf): Failed to open stream: No such file or directory
+in APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/drrmtechcomm.pdf): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\fpdi\\src\\PdfParser\\StreamReader.php', 42)
+ 2 APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php(42): fopen('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/drrmtechcomm.pdf', 'rb')
+ 3 APPPATH\Libraries\fpdi\src\FpdiTrait.php(177): setasign\Fpdi\PdfParser\StreamReader::createByFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/drrmtechcomm.pdf')
+ 4 APPPATH\Libraries\fpdi\src\FpdiTrait.php(233): setasign\Fpdi\Tcpdf\Fpdi->getPdfReaderId('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/drrmtechcomm.pdf', [])
+ 5 APPPATH\Libraries\fpdi\src\FpdiTrait.php(216): setasign\Fpdi\Tcpdf\Fpdi->setSourceFileWithParserParams('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/drrmtechcomm.pdf')
+ 6 APPPATH\Controllers\Certificates.php(35): setasign\Fpdi\Tcpdf\Fpdi->setSourceFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\/cert-templates/drrmtechcomm.pdf')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-30 23:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 23:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 23:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-30 23:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

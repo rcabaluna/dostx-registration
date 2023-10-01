@@ -75,7 +75,9 @@ $routes->get('/evaluation/participants', 'Evaluation::participants',['filter' =>
 $routes->get('/evaluation/delete', 'Evaluation::deleteEvaluation');
 
 #CERTIFICATES
-$routes->get('/certificates','Certificates::index');
+$routes->get('/certificates/cp','Certificates::certParticipation');
+$routes->get('/certificates/ca','Certificates::certApperance');
+
 
 $routes->get('user-links','Admin::userLinksDeck',['filter' => 'authGuard']);
 
