@@ -85,10 +85,45 @@ class Attendance extends BaseController
 
     # CONFIRM ATTENDANCE BY USER SEARCH
 
+    
     public function AttendanceSearchUser(){
-        $data['pagetitle'] = 'HANDA Pilipinas 2023 - Attendance (Search User)';
-        $data['participants'] = $this->attendanceModel->get_attendance_list_recent_5('tblattendance');
+        $data['participants'] = '';
+    
+        if ($this->request->getGet()) {
+            $param = $this->request->getGet();
+            $data['participants'] = $this->attendanceModel->search_participant('tblparticipants',$param);
+        }
+        
+        $data['pagetitle'] = 'HANDA Pilipinas 2023 - Attendance (Search Participant)';
         return view('admin/attendance/search-user',$data);
+    }
+    
+    public function AttendanceConfirmBySearch(){
+        
+        $previousUrl = $this->request->getServer('HTTP_REFERER');
+        
+        
+
+        $data = $this->request->getPost();
+  
+        $check = $this->attendanceModel->get_att_data('tblattendance',$data);
+
+        if ($check) {
+            if (!empty($previousUrl)) {
+                $this->session->setFlashdata('exists',true);
+                return redirect()->to($previousUrl);
+            }
+        }else{
+            $insert = $this->attendanceModel->insert_data('tblattendance',$data);
+            if ($insert) {
+                if (!empty($previousUrl)) {
+                    $this->session->setFlashdata('confirmed',true);
+                    return redirect()->to($previousUrl);
+                }
+            }
+        }
+
+
     }
     
 }

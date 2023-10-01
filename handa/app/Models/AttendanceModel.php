@@ -75,7 +75,7 @@ class AttendanceModel extends Model
 
 
         $builder = $this->db->table($tablename);
-        $builder->select('tblparticipants.*,tblattendance.date_registered AS date_registeredx,tblevents.shorthand,refregion.regDesc,refprovince.provDesc,tblsector.sectorname,tblevents.name');
+        $builder->select('tblparticipants.*,tblattendance.date_registered AS date_registered,tblevents.shorthand,refregion.regDesc,refprovince.provDesc,tblsector.sectorname,tblevents.name');
         $builder->join('tblparticipants', 'tblparticipants.regnumber = tblattendance.regnumber');
         $builder->join('tblsector', 'tblsector.sectorid = tblparticipants.sector');
         $builder->join('refregion', 'refregion.regCode = tblparticipants.address_region');
@@ -84,6 +84,21 @@ class AttendanceModel extends Model
         $query = $builder->orderBy('tblattendance.date_registered','DESC');
         $query = $builder->limit(5);
         $query = $builder->get();
+
+        return $query->getResultArray();
+    }
+
+    public function search_participant($tablename,$param){
+
+        $builder = $this->db->table($tablename);
+        $builder->select('*');
+        $builder->join('tblsector', 'tblsector.sectorid = tblparticipants.sector');
+        $builder->join('refregion', 'refregion.regCode = tblparticipants.address_region');
+        $builder->join('refprovince', 'refprovince.provCode = tblparticipants.address_province');
+        $builder->join('tblevents', 'tblevents.shorthand = tblparticipants.event');
+        $builder->like('lastname',$param['lastname'],'both');
+        $builder->like('firstname',$param['firstname'],'both');
+        $query   = $builder->get();
 
         return $query->getResultArray();
     }

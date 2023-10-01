@@ -31,7 +31,49 @@
         <script src="<?=base_url('assets/vendors/datatables/buttons.html5.min.js')?>"></script>
         <!-- Core JS -->
         <script src="<?=base_url('assets/js/app.min.js')?>"></script>
+        <script>
+            function show_notification_confirmed(xtype) {
+                var toastHTML = `<div class="toast fade hide" data-delay="3000">
+                    <div class="toast-header">
+                        <i class="anticon anticon-info-check text-success m-r-5"></i>
+                        <strong class="mr-auto text-success">Success</strong>
+                        <button type="button" class="ml-2 close" data-dismiss="toast" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="toast-body">
+                        The `+xtype+` is confirmed. Thank you!
+                    </div>
+                </div>`
 
+                $('#notification-toast').append(toastHTML)
+                $('#notification-toast .toast').toast('show');
+                setTimeout(function(){ 
+                    $('#notification-toast .toast:first-child').remove();
+                }, 10000);
+            }
+
+            function show_notification_exists(xtype) {
+                var toastHTML = `<div class="toast fade hide" data-delay="3000">
+                    <div class="toast-header">
+                        <i class="anticon anticon-info-circle text-danger m-r-5"></i>
+                        <strong class="mr-auto text-danger">Exists</strong>
+                        <button type="button" class="ml-2 close" data-dismiss="toast" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="toast-body">
+                        Your attendance is already confirmed.
+                    </div>
+                </div>`
+
+                $('#notification-toast').append(toastHTML)
+                $('#notification-toast .toast').toast('show');
+                setTimeout(function(){ 
+                    $('#notification-toast .toast:first-child').remove();
+                }, 10000);
+            }
+        </script>
 </head>
 
 <?php $uri = service('uri'); ?>

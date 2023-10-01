@@ -45,13 +45,21 @@ $routes->post('/w-reg-process', 'Registration::walkinRegistrationProcess');
 $routes->get('/participants', 'Participants::index',['filter' => 'authGuard']);
 $routes->get('/participants/delete', 'Participants::deleteParticipant');
 
+
+# ATTENDANCE
 $routes->get('/attendance', 'Attendance::index',['filter' => 'authGuard']);
 $routes->get('/attendance/delete', 'Attendance::deleteAttendance');
 
 $routes->get('attendance/m-scan-qr', 'Attendance::scanQRCode',['filter' => 'authGuard']);
 $routes->post('/confirm-attendance', 'Attendance::AttendanceConfirm');     
 $routes->post('/save-attendance', 'Attendance::AttendanceSave');     
+
+# ATTENDANCE BY SEARCH
 $routes->get('/attendance/search-user', 'Attendance::AttendanceSearchUser');     
+$routes->post('/attendance/confirm-att-search', 'Attendance::AttendanceConfirmBySearch');     
+
+
+
 
 # DASHBOARD
 $routes->get('/admin/dashboard/reg-att','Dashboard::regAtt',['filter' => 'authGuard']);
