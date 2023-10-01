@@ -95,10 +95,10 @@
 
       function start_camera(){
         Instascan.Camera.getCameras().then(function (cameras) {
-          for (let i = 0; i < cameras.length; i++) {
-            option+="<option value="+i+">"+cameras[i].name+"</option>";
-          }
-          $(selcameras).html(option);
+          // for (let i = 0; i < cameras.length; i++) {
+          //   option+="<option value="+i+">"+cameras[i].name+"</option>";
+          // }
+          // $(selcameras).html(option);
 
           if (cameras.length > 0) {
             // scanner.start(cameras[defaultcam]);
