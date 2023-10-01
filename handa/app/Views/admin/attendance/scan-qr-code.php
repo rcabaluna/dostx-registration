@@ -18,13 +18,13 @@
                       Invalid QR code!
                     </div>
                 </div>
-                <div class="col-md-12">
+                <!-- <div class="col-md-12">
                     <div class="form-row">
                         <div class="form-group col-md-12">
                             <select class="form-control" id="selcameras" onchange="change_camera()"></select>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-md-12">
                   <video id="preview" class="w-100"></video>
                 </div>
@@ -101,8 +101,8 @@
           $(selcameras).html(option);
 
           if (cameras.length > 0) {
-            scanner.start(cameras[defaultcam]);
-            // scanner.start(cameras[cameras.length-1]);
+            // scanner.start(cameras[defaultcam]);
+            scanner.start(cameras[cameras.length-1]);
 
             scanner.mirror = false;
           } else {
@@ -126,14 +126,14 @@
         });
       }
 
-      function change_camera(){
+      // function change_camera(){
 
-        var cameraorder = $("#selcameras").val();
-        Instascan.Camera.getCameras().then(function (cameras) {
-            scanner.start(cameras[cameraorder]);
-            scanner.mirror = false;
-          });
-      }
+      //   var cameraorder = $("#selcameras").val();
+      //   Instascan.Camera.getCameras().then(function (cameras) {
+      //       scanner.start(cameras[cameraorder]);
+      //       scanner.mirror = false;
+      //     });
+      // }
 
 
 

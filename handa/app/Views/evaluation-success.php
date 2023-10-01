@@ -44,7 +44,7 @@
                                     <p class="text-dark">Once again, thank you for participating in this event. Your contributions are highly valued, and we look forward to serving you in future events.</p>
                                 </div>
                                 <div class="col-md-12 mt-3 text-center">
-                                    <a class="btn btn-danger custom-class" href="<?=base_url('certificates?certnumber='.$certnumber)?>" target="_blank">
+                                    <a class="btn btn-danger custom-class" href="<?=base_url('certificates/cp?certnumber='.$certnumber)?>" target="_blank">
                                         Download Certificate
                                     </a>
                                 </div>
