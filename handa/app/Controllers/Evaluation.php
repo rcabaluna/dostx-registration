@@ -54,8 +54,6 @@ class Evaluation extends BaseController
         $data['certnumber_hashed'] = md5($data['certnumber']);
 
         $insertData = $this->evaluationModel->insert_data('tblevaluation',$data);
-        exit();
-        
 
         $sendemail = $this->sendEmail($data);
         
