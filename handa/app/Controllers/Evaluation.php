@@ -82,9 +82,9 @@ class Evaluation extends BaseController
         $message .= "<p>Thank you for attending the <b>".$events['name']."</b> during the HANDA PILIPINAS: Innovations in Disaster Risk Reduction and Management Exposition 2023 (Mindanao Leg), with the theme “Enhance resilience and sustainability for Mindanao!” on 4-6 October 2023 at the Limketkai Center, Cagayan de Oro City.</p>";
         $message .= "<p>With this, please find attached a scanned copy of your Certificate of participation.</p><br>";
         $message .= "<p>To download a copy of your Certificate of Participation , please access the link below:</p>";
-        $message .="<a href=".base_url()."certificates/cp?certnumber=".$data['certnumber_hashed'].">Download Certificate of Participation</a></br>";
+        $message .="<p><a href=".base_url()."certificates/cp?certnumber=".$data['certnumber_hashed'].">Download Certificate of Participation</a></p>";
         if ($data['ecacopy'] == 1) {
-            $message .="<a href=".base_url()."certificates/ca?certnumber=".$data['certnumber_hashed'].">Download Certificate of Appearance</a></br>";
+            $message .="<p><a href=".base_url()."certificates/ca?certnumber=".$data['certnumber_hashed'].">Download Certificate of Appearance</a></p>";
         }
         $message .= "<p>Stay safe and have a great day.</p>";
 
