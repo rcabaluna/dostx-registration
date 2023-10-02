@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Libraries\Ciqrcode;
 use App\Models\CertificateModel;
 
 require APPPATH . 'Libraries/tcpdf/tcpdf.php';
@@ -49,9 +50,39 @@ class Certificates extends BaseController
 
             $x = (297 - $textWidth) / 2;
             $y = 98;
-
             $pdf->Text($x, $y, $name);
 
+          
+
+            # CERTNUMBER
+            $certnumber = $data['certnumber'];
+            $certnumber_hashed = $data['certnumber_hashed'];
+            $textWidth = $pdf->GetStringWidth($certnumber);
+            $x = 260;
+            $y = 203;
+
+            $pdf->setFont('Helvetica', '', 10);
+            // $pdf->Text($x, $y, $certnumber);
+            $html = '<a style="color: #e75624; text-decoration:none;" href="'.base_url('certificates/cp?certnumber=').$certnumber_hashed.'">'.$certnumber.'</a>';
+
+            // Write HTML content to the PDF
+            $pdf->SetXY(263, 162);
+
+            $pdf->writeHTML($html, true, false, true, false, '');
+            $ciqrcode = new Ciqrcode();
+
+            $qr_image=$certnumber.'.png';
+            $strData = base_url('certificates/cp?certnumber=').$certnumber_hashed;
+            $params['data'] = $strData;
+            $params['level'] = 'H';
+            $params['size'] = 8;
+            $params['savename'] =FCPATH.'uploads/cpqr/'.$qr_image;
+            
+            $ciqrcode->generate($params);
+
+            $pdf->Image($params['savename'], $x = 262, $y = 167, $w = 30, $h = 30, $type = '', $link = '', $align = '', $resize = false, $dpi = 300, $palign = '', $border = 0, $fitbox = false, $hidden = false, $fitonpage = false, $alt = false, $altimgs = []);
+
+            
             $pdf->SetTitle('Certificate of Participation | '.$data['certnumber'].' - '.$name);
             $this->response->setHeader("Content-Type", "application/pdf");
             $pdf->Output('Certificate of Participation | '.$data['certnumber'].' - '.$name.'.pdf', 'I');
