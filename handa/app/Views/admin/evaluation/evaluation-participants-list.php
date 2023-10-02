@@ -58,7 +58,7 @@
                         <?php $counter = 0; foreach ($evaluation as $evaluationRow) { ?>
                             <tr>
                                 <td><?=$counter+=1?></td>
-                                <td><a target="_blank" href="<?=base_url('certificates?certnumber=').$evaluationRow['certnumber_hashed']?>"><b><?=$evaluationRow['certnumber']?></b></a></td>
+                                <td><a target="_blank" href="<?=base_url('certificates/cp?certnumber=').$evaluationRow['certnumber_hashed']?>"><b><?=$evaluationRow['certnumber']?></b></a></td>
                                 <td><?=$evaluationRow['title']?></td>
                                 <td><?=$evaluationRow['fullname']?></td>
                                 <td><small><?=$evaluationRow['agency_name']?></small></td>
