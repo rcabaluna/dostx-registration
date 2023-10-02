@@ -43,11 +43,15 @@
                                     <p class="text-dark">If you ever have questions or require assistance, please feel free to reach out to us at <a href="mailto: handapilipinas@region10.dost.gov.ph">handapilipinas@region10.dost.gov.ph</a>. We're here to help.</p>
                                     <p class="text-dark">Once again, thank you for participating in this event. Your contributions are highly valued, and we look forward to serving you in future events.</p>
                                 </div>
-                                <div class="col-md-12 mt-3 text-center">
+                               <?php if($eventx['shorthand'] != 'mousigning' && $eventx['shorthand'] != 'presscon'){
+                                ?>
+                                 <div class="col-md-12 mt-3 text-center">
                                     <a class="btn btn-danger custom-class" href="<?=base_url('certificates/cp?certnumber='.$certnumber)?>" target="_blank">
                                         Download Certificate
                                     </a>
                                 </div>
+                                <?php
+                               }?>
                             </div>
                         </div>
                         
