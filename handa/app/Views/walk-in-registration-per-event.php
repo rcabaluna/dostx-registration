@@ -1,4 +1,4 @@
-<?= $this->extend('templates/main-walk-in') ?>
+<?= $this->extend('templates/main-admin') ?>
 <?= $this->section('content') ?>
 <?php $uri = service('uri'); ?>
 <style>
@@ -7,6 +7,7 @@
     }
 </style>
 <div class="container-fluid d-flex h-100 px-0">
+    <div class="main-content">
     <div class="row align-items-center w-100" style="margin-left: 0px;">
         <div class="col-md-12 col-lg-12 m-h-auto">
             <div class="card shadow-lg">
@@ -170,6 +171,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </div>
                 <!-- <div class="d-none d-md-flex p-h-40 justify-content-between">

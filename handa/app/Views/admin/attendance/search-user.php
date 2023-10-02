@@ -1,4 +1,4 @@
-<?= $this->extend('templates/main-walk-in') ?>
+<?= $this->extend('templates/main-admin') ?>
 <?= $this->section('content') ?>
 <style>
     p {
@@ -6,6 +6,7 @@
     }
 </style>
 <div class="container-fluid h-100 px-0">
+    <div class="main-content">
     <div class="row align-items-center w-100" style="margin-left: 0px;">
         <div class="col-md-12 col-lg-12 m-h-auto">
             <div class="card shadow-lg">
@@ -16,7 +17,7 @@
                         </div>
                     </div>
                     <hr />
-                    <h4>Attendance (Search Participant) <button class="btn btn-tone btn-danger btn-xs" data-toggle="modal" data-target="#search-user-mdl ">Search</button></h4>
+                    <h4>Attendance (Search Participant) <button class="btn btn-tone btn-danger btn-xs" data-toggle="modal" data-target="#search-user-mdl">Search</button></h4>
                     <div class="m-t-25">
                         <table class="table table-hover table-condensed" id="participants-table">
                             <thead>
@@ -25,8 +26,6 @@
                                     <th>Registration No.</th>
                                     <th>Title</th>
                                     <th>Name</th>
-                                    <th>Contact No</th>
-                                    <th>Email</th>
                                     <th>Sex</th>
                                     <th>Address</th>
                                     <th>Agency Name</th>
@@ -34,7 +33,7 @@
                                     <th>Sector/Affiliation</th>
                                     <th>Event</th>
                                     <th>Privileges</th>
-                                    <th>Participants Date</th>
+                                    <th>Date Registered</th>
                                     <!-- <th>Actions</th> -->
                                 </tr>
                             </thead>
@@ -53,8 +52,6 @@
                                         echo $participantsRow['middle_initial'] ? " " . $participantsRow['middle_initial'] : '';
                                         ?>
                                     </td>
-                                    <td><?= $participantsRow['contactno'] ?></td>
-                                    <td><?= $participantsRow['email'] ?></td>
                                     <td><?= $participantsRow['sex'] ?></td>
                                     <td>
                                         <small><?= $participantsRow['regDesc'] . " - <br>" . $participantsRow['provDesc'] ?></small>
@@ -85,10 +82,11 @@
         </div>
 
     </div>
+    </div>
 
     <!-- Modal -->
 <div class="modal fade" id="search-user-mdl">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Search Participant</h5>
@@ -100,12 +98,12 @@
                 <div class="modal-body">
                     <div class="form-row">
                         <div class="form-group col-md-12">
-                            <label for="formGroupExampleInput">Last Name</label>
-                            <input type="text" name="lastname" class="form-control" id="formGroupExampleInput" placeholder="Enter Last Name" />
+                            <label for="formGroupExampleInput"><b>Last Name</b></label>
+                            <input type="text" name="lastname" class="form-control form-control-lg" id="formGroupExampleInput" placeholder="Enter Last Name" />
                         </div>
                         <div class="form-group col-md-12">
-                            <label for="formGroupExampleInput2">First Name</label>
-                            <input type="text" name="firstname" class="form-control" id="formGroupExampleInput2" placeholder="Enter First Name" />
+                            <label for="formGroupExampleInput2"><b>First Name</b></label>
+                            <input type="text" name="firstname" class="form-control form-control-lg" id="formGroupExampleInput2" placeholder="Enter First Name" />
                         </div>
                     </div>
                 </div>
@@ -119,7 +117,7 @@
 </div>
 
 
-        <div class="notification-toast top-right" id="notification-toast"></div>
+    <div class="notification-toast top-right" id="notification-toast"></div>
     <div class="modal fade" id="options-mdl">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -138,11 +136,44 @@
 
                         <div class="m-t-20">
                             <button type="submit" class="btn btn-danger" id="confirm-attendance-options-mdl">Confirm Attendance</button><br>
-                            <button type="button" class="mt-3 btn btn-link btn-xs">Confirm to another Forum</button>
+                            <button type="button" spw class="mt-3 btn btn-link btn-xs" onclick="event_selector()">Register to Another Forum</button>
                         </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default btn-xs" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="event-selector-mdl">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Event Selector</h5>
+                </div>
+                <form method="POST" action="<?=base_url('attendance/confirm-other-forum')?>">
+                    <div class="modal-body">
+                        <h5 id="event-title-options-mdl"></h5>
+                        <div class="form-row">
+                            <label>Please select event:</label>
+                            <fieldset>
+                                <?php if(isset($events)){
+                                    foreach ($events as $eventsRow) { ?>
+                                        <div class="radio">
+                                            <input id="event<?=$eventsRow['eventid']?>" name="event" value="<?=$eventsRow['shorthand']?>" type="radio">
+                                            <label for="event<?=$eventsRow['eventid']?>"><span class="text-dark"><?=$eventsRow['name']?></span></label>
+                                        </div>
+                                    <?php }
+                                } ?>
+                            </fieldset>
+                            <input type="hidden" id="currentregnumber" name="regnumber">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-danger">Submit</button>
                     </div>
                 </form>
             </div>
@@ -180,13 +211,21 @@
             var shorthand = $(this).closest("tr").attr('shorthand');
             
             $("#regnumber-options-mdl").html(data[3]);
-            $("#event-title-options-mdl").html(data[11]);
+            $("#event-title-options-mdl").html(data[9]);
             $("#qr-options-mdl").attr("src", "<?= base_url('uploads/qr/') ?>"+data[1]+".png");
             $("#regnumber").val(data[1]);
+            $("#currentregnumber").val(data[1]);
+
             $("#event").val(shorthand);
             $("#confirm-att-by-search").attr("action","<?= base_url('attendance/confirm-att-search') ?>");
             $("#options-mdl").modal("show");
         });
+
+    function event_selector(){
+        $("#options-mdl").modal("hide");
+        $("#event-selector-mdl").modal("show");   
+
+    }
 
 </script>
 <?= $this->endSection() ?>

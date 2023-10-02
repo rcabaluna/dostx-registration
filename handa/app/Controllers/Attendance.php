@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Libraries\Ciqrcode;
 use App\Models\AttendanceModel;
 
 class Attendance extends BaseController
@@ -92,8 +93,9 @@ class Attendance extends BaseController
         if ($this->request->getGet()) {
             $param = $this->request->getGet();
             $data['participants'] = $this->attendanceModel->search_participant('tblparticipants',$param);
-        }
-        
+            $data['events'] = $this->attendanceModel->get_available_events($param);
+
+        } 
         $data['pagetitle'] = 'HANDA Pilipinas 2023 - Attendance (Search Participant)';
         return view('admin/attendance/search-user',$data);
     }
@@ -101,8 +103,6 @@ class Attendance extends BaseController
     public function AttendanceConfirmBySearch(){
         
         $previousUrl = $this->request->getServer('HTTP_REFERER');
-        
-        
 
         $data = $this->request->getPost();
   
@@ -122,8 +122,37 @@ class Attendance extends BaseController
                 }
             }
         }
+    }
 
+    public function ConfirmOtherForum(){
+        $previousUrl = $this->request->getServer('HTTP_REFERER');
+
+        $data = $this->request->getPost();
+        $data['new_regnumber'] = $this->attendanceModel->get_doc_number('registration');
+
+        $insert = $this->attendanceModel->replicate_participants_data('tblparticipants',$data);
+        $this->generateQRCode($data['event'],$data['new_regnumber']);
+        if ($insert) {
+            $this->session->setFlashdata('confirmed',true);
+            return redirect()->to($previousUrl);   
+        }
 
     }
+
+
+    public function generateQRCode($event,$userid)
+	{
+		
+        $ciqrcode = new Ciqrcode();
+
+		$qr_image=$userid.'.png';
+		$strData = $event."/".$userid;
+		$params['data'] = $strData;
+		$params['level'] = 'H';
+		$params['size'] = 8;
+		$params['savename'] =FCPATH.STORE_QR.$qr_image;
+
+		$ciqrcode->generate($params);
+	}
     
 }

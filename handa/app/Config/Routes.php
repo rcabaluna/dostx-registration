@@ -57,9 +57,7 @@ $routes->post('/save-attendance', 'Attendance::AttendanceSave');
 # ATTENDANCE BY SEARCH
 $routes->get('/attendance/search-user', 'Attendance::AttendanceSearchUser');     
 $routes->post('/attendance/confirm-att-search', 'Attendance::AttendanceConfirmBySearch');     
-
-
-
+$routes->post('/attendance/confirm-other-forum', 'Attendance::ConfirmOtherForum');     
 
 # DASHBOARD
 $routes->get('/admin/dashboard/reg-att','Dashboard::regAtt',['filter' => 'authGuard']);

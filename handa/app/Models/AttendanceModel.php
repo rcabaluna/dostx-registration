@@ -46,6 +46,15 @@ class AttendanceModel extends Model
         return $query->getRowArray();
     }
 
+    public function get_all_data_where($tablename,$param){
+
+        $builder = $this->db->table($tablename);
+        $builder->where($param);
+        $query   = $builder->get();
+
+        return $query->getResultArray();
+    }
+
     public function get_attendance_list($tablename,$param){
 
         $builder = $this->db->table($tablename);
@@ -98,8 +107,72 @@ class AttendanceModel extends Model
         $builder->join('tblevents', 'tblevents.shorthand = tblparticipants.event');
         $builder->like('lastname',$param['lastname'],'both');
         $builder->like('firstname',$param['firstname'],'both');
+        $builder->orderBy('tblparticipants.participantid','DESC');
+
         $query   = $builder->get();
 
         return $query->getResultArray();
+    }
+
+    public function get_available_events($param){
+        $lastname = $param['lastname'];
+        $firstname = $param['firstname'];
+
+        $builder = $this->db->table('tblevents a');
+        $builder->select('*');
+        $builder->where('a.is_closed !=', 1);
+        $builder->whereNotIn('a.shorthand', function($subquery)  use ($lastname, $firstname){
+
+            $subquery->select('event')->from('tblparticipants b')
+                    ->like('b.lastname',$lastname,'both')
+                    ->like('b.firstname',$firstname,'both');
+        }
+    );
+        return $builder->get()->getResultArray();
+    }
+
+    public function replicate_participants_data($tablename,$param)
+    {
+        $builder = $this->db->table('tblparticipants');
+        $columns = 'regnumber, title, lastname, firstname, middle_initial, suffix, contactno, email, sex, position, sector, address_region, address_province, agency_name, privileges, event';
+
+        $builder->select($columns);
+        $builder->where('regnumber', $param['regnumber']); // Filter based on the regnumber condition
+        $query = $builder->get()->getRowArray();
+
+        $query['regnumber'] = $param['new_regnumber'];
+        $query['event'] = $param['event'];
+        
+        $builder = $this->db->table($tablename);
+        $builder->insert($query);
+
+        return $this->db->insertID();
+
+    }
+
+    function get_doc_number($docnumber){
+
+        $prefix="";
+        try {
+                $this->db->transStart();
+                $generate = $this->db->query("SELECT prefix,`value` FROM tblgenerator WHERE code='$docnumber'  FOR UPDATE");
+
+                $value = $generate->getRow()->value;
+                $docprefix = $generate->getRow()->prefix;
+
+                $builder = $this->db->table('tblgenerator');
+                $builder->set('value', $value+1);
+                $builder->where('code', $docnumber);
+                $builder->update();
+                $this->db->transComplete();
+                
+                for($x=1;$x<=(3-strlen($value));$x++){
+                    $prefix.="0";
+                }    
+            return $docprefix.date("Y").$prefix.$value;
+
+		}catch (\Exception $e){
+            die($e->getMessage());
+		}
     }
 }
