@@ -66,6 +66,9 @@ class FoodModel extends Model
         $builder->select('*');
         $builder->join('tblparticipants', 'tblparticipants.regnumber = tblfoodredeem.regnumber');
 
+        if ($param['type'] != 'all' && $param['type'] != '') {
+            $builder->where('tblfoodredeem.type',$param['type']);
+        }
         $query   = $builder->get();
 
         return $query->getResultArray();

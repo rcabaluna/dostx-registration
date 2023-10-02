@@ -53,7 +53,6 @@
                             </td>
                             <td><?=$redeemRow['contactno']?></td>
                             <td><?=$redeemRow['email']?></td>
-                            <td><?=$redeemRow['sex']?></td>
                             <td><?=$redeemRow['agency_name']?></td>
                             <td><?=($redeemRow['privileges']) ? $redeemRow['privileges'] : '-' ?></td>
                             <td><?=date("M d, Y h:i A",strtotime($redeemRow['date_registered'].'+8 hours'))?></td>

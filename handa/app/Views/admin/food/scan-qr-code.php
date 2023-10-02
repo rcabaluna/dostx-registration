@@ -23,9 +23,9 @@
                         <div class="form-group col-md-12">
                             <label for="">Select Food:</label>
                             <select class="form-control" name="type" id="foodtype">
-                              <option value="AM Snack">AM Snacks</option>
+                              <option value="AMSnacks">AM Snacks</option>
                               <option value="Lunch">Lunch</option>
-                              <option value="AM Snack">PM Snacks</option>
+                              <option value="PMSnacks">PM Snacks</option>
                               <option value="Dinner">Dinner</option>
                             </select>
                         </div>
@@ -109,8 +109,8 @@
           // $(selcameras).html(option);
 
           if (cameras.length > 0) {
-            // scanner.start(cameras[defaultcam]);
-            scanner.start(cameras[cameras.length-1]);
+            scanner.start(cameras[defaultcam]);
+            // scanner.start(cameras[cameras.length-1]);
 
             scanner.mirror = false;
           } else {
