@@ -56,6 +56,8 @@ class Evaluation extends BaseController
         $insertData = $this->evaluationModel->insert_data('tblevaluation',$data);
 
         $sendemail = $this->sendEmail($data);
+
+        var_dump($sendemail);
         
         if ($sendemail) {
             echo "SUCCESS/".$data['certnumber_hashed'];
