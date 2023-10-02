@@ -78,26 +78,39 @@ class Evaluation extends BaseController
         $email->setTo($data['email']);
         $email->setSubject($subject);
 
+        $sendx = '';
+        $ca = '';
+        $cp = '';
+
         $message = "<p>Good day, ".$data['title']." ".$data['fullname'].", </p>";
         $message .= "<p>Thank you for attending the <b>".$events['name']."</b> during the HANDA PILIPINAS: Innovations in Disaster Risk Reduction and Management Exposition 2023 (Mindanao Leg), with the theme “Enhance resilience and sustainability for Mindanao!” on 4-6 October 2023 at the Limketkai Center, Cagayan de Oro City.</p>";
-        $message .= "<p>With this, please find attached a scanned copy of your Certificate of participation.</p><br>";
+        $message .= "<p>With this, please find attached a electronic copy of your certificate.</p><br>";
         $message .= "<p>To download a copy of your Certificate of Participation , please access the link below:</p>";
         if ($data['event'] != 'presscon' && $data['event'] != 'mousigning') {
+            $cp = "y";
             $message .="<p><a href=".base_url()."certificates/cp?certnumber=".$data['certnumber_hashed'].">Download Certificate of Participation</a></p>";
+        }else{
+            $cp = "n";
         }
         if ($data['ecacopy'] == 1) {
+            $ca = "y";
             $message .="<p><a href=".base_url()."certificates/ca?certnumber=".$data['certnumber_hashed'].">Download Certificate of Appearance</a></p>";
+        }else{
+            $ca = "n";
         }
         $message .= "<p>Stay safe and have a great day.</p>";
 
         $email->setMessage($message);//your message here
 
-        if ($email->send()) {
-            return true;
-        } else {
-            echo 'Email could not be sent';
-            echo $email->printDebugger(['headers']);
-            return false;
+        $sendx = $ca.$cp;
+        if($sendx != "nn"){
+            if ($email->send()) {
+                return true;
+            } else {
+                echo 'Email could not be sent';
+                echo $email->printDebugger(['headers']);
+                return false;
+            }
         }
 
     }
