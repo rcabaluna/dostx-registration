@@ -19,7 +19,7 @@ class ParticipantsModel extends Model
 
 
         $query = $this->db->table('tblparticipants a');
-            $query->select('a.*, b.sectorname, c.regDesc,e.name');
+            $query->select('a.*, b.sectorname, c.regDesc,e.name,e.shorthand');
             $query->join('tblsector b', 'b.sectorid = a.sector');
             $query->join('refregion c', 'c.regCode = a.address_region');
             $query->join('refprovince d', 'd.provCode = a.address_province');
