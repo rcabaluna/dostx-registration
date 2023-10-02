@@ -87,6 +87,14 @@ $routes->get('/certificates/cp','Certificates::certParticipation');
 $routes->get('/certificates/ca','Certificates::certApperance');
 
 
+#FOOD
+$routes->get('food-redeem', 'Food::index',['filter' => 'authGuard']);
+$routes->get('food/m-scan-qr', 'Food::scanQRCode',['filter' => 'authGuard']);
+$routes->post('/confirm-food', 'Food::FoodConfirm');     
+$routes->post('/save-redeem', 'Food::RedeemSave');  
+$routes->get('/food/delete', 'Food::deleteRedeem');
+
+
 $routes->get('user-links','Admin::userLinksDeck',['filter' => 'authGuard']);
 
 

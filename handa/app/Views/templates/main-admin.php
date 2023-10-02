@@ -193,17 +193,19 @@
                             <li class="nav-item dropdown" id="ul-two">
                                 <a class="dropdown-toggle" href="javascript:void(0);">
                                     <span class="icon-holder">
-                                        <i class="anticon anticon-qrcode"></i>
+                                        <i class="anticon anticon-tag"></i>
                                     </span>
-                                    <span class="title">Scanners</span>
+                                    <span class="title">Food</span>
                                     <span class="arrow">
                                         <i class="arrow-icon"></i>
                                     </span>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    
-                                    <li id="li-attendance-scanner">
-                                        <a href="javascript:void(0)">Food</a>
+                                    <li id="li-food-scanner">
+                                        <a href="<?=base_url('food/m-scan-qr')?>">Redeem <small>(QR Scanner)</small></a>
+                                    </li>
+                                    <li id="li-attendance">
+                                        <a href="<?=base_url('/food-redeem?type=all')?>">Food Redeemed List</a>
                                     </li>
                                 </ul>
                             </li>
