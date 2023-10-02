@@ -57,13 +57,7 @@ class Evaluation extends BaseController
 
         $sendemail = $this->sendEmail($data);
 
-        var_dump($sendemail);
-        
-        if ($sendemail) {
             echo "SUCCESS/".$data['certnumber_hashed'];
-        }else{
-            echo "INVALID";
-            exit();
         }
         
     }
