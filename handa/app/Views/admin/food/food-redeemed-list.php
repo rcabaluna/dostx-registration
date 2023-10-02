@@ -97,7 +97,7 @@
         $(document).ready(function () {
             const queryString = window.location.search;
             const urlParams = new URLSearchParams(queryString);
-            const event = urlParams.get('event');
+            const event = urlParams.get('type');
             $("#selevents").val(event);
             $("#ul-one").addClass("open");
             $("#li-redeem").addClass("active");
