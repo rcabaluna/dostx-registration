@@ -117,7 +117,7 @@
 
         function get_participants_by_event() {
             var event = $("#selevents").val();
-            window.location.replace("<?=base_url('redeem?event=')?>"+event);
+            window.location.replace("<?=base_url('redeem?type=')?>"+event);
         }
 
         function set_delete_link(redeemid){
