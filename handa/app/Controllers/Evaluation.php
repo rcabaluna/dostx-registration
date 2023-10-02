@@ -58,7 +58,6 @@ class Evaluation extends BaseController
         $sendemail = $this->sendEmail($data);
 
             echo "SUCCESS/".$data['certnumber_hashed'];
-        }
         
     }
 
