@@ -55,7 +55,7 @@
                                     </div>
                                     <p class="m-b-20"><?=substr($eventsRow['description'], 0, 100);?>...</p>
                                     <div class="text-right">
-                                        <a class="btn btn-danger custom-class font-weight-semibold btn-sm" href="<?=base_url('/w-registration/event/'.$eventsRow['shorthand'])?>">
+                                        <a class="btn btn-success custom-class font-weight-semibold btn-sm" href="<?=base_url('/w-registration/event/'.$eventsRow['shorthand'])?>">
                                             <span>Walk-in</span>
                                         </a>
                                         <a class="btn btn-primary custom-class font-weight-semibold btn-sm" href="<?=base_url('/registration/event/'.$eventsRow['shorthand'])?>">

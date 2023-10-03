@@ -183,9 +183,9 @@
                                     <li id="li-reg-links">
                                         <a href="<?=base_url('/registration/links')?>">QR Codes/Links</a>
                                     </li>
-                                    <li id="li-walkin">
+                                    <!-- <li id="li-walkin">
                                         <a href="<?=base_url('/registration/w-list')?>">Walk-in QR Links</a>
-                                    </li>
+                                    </li> -->
                                     <li id="li-participants">
                                         <a href="<?=base_url('/participants?event=all')?>">Participants List</a>
                                     </li>
