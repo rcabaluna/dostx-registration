@@ -26,7 +26,6 @@ class Food extends BaseController
 
         $data['regnumber'] = $input[1];       
         $data['type'] = $this->request->getPost('type');
-        $data['DATE(date_registered)'] = date('Y-m-d');
         
         # Check if QR is valid or invalid
         $profile = $this->foodModel->get_data('tblparticipants',array('regnumber' => $data['regnumber']));
