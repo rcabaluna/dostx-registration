@@ -36,8 +36,12 @@ class Attendance extends BaseController
             # Check if attendance data already exists
             $check = $this->attendanceModel->get_att_data('tblattendance',$data);
             if ($check) {
-                echo "EXISTS";
-                exit();
+                if ($check['event'] == 'drrm-exhibits') {
+                    return view("admin/attendance/profile",$profile);
+                }else{
+                    echo "EXISTS";
+                    exit();    
+                }
             }else{
                 return view("admin/attendance/profile",$profile);
             }
@@ -56,8 +60,15 @@ class Attendance extends BaseController
         $check = $this->attendanceModel->get_att_data('tblattendance',$data);
 
         if ($check) {
-            echo "EXISTS";
-            exit();
+            if ($check['event'] == 'drrm-exhibits') {
+                $insert = $this->attendanceModel->insert_data('tblattendance',$data);
+                if ($insert) {
+                    echo "SUCCESS";
+                }
+            }else{
+                echo "EXISTS";
+                exit();    
+            }
         }else{
             $insert = $this->attendanceModel->insert_data('tblattendance',$data);
             if ($insert) {
