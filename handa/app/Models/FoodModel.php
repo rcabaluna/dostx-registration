@@ -64,7 +64,7 @@ class FoodModel extends Model
 
     public function get_redeemed_list($tablename,$param){
         $builder = $this->db->table($tablename);
-        $builder->select('*');
+        $builder->select('tblfoodredeem.foodredeemid, tblfoodredeem.type,tblfoodredeem.date_registered AS redeemed_date,tblparticipants.*');
         $builder->join('tblparticipants', 'tblparticipants.regnumber = tblfoodredeem.regnumber');
 
         if ($param['type'] != 'all' && $param['type'] != '') {

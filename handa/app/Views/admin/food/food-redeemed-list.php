@@ -33,7 +33,9 @@
                             <th>Contact No</th>
                             <th>Email</th>
                             <th>Agency Name</th>
+                            <th>Position</th>
                             <th>Privileges</th>
+                            <th>Type</th>
                             <th>Date Redeemed</th>
                             <th>Actions</th>
                         </tr>
@@ -54,8 +56,10 @@
                             <td><?=$redeemRow['contactno']?></td>
                             <td><?=$redeemRow['email']?></td>
                             <td><?=$redeemRow['agency_name']?></td>
+                            <td><?=$redeemRow['position']?></td>
                             <td><?=($redeemRow['privileges']) ? $redeemRow['privileges'] : '-' ?></td>
-                            <td><?=date("M d, Y h:i A",strtotime($redeemRow['date_registered'].'+8 hours'))?></td>
+                            <td><?=$redeemRow['type']?></td>
+                            <td><?=date("M d, Y h:i A",strtotime($redeemRow['redeemed_date'].'+8 hours'))?></td>
                             <td>
                                 <button class="btn btn-danger btn-xs" onclick="set_delete_link(<?=$redeemRow['foodredeemid']?>)"><i class="anticon anticon-delete"></i></button>
                             </td>

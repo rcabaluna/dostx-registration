@@ -9,6 +9,20 @@
             <p class="text-dark col font-weight-semibold"> <?=$regnumber?></p>
         </li>
         <li class="row">
+            <p class=" text-dark col-sm-4 col-4 font-weight-semibold text-dark">
+                <span>Name: </span> 
+            </p>
+            <p class="text-dark col font-weight-semibold">
+                <b><?php
+                    echo $title.' ';
+                    echo $firstname;
+                    echo ($middle_initial ? ' '.$middle_initial.' ' : ' ');
+                    echo $lastname;
+                    echo ($suffix ? ", ".$suffix : '');
+                ?></b>
+            </p>
+        </li>
+        <li class="row">
             <p class="text-dark col-sm-4 col-4 font-weight-semibold text-dark">
                 <span>Sex: </span> 
             </p>
