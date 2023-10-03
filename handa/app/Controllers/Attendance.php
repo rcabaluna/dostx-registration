@@ -107,11 +107,20 @@ class Attendance extends BaseController
         $data = $this->request->getPost();
   
         $check = $this->attendanceModel->get_att_data('tblattendance',$data);
-
         if ($check) {
-            if (!empty($previousUrl)) {
-                $this->session->setFlashdata('exists',true);
-                return redirect()->to($previousUrl);
+            if ($check['event'] == 'drrm-exhibits') {
+                $insert = $this->attendanceModel->insert_data('tblattendance',$data);
+                if ($insert) {
+                    if (!empty($previousUrl)) {
+                        $this->session->setFlashdata('confirmed',true);
+                        return redirect()->to($previousUrl);
+                    }
+                }
+            }else{
+                if (!empty($previousUrl)) {
+                    $this->session->setFlashdata('exists',true);
+                    return redirect()->to($previousUrl);
+                }
             }
         }else{
             $insert = $this->attendanceModel->insert_data('tblattendance',$data);
