@@ -19093,3 +19093,4 @@ ORDER BY `tblparticipants`.`participantid` DESC', [...], false)
  6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
  7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-03 16:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

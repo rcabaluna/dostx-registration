@@ -55,18 +55,21 @@
                                     </div>
                                     <p class="m-b-20"><?=substr($eventsRow['description'], 0, 100);?>...</p>
                                     <div class="text-right">
-                                        <a class="btn btn-primary btn-tone custom-class font-weight-semibold" href="<?=base_url('/registration/event/'.$eventsRow['shorthand'])?>">
-                                            <span>Go</span>
+                                        <a class="btn btn-danger custom-class font-weight-semibold btn-sm" href="<?=base_url('/w-registration/event/'.$eventsRow['shorthand'])?>">
+                                            <span>Walk-in</span>
+                                        </a>
+                                        <a class="btn btn-primary custom-class font-weight-semibold btn-sm" href="<?=base_url('/registration/event/'.$eventsRow['shorthand'])?>">
+                                            <span>Pre-register</span>
                                         </a>
                                     <?php
                                         if ($eventsRow['is_closed'] == 0) {
                                             ?>
-                                            <a class="btn btn-danger btn-tone custom-class font-weight-semibold" href="<?=base_url('/registration/change-status/c/'.$eventsRow['shorthand'])?>">
+                                            <a class="btn btn-danger btn-tone custom-class font-weight-semibold btn-sm" href="<?=base_url('/registration/change-status/c/'.$eventsRow['shorthand'])?>">
                                             <span>Close Registration</span></a>
                                             <?php
                                         }else{
                                             ?>
-                                            <a class="btn btn-info btn-tone custom-class font-weight-semibold" href="<?=base_url('/registration/change-status/o/'.$eventsRow['shorthand'])?>">
+                                            <a class="btn btn-info btn-tone custom-class font-weight-semibold btn-sm" href="<?=base_url('/registration/change-status/o/'.$eventsRow['shorthand'])?>">
                                             <span>Open Registration</span></a>
                                             <?php
                                         }
