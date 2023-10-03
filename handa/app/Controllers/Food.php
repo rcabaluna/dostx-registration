@@ -52,8 +52,6 @@ class Food extends BaseController
         $data['type'] = $this->request->getPost('type');
 
         $check = $this->foodModel->get_redeem_data('tblfoodredeem',$data);
-
-
         if ($check) {
             echo "EXISTS";
             exit();

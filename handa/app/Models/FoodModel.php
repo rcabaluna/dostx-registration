@@ -41,7 +41,7 @@ class FoodModel extends Model
 
         $builder = $this->db->table($tablename);
         $builder->where($param);
-        $builder->where('date_registered', date('Y-m-d'));
+        $builder->where('DATE(date_registered)', date('Y-m-d'));
         $query   = $builder->get();
 
         return $query->getRowArray();
