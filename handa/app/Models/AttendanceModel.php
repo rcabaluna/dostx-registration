@@ -58,7 +58,7 @@ class AttendanceModel extends Model
     public function get_attendance_list($tablename,$param){
 
         $builder = $this->db->table($tablename);
-        $builder->select('*');
+        $builder->select('*,tblattendance.date_registered AS attendance_date');
         $builder->join('tblparticipants', 'tblparticipants.regnumber = tblattendance.regnumber');
         $builder->join('tblsector', 'tblsector.sectorid = tblparticipants.sector');
         $builder->join('refregion', 'refregion.regCode = tblparticipants.address_region');

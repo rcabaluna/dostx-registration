@@ -61,7 +61,7 @@
                             <td><?=$attendanceRow['sectorname']?></td>
                             <td><small><?=$attendanceRow['name']?></small></td>
                             <td><?=($attendanceRow['privileges']) ? $attendanceRow['privileges'] : '-' ?></td>
-                            <td><?=date("M d, Y h:i A",strtotime($attendanceRow['date_registered'].'+8 hours'))?></td>
+                            <td><?=date("M d, Y h:i A",strtotime($attendanceRow['attendance_date'].'+8 hours'))?></td>
                             <td>
                                 <button class="btn btn-danger btn-xs" onclick="set_delete_link(<?=$attendanceRow['attendanceid']?>)"><i class="anticon anticon-delete"></i></button>
                             </td>
