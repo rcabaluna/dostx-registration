@@ -68,7 +68,7 @@ class AttendanceModel extends Model
         if ($param['event'] != 'all' && $param['event'] != '') {
             $builder->where('tblattendance.event',$param['event']);
         }
-        $query = $builder->orderBy('tblattendance.regnumber','DESC');
+        $query = $builder->orderBy('tblattendance.attendanceid','DESC');
         $query = $builder->get();
 
         return $query->getResultArray();
