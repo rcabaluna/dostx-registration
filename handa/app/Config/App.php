@@ -20,7 +20,7 @@ class App extends BaseConfig
      */
     // public string $baseURL = 'http://192.168.128.129/conplan/';
     // public string $baseURL = 'http://localhost/dostx-registration/handa';
-	public string $baseURL = BASE.'/handa';
+	public string $baseURL = BASE.'/`handa';
     
 
     /**
