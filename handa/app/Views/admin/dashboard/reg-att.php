@@ -10,6 +10,8 @@
                     <thead>
                         <tr>
                             <th>Event</th>
+                            <th>Venue</th>
+                            <th>Date and Time</th>
                             <th class="text-right">Target Participants</th>
                             <th class="text-right">Buffer</th>
                             <th class="text-right">Pre-Registered Participants</th>
@@ -21,6 +23,8 @@
                         <?php foreach ($parrAttCount as $parrAttCountRow) { ?>
                             <tr>
                                 <td><b><?=$parrAttCountRow['name'];?></b></td>
+                                <td><?=$parrAttCountRow['venue'];?></td>
+                                <td><?=$parrAttCountRow['datetime'];?></td>
                                 <td class="text-right"><?=$parrAttCountRow['targetparticipants'];?></td>
                                 <td class="text-right"><?=$parrAttCountRow['buffer'];?></td>
                                 <td class="text-right"><a href="<?=base_url('participants?event='.$parrAttCountRow['shorthand']);?>"><?=$parrAttCountRow['participantsno'];?></a></td>
