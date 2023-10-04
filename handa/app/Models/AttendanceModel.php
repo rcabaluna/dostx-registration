@@ -123,7 +123,7 @@ class AttendanceModel extends Model
         $builder->where('a.is_closed !=', 1);
         $builder->whereNotIn('a.shorthand', function($subquery)  use ($lastname, $firstname){
 
-            $subquery->select('event')->from('tblparticipants b')
+            $subquery->select('b.event')->from('tblparticipants b')
                     ->like('b.lastname',$lastname,'both')
                     ->like('b.firstname',$firstname,'both');
         }
