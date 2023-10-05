@@ -31,7 +31,8 @@
                             <th>Contact No</th>
                             <th>Email</th>
                             <th>Sex</th>
-                            <th>Address</th>
+                            <th>Address (Region)</th>
+                            <th>Address (Province)</th>
                             <th>Agency Name</th>
                             <th>Position</th>
                             <th>Sector/Affiliation</th>
@@ -57,7 +58,8 @@
                             <td><?=$attendanceRow['contactno']?></td>
                             <td><?=$attendanceRow['email']?></td>
                             <td><?=$attendanceRow['sex']?></td>
-                            <td><small><?=$attendanceRow['regDesc']." - <br>".$attendanceRow['provDesc']?></small></td>
+                            <td><small><?=$attendanceRow['regDesc']?></small></td>
+                            <td><small><?=$attendanceRow['provDesc']?></small></td>
                             <td><?=$attendanceRow['agency_name']?></td>
                             <td><?=$attendanceRow['position']?></td>
                             <td><?=$attendanceRow['sectorname']?></td>
