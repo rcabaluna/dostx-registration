@@ -1,0 +1,1209 @@
+INFO - 2023-09-25 17:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 17:22:50 --> Undefined array key "usertype"
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usertype"', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Controllers\\Home.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 17:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 17:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-25 18:11:07 --> mysqli_sql_exception: Unknown column 'event' in 'field list' in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\handa\app\Models\EvaluationModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(57): App\Models\EvaluationModel->insert_data('tblevaluation', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationProccess()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-25 18:11:07 --> Unknown column 'event' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblevaluation` (`event`, `title`, `fullname`, `agency_name`, `email`, `sex`, `address_region`, `address_province`, `sourceinfo`, `responsiveness`, `reliability`, `access_and_facilities`, `communication`, `cash`, `integrity`, `assurance`, `outcome`, `overall_satisfaction`, `if_fair_poor`, `if_excellent`, `recommend`, `other_request`, `interest_technology`, `other_questions`, `privileges`, `certnumber`, `certnumber_hashed`) VALUES (:event:, :title:, :fullname:, :agency_name:, :email:, :sex:, :address_region:, :address_province:, :sourceinfo:, :responsiveness:, :reliability:, :access_and_facilities:, :communication:, :cash:, :integrity:, :assurance:, :outcome:, :overall_satisfaction:, :if_fair_poor:, :if_excellent:, :recommend:, :other_request:, :interest_technology:, :other_questions:, :privileges:, :certnumber:, :certnumber_hashed:)', [...], false)
+ 2 APPPATH\Models\EvaluationModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Evaluation.php(57): App\Models\EvaluationModel->insert_data('tblevaluation', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationProccess()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 18:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-25 18:14:09 --> mysqli_sql_exception: Unknown column 'event' in 'field list' in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\handa\app\Models\EvaluationModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(59): App\Models\EvaluationModel->insert_data('tblevaluation', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationProccess()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-25 18:14:09 --> Unknown column 'event' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblevaluation` (`event`, `title`, `fullname`, `agency_name`, `email`, `sex`, `address_region`, `address_province`, `sourceinfo`, `responsiveness`, `reliability`, `access_and_facilities`, `communication`, `cash`, `integrity`, `assurance`, `outcome`, `overall_satisfaction`, `if_fair_poor`, `if_excellent`, `recommend`, `other_request`, `interest_technology`, `other_questions`, `privileges`, `certnumber`, `certnumber_hashed`) VALUES (:event:, :title:, :fullname:, :agency_name:, :email:, :sex:, :address_region:, :address_province:, :sourceinfo:, :responsiveness:, :reliability:, :access_and_facilities:, :communication:, :cash:, :integrity:, :assurance:, :outcome:, :overall_satisfaction:, :if_fair_poor:, :if_excellent:, :recommend:, :other_request:, :interest_technology:, :other_questions:, :privileges:, :certnumber:, :certnumber_hashed:)', [...], false)
+ 2 APPPATH\Models\EvaluationModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Evaluation.php(59): App\Models\EvaluationModel->insert_data('tblevaluation', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationProccess()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 18:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-25 18:14:38 --> mysqli_sql_exception: Unknown column 'event' in 'field list' in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\handa\app\Models\EvaluationModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(59): App\Models\EvaluationModel->insert_data('tblevaluation', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationProccess()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-25 18:14:38 --> Unknown column 'event' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblevaluation` (`event`, `title`, `fullname`, `agency_name`, `email`, `sex`, `address_region`, `address_province`, `sourceinfo`, `responsiveness`, `reliability`, `access_and_facilities`, `communication`, `cash`, `integrity`, `assurance`, `outcome`, `overall_satisfaction`, `if_fair_poor`, `if_excellent`, `recommend`, `other_request`, `interest_technology`, `other_questions`, `privileges`, `certnumber`, `certnumber_hashed`) VALUES (:event:, :title:, :fullname:, :agency_name:, :email:, :sex:, :address_region:, :address_province:, :sourceinfo:, :responsiveness:, :reliability:, :access_and_facilities:, :communication:, :cash:, :integrity:, :assurance:, :outcome:, :overall_satisfaction:, :if_fair_poor:, :if_excellent:, :recommend:, :other_request:, :interest_technology:, :other_questions:, :privileges:, :certnumber:, :certnumber_hashed:)', [...], false)
+ 2 APPPATH\Models\EvaluationModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Evaluation.php(59): App\Models\EvaluationModel->insert_data('tblevaluation', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationProccess()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 18:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-25 18:18:30 --> mysqli_sql_exception: Unknown column 'event' in 'field list' in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\handa\app\Models\EvaluationModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(59): App\Models\EvaluationModel->insert_data('tblevaluation', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationProccess()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-25 18:18:30 --> Unknown column 'event' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblevaluation` (`event`, `title`, `fullname`, `agency_name`, `email`, `sex`, `address_region`, `address_province`, `sourceinfo`, `responsiveness`, `reliability`, `access_and_facilities`, `communication`, `cash`, `integrity`, `assurance`, `outcome`, `overall_satisfaction`, `if_fair_poor`, `if_excellent`, `recommend`, `other_request`, `interest_technology`, `other_questions`, `privileges`, `certnumber`, `certnumber_hashed`) VALUES (:event:, :title:, :fullname:, :agency_name:, :email:, :sex:, :address_region:, :address_province:, :sourceinfo:, :responsiveness:, :reliability:, :access_and_facilities:, :communication:, :cash:, :integrity:, :assurance:, :outcome:, :overall_satisfaction:, :if_fair_poor:, :if_excellent:, :recommend:, :other_request:, :interest_technology:, :other_questions:, :privileges:, :certnumber:, :certnumber_hashed:)', [...], false)
+ 2 APPPATH\Models\EvaluationModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Evaluation.php(59): App\Models\EvaluationModel->insert_data('tblevaluation', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationProccess()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 18:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-25 18:19:04 --> mysqli_sql_exception: Unknown column 'event' in 'field list' in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\handa\app\Models\EvaluationModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(59): App\Models\EvaluationModel->insert_data('tblevaluation', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationProccess()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-25 18:19:04 --> Unknown column 'event' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblevaluation` (`event`, `title`, `fullname`, `agency_name`, `email`, `sex`, `address_region`, `address_province`, `sourceinfo`, `responsiveness`, `reliability`, `access_and_facilities`, `communication`, `cash`, `integrity`, `assurance`, `outcome`, `overall_satisfaction`, `if_fair_poor`, `if_excellent`, `recommend`, `other_request`, `interest_technology`, `other_questions`, `privileges`, `certnumber`, `certnumber_hashed`) VALUES (:event:, :title:, :fullname:, :agency_name:, :email:, :sex:, :address_region:, :address_province:, :sourceinfo:, :responsiveness:, :reliability:, :access_and_facilities:, :communication:, :cash:, :integrity:, :assurance:, :outcome:, :overall_satisfaction:, :if_fair_poor:, :if_excellent:, :recommend:, :other_request:, :interest_technology:, :other_questions:, :privileges:, :certnumber:, :certnumber_hashed:)', [...], false)
+ 2 APPPATH\Models\EvaluationModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Evaluation.php(59): App\Models\EvaluationModel->insert_data('tblevaluation', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationProccess()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 18:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-25 18:19:24 --> mysqli_sql_exception: Unknown column 'event' in 'field list' in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\handa\app\Models\EvaluationModel.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(59): App\Models\EvaluationModel->insert_data('tblevaluation', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationProccess()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-25 18:19:24 --> Unknown column 'event' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblevaluation` (`event`, `title`, `fullname`, `agency_name`, `email`, `sex`, `address_region`, `address_province`, `sourceinfo`, `responsiveness`, `reliability`, `access_and_facilities`, `communication`, `cash`, `integrity`, `assurance`, `outcome`, `overall_satisfaction`, `if_fair_poor`, `if_excellent`, `recommend`, `other_request`, `interest_technology`, `other_questions`, `privileges`, `certnumber`, `certnumber_hashed`) VALUES (:event:, :title:, :fullname:, :agency_name:, :email:, :sex:, :address_region:, :address_province:, :sourceinfo:, :responsiveness:, :reliability:, :access_and_facilities:, :communication:, :cash:, :integrity:, :assurance:, :outcome:, :overall_satisfaction:, :if_fair_poor:, :if_excellent:, :recommend:, :other_request:, :interest_technology:, :other_questions:, :privileges:, :certnumber:, :certnumber_hashed:)', [...], false)
+ 2 APPPATH\Models\EvaluationModel.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Evaluation.php(59): App\Models\EvaluationModel->insert_data('tblevaluation', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationProccess()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 18:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 18:52:47 --> Invalid file: "evaluation-success.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('evaluation-success.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('evaluation-success', [], true)
+ 3 APPPATH\Controllers\Evaluation.php(119): view('evaluation-success')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationSuccess('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 18:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 18:54:55 --> Invalid file: "evaluation-success.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('evaluation-success.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('evaluation-success', [], true)
+ 3 APPPATH\Controllers\Evaluation.php(121): view('evaluation-success', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationSuccess('$1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 18:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 18:56:05 --> Undefined variable $certnumber
+in APPPATH\Views\evaluation-success.php on line 43.
+ 1 APPPATH\Views\evaluation-success.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $certnumber', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Views\\evaluation-success.php', 43)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Views\\evaluation-success.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('evaluation-success', [], true)
+ 5 APPPATH\Controllers\Evaluation.php(121): view('evaluation-success', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationSuccess()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 18:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 18:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 19:02:48 --> Undefined variable $userid
+in APPPATH\Views\evaluation-success.php on line 47.
+ 1 APPPATH\Views\evaluation-success.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Views\\evaluation-success.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Views\\evaluation-success.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('evaluation-success', [], true)
+ 5 APPPATH\Controllers\Evaluation.php(121): view('evaluation-success', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationSuccess()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 19:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 19:03:01 --> Undefined variable $userid
+in APPPATH\Views\evaluation-success.php on line 47.
+ 1 APPPATH\Views\evaluation-success.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Views\\evaluation-success.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Views\\evaluation-success.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('evaluation-success', [], true)
+ 5 APPPATH\Controllers\Evaluation.php(121): view('evaluation-success', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationSuccess()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 19:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 19:03:07 --> Undefined variable $userid
+in APPPATH\Views\evaluation-success.php on line 47.
+ 1 APPPATH\Views\evaluation-success.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Views\\evaluation-success.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Views\\evaluation-success.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('evaluation-success', [], true)
+ 5 APPPATH\Controllers\Evaluation.php(121): view('evaluation-success', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationSuccess()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 19:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 19:03:15 --> Undefined variable $userid
+in APPPATH\Views\evaluation-success.php on line 48.
+ 1 APPPATH\Views\evaluation-success.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Views\\evaluation-success.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Views\\evaluation-success.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('evaluation-success', [], true)
+ 5 APPPATH\Controllers\Evaluation.php(121): view('evaluation-success', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationSuccess()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 19:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-25 19:26:22 --> mysqli_sql_exception: Table 'conplan.tblevent' doesn't exist in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\handa\app\Models\EvaluationModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dostx-registration\handa\app\Controllers\Evaluation.php(123): App\Models\EvaluationModel->get_single_data('tblevent', 'shorthand', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationSuccess()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\handa\index.php(82): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-25 19:26:22 --> Table 'conplan.tblevent' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblevent`
+WHERE `shorthand` IS NULL', [], false)
+ 2 APPPATH\Models\EvaluationModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Evaluation.php(123): App\Models\EvaluationModel->get_single_data('tblevent', 'shorthand', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationSuccess()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 19:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 19:30:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\evaluation-success.php on line 45.
+ 1 APPPATH\Views\evaluation-success.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Views\\evaluation-success.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Views\\evaluation-success.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('evaluation-success', [], true)
+ 5 APPPATH\Controllers\Evaluation.php(124): view('evaluation-success', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Evaluation->evaluationSuccess()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 19:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 19:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:07:46 --> require_once(C:\xampp\htdocs\dostx-registration\handa\app\ThirdParty/fpdf/fpdf.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Evaluation.php on line 17.
+ 1 APPPATH\Controllers\Evaluation.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty/fpdf/fpdf.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Controllers\\Evaluation.php', 17)
+ 2 APPPATH\Controllers\Evaluation.php(17): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Evaluation->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 20:11:28 --> Class "Com\Tecnick\Pdf\ClassObjects" not found
+in APPPATH\ThirdParty\tcpdf\Tcpdf.php on line 34.
+ 1 APPPATH\Controllers\Evaluation.php(17): require_once()
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Evaluation->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 20:12:41 --> Class "Com\Tecnick\Pdf\ClassObjects" not found
+in APPPATH\ThirdParty\tcpdf\Tcpdf.php on line 34.
+ 1 APPPATH\Controllers\Evaluation.php(17): require_once()
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Evaluation->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 20:21:02 --> require_once(C:\xampp\htdocs\dostx-registration\handa\app\ThirdParty/tcpdf/tcpdf.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Evaluation.php on line 17.
+ 1 APPPATH\Controllers\Evaluation.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty/tcpdf/tcpdf.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Controllers\\Evaluation.php', 17)
+ 2 APPPATH\Controllers\Evaluation.php(17): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Evaluation->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:24:19 --> Class "Com\Tecnick\Pdf\Tcpdf" not found
+in APPPATH\Controllers\Certificates.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:24:59 --> Class "App\ThirdParty\FPDF" not found
+in APPPATH\Controllers\Certificates.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:27:58 --> Call to undefined method App\ThirdParty\FPDF::setSourceFile()
+in APPPATH\Controllers\Certificates.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:28:56 --> include(C:\xampp\htdocs\dostx-registration\handa\app\ThirdParty/font/helveticab.php): Failed to open stream: No such file or directory
+in APPPATH\ThirdParty\fpdf.php on line 1140.
+ 1 APPPATH\ThirdParty\fpdf.php(1140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty/font/helveticab.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty\\fpdf.php', 1140)
+ 2 APPPATH\ThirdParty\fpdf.php(1140): include()
+ 3 APPPATH\ThirdParty\fpdf.php(464): App\ThirdParty\FPDF->_loadfont('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty/font/helveticab.php')
+ 4 APPPATH\ThirdParty\fpdf.php(513): App\ThirdParty\FPDF->AddFont('helvetica', 'B')
+ 5 APPPATH\Controllers\Certificates.php(21): App\ThirdParty\FPDF->SetFont('helvetica', 'B', 16)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:29:02 --> include(C:\xampp\htdocs\dostx-registration\handa\app\ThirdParty/font/helveticab.php): Failed to open stream: No such file or directory
+in APPPATH\ThirdParty\fpdf.php on line 1140.
+ 1 APPPATH\ThirdParty\fpdf.php(1140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty/font/helveticab.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty\\fpdf.php', 1140)
+ 2 APPPATH\ThirdParty\fpdf.php(1140): include()
+ 3 APPPATH\ThirdParty\fpdf.php(464): App\ThirdParty\FPDF->_loadfont('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty/font/helveticab.php')
+ 4 APPPATH\ThirdParty\fpdf.php(513): App\ThirdParty\FPDF->AddFont('helvetica', 'B')
+ 5 APPPATH\Controllers\Certificates.php(21): App\ThirdParty\FPDF->SetFont('helvetica', 'B', 16)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:31:13 --> Call to undefined method App\ThirdParty\FPDF::setSourceFile()
+in APPPATH\Controllers\Certificates.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:34:15 --> Class "FPDF" not found
+in APPPATH\Controllers\Certificates.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 20:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:43:02 --> Class "FPDF" not found
+in APPPATH\ThirdParty\fpdi2\src\FpdfTpl.php on line 18.
+ 1 APPPATH\ThirdParty\fpdi2\src\autoload.php(18): require_once()
+ 2 APPPATH\ThirdParty\fpdi2\src\Fpdi.php(23): App\Controllers\Certificates::{closure}('setasign\\Fpdi\\FpdfTpl')
+ 3 APPPATH\ThirdParty\fpdi2\src\autoload.php(18): require_once('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty\\fpdi2\\src\\Fpdi.php')
+ 4 APPPATH\Controllers\Certificates.php(24): App\Controllers\Certificates::{closure}('setasign\\Fpdi\\Fpdi')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:43:13 --> Class "FPDF" not found
+in APPPATH\ThirdParty\fpdi2\src\FpdfTpl.php on line 18.
+ 1 APPPATH\ThirdParty\fpdi2\src\autoload.php(18): require_once()
+ 2 APPPATH\ThirdParty\fpdi2\src\Fpdi.php(23): App\Controllers\Certificates::{closure}('setasign\\Fpdi\\FpdfTpl')
+ 3 APPPATH\ThirdParty\fpdi2\src\autoload.php(18): require_once('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty\\fpdi2\\src\\Fpdi.php')
+ 4 APPPATH\Controllers\Certificates.php(24): App\Controllers\Certificates::{closure}('setasign\\Fpdi\\Fpdi')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:43:19 --> Class "FPDF" not found
+in APPPATH\ThirdParty\fpdi2\src\FpdfTpl.php on line 18.
+ 1 APPPATH\ThirdParty\fpdi2\src\autoload.php(18): require_once()
+ 2 APPPATH\ThirdParty\fpdi2\src\Fpdi.php(23): App\Controllers\Certificates::{closure}('setasign\\Fpdi\\FpdfTpl')
+ 3 APPPATH\ThirdParty\fpdi2\src\autoload.php(18): require_once('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty\\fpdi2\\src\\Fpdi.php')
+ 4 APPPATH\Controllers\Certificates.php(24): App\Controllers\Certificates::{closure}('setasign\\Fpdi\\Fpdi')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:44:01 --> Class "App\Controllers\FPDF" not found
+in APPPATH\Controllers\Certificates.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:44:08 --> Class "FPDF" not found
+in APPPATH\ThirdParty\fpdi2\src\FpdfTpl.php on line 18.
+ 1 APPPATH\ThirdParty\fpdi2\src\autoload.php(18): require_once()
+ 2 APPPATH\ThirdParty\fpdi2\src\Fpdi.php(23): App\Controllers\Certificates::{closure}('setasign\\Fpdi\\FpdfTpl')
+ 3 APPPATH\ThirdParty\fpdi2\src\autoload.php(18): require_once('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty\\fpdi2\\src\\Fpdi.php')
+ 4 APPPATH\Controllers\Certificates.php(22): App\Controllers\Certificates::{closure}('setasign\\Fpdi\\Fpdi')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:49:20 --> Class "FPDF" not found
+in APPPATH\ThirdParty\fpdi2\src\FpdfTpl.php on line 18.
+ 1 APPPATH\ThirdParty\fpdi2\src\autoload.php(18): require_once()
+ 2 APPPATH\ThirdParty\fpdi2\src\Fpdi.php(23): App\Controllers\Certificates::{closure}('setasign\\Fpdi\\FpdfTpl')
+ 3 APPPATH\ThirdParty\fpdi2\src\autoload.php(18): require_once('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty\\fpdi2\\src\\Fpdi.php')
+ 4 APPPATH\Libraries\PdfGenerator.php(13): App\Controllers\Certificates::{closure}('setasign\\Fpdi\\Fpdi')
+ 5 APPPATH\Controllers\Certificates.php(22): App\Libraries\PdfGenerator->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:49:30 --> Class "FPDF" not found
+in APPPATH\ThirdParty\fpdi2\src\FpdfTpl.php on line 18.
+ 1 APPPATH\ThirdParty\fpdi2\src\autoload.php(18): require_once()
+ 2 APPPATH\ThirdParty\fpdi2\src\Fpdi.php(23): App\Controllers\Certificates::{closure}('setasign\\Fpdi\\FpdfTpl')
+ 3 APPPATH\ThirdParty\fpdi2\src\autoload.php(18): require_once('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty\\fpdi2\\src\\Fpdi.php')
+ 4 APPPATH\Libraries\PdfGenerator.php(13): App\Controllers\Certificates::{closure}('setasign\\Fpdi\\Fpdi')
+ 5 APPPATH\Controllers\Certificates.php(22): App\Libraries\PdfGenerator->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:49:31 --> Class "FPDF" not found
+in APPPATH\ThirdParty\fpdi2\src\FpdfTpl.php on line 18.
+ 1 APPPATH\ThirdParty\fpdi2\src\autoload.php(18): require_once()
+ 2 APPPATH\ThirdParty\fpdi2\src\Fpdi.php(23): App\Controllers\Certificates::{closure}('setasign\\Fpdi\\FpdfTpl')
+ 3 APPPATH\ThirdParty\fpdi2\src\autoload.php(18): require_once('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty\\fpdi2\\src\\Fpdi.php')
+ 4 APPPATH\Libraries\PdfGenerator.php(13): App\Controllers\Certificates::{closure}('setasign\\Fpdi\\Fpdi')
+ 5 APPPATH\Controllers\Certificates.php(22): App\Libraries\PdfGenerator->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 20:50:06 --> require_once(C:\xampp\htdocs\dostx-registration\handa\app\ThirdParty/fpdf.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Certificates.php on line 15.
+ 1 APPPATH\Controllers\Certificates.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty/fpdf.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Controllers\\Certificates.php', 15)
+ 2 APPPATH\Controllers\Certificates.php(15): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Certificates->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 20:50:07 --> require_once(C:\xampp\htdocs\dostx-registration\handa\app\ThirdParty/fpdf.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Certificates.php on line 15.
+ 1 APPPATH\Controllers\Certificates.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\ThirdParty/fpdf.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Controllers\\Certificates.php', 15)
+ 2 APPPATH\Controllers\Certificates.php(15): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Certificates->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:50:25 --> Class "setasign\Fpdi\Fpdi" not found
+in APPPATH\Libraries\PdfGenerator.php on line 13.
+ 1 APPPATH\Controllers\Certificates.php(19): App\Libraries\PdfGenerator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:50:50 --> Class "setasign\Fpdi\Fpdi" not found
+in APPPATH\Libraries\PdfGenerator.php on line 13.
+ 1 APPPATH\Controllers\Certificates.php(19): App\Libraries\PdfGenerator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:51:01 --> Class "App\Libraries\Fpdi" not found
+in APPPATH\Libraries\PdfGenerator.php on line 12.
+ 1 APPPATH\Controllers\Certificates.php(19): App\Libraries\PdfGenerator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:51:08 --> Class "setasign\Fpdi\Fpdi" not found
+in APPPATH\Libraries\PdfGenerator.php on line 13.
+ 1 APPPATH\Controllers\Certificates.php(19): App\Libraries\PdfGenerator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:52:17 --> Class "setasign\Fpdi\Fpdi" not found
+in APPPATH\Libraries\PdfGenerator.php on line 13.
+ 1 APPPATH\Controllers\Certificates.php(19): App\Libraries\PdfGenerator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:52:55 --> Class "setasign\Fpdi\Fpdi" not found
+in APPPATH\Libraries\PdfGenerator.php on line 13.
+ 1 APPPATH\Controllers\Certificates.php(19): App\Libraries\PdfGenerator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:52:55 --> Class "setasign\Fpdi\Fpdi" not found
+in APPPATH\Libraries\PdfGenerator.php on line 13.
+ 1 APPPATH\Controllers\Certificates.php(19): App\Libraries\PdfGenerator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:53:28 --> require_once(fpdf.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\PdfGenerator.php on line 13.
+ 1 APPPATH\Libraries\PdfGenerator.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(fpdf.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\PdfGenerator.php', 13)
+ 2 APPPATH\Libraries\PdfGenerator.php(13): require_once()
+ 3 APPPATH\Controllers\Certificates.php(19): App\Libraries\PdfGenerator->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:54:00 --> require_once(fpdi/src/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\PdfGenerator.php on line 12.
+ 1 APPPATH\Libraries\PdfGenerator.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(fpdi/src/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\PdfGenerator.php', 12)
+ 2 APPPATH\Libraries\PdfGenerator.php(12): require_once()
+ 3 APPPATH\Controllers\Certificates.php(19): App\Libraries\PdfGenerator->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:54:14 --> Class "App\Libraries\Fpdi" not found
+in APPPATH\Libraries\PdfGenerator.php on line 13.
+ 1 APPPATH\Controllers\Certificates.php(19): App\Libraries\PdfGenerator->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:54:22 --> Call to a member function AddPage() on null
+in APPPATH\Libraries\PdfGenerator.php on line 19.
+ 1 APPPATH\Controllers\Certificates.php(20): App\Libraries\PdfGenerator->generatePdf()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:54:38 --> Undefined variable $pdf
+in APPPATH\Libraries\PdfGenerator.php on line 18.
+ 1 APPPATH\Libraries\PdfGenerator.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pdf', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\PdfGenerator.php', 18)
+ 2 APPPATH\Controllers\Certificates.php(20): App\Libraries\PdfGenerator->generatePdf()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:54:41 --> Undefined constant "App\Libraries\pdf"
+in APPPATH\Libraries\PdfGenerator.php on line 18.
+ 1 APPPATH\Controllers\Certificates.php(20): App\Libraries\PdfGenerator->generatePdf()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 20:57:06 --> require_once(fpdi2/src/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Certificates.php on line 15.
+ 1 APPPATH\Controllers\Certificates.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(fpdi2/src/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Controllers\\Certificates.php', 15)
+ 2 APPPATH\Controllers\Certificates.php(15): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Certificates->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:57:58 --> Class "FPDF" not found
+in APPPATH\Libraries\fpdi2\src\FpdfTpl.php on line 18.
+ 1 APPPATH\Libraries\fpdi2\src\autoload.php(18): require_once()
+ 2 APPPATH\Libraries\fpdi2\src\Fpdi.php(23): App\Controllers\Certificates::{closure}('setasign\\Fpdi\\FpdfTpl')
+ 3 APPPATH\Libraries\fpdi2\src\autoload.php(18): require_once('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\fpdi2\\src\\Fpdi.php')
+ 4 APPPATH\Controllers\Certificates.php(24): App\Controllers\Certificates::{closure}('setasign\\Fpdi\\Fpdi')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 20:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 20:59:30 --> Class "setasign\Fpdi\Fpdi" not found
+in APPPATH\Controllers\Certificates.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:00:01 --> Class "Pdf_generator" not found
+in APPPATH\Controllers\Certificates.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:00:20 --> Class "Pdf_generator" not found
+in APPPATH\Controllers\Certificates.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:04:27 --> Class "Pdf_generator" not found
+in APPPATH\Controllers\Certificates.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:04:33 --> Class "App\Controllers\FPDF" not found
+in APPPATH\Controllers\Certificates.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:04:41 --> Class "FPDF" not found
+in APPPATH\Controllers\Certificates.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:05:08 --> Class "FPDF" not found
+in APPPATH\Controllers\Certificates.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:05:11 --> Class "App\Libraries\FPDF" not found
+in APPPATH\Controllers\Certificates.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:05:39 --> Class "App\Libraries\FPDF" not found
+in APPPATH\Controllers\Certificates.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 21:11:14 --> require(C:\xampp\htdocs\dostx-registration\handa\app\Libraries/fpdi/fpdi.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Certificates.php on line 8.
+ 1 APPPATH\Controllers\Certificates.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries/fpdi/fpdi.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Controllers\\Certificates.php', 8)
+ 2 APPPATH\Controllers\Certificates.php(8): require()
+ 3 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Controllers\\Certificates.php')
+ 4 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('certificates', 'get')
+ 5 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('certificates')
+ 6 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('certificates')
+ 7 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 21:11:36 --> Class "setasign\Fpdi\FpdfTpl" not found
+in APPPATH\Libraries\fpdi\src\Fpdi.php on line 23.
+ 1 APPPATH\Controllers\Certificates.php(8): require()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Controllers\\Certificates.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('certificates', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('certificates')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('certificates')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 21:12:15 --> Class "setasign\Fpdi\FpdfTpl" not found
+in APPPATH\Libraries\fpdi\src\Fpdi.php on line 23.
+ 1 APPPATH\Controllers\Certificates.php(8): require()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Controllers\\Certificates.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('certificates', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('certificates')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('certificates')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 21:12:20 --> Class "setasign\Fpdi\FpdfTpl" not found
+in APPPATH\Libraries\fpdi\src\Fpdi.php on line 23.
+ 1 APPPATH\Controllers\Certificates.php(8): require()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Controllers\\Certificates.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('certificates', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('certificates')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('certificates')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:13:19 --> fopen(C:\xampp\htdocs\dostx-registration\handa\app\path_to_existing_pdf.pdf): Failed to open stream: No such file or directory
+in APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\path_to_existing_pdf.pdf): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\fpdi\\src\\PdfParser\\StreamReader.php', 42)
+ 2 APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php(42): fopen('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\path_to_existing_pdf.pdf', 'rb')
+ 3 APPPATH\Libraries\fpdi\src\FpdiTrait.php(177): setasign\Fpdi\PdfParser\StreamReader::createByFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\path_to_existing_pdf.pdf')
+ 4 APPPATH\Libraries\fpdi\src\FpdiTrait.php(233): setasign\Fpdi\Tcpdf\Fpdi->getPdfReaderId('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\path_to_existing_pdf.pdf', [])
+ 5 APPPATH\Libraries\fpdi\src\FpdiTrait.php(216): setasign\Fpdi\Tcpdf\Fpdi->setSourceFileWithParserParams('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\path_to_existing_pdf.pdf')
+ 6 APPPATH\Controllers\Certificates.php(35): setasign\Fpdi\Tcpdf\Fpdi->setSourceFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\path_to_existing_pdf.pdf')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:14:02 --> Cannot access protected property TCPDF::$pages
+in APPPATH\Controllers\Certificates.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:14:27 --> fopen(): Remote host file access not supported, file://example.pdf
+in APPPATH\Libraries\tcpdf\include\tcpdf_static.php on line 1811.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(): Remote host file access not supported, file://example.pdf', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\tcpdf\\include\\tcpdf_static.php', 1811)
+ 2 APPPATH\Libraries\tcpdf\include\tcpdf_static.php(1811): fopen('file://example.pdf', 'wb')
+ 3 APPPATH\Libraries\tcpdf\tcpdf.php(7769): TCPDF_STATIC::fopenLocal('file://example.pdf', 'wb')
+ 4 APPPATH\Controllers\Certificates.php(50): TCPDF->Output('example.pdf', 'F')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:14:42 --> fopen(): Remote host file access not supported, file://example.pdf
+in APPPATH\Libraries\tcpdf\include\tcpdf_static.php on line 1811.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(): Remote host file access not supported, file://example.pdf', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\tcpdf\\include\\tcpdf_static.php', 1811)
+ 2 APPPATH\Libraries\tcpdf\include\tcpdf_static.php(1811): fopen('file://example.pdf', 'wb')
+ 3 APPPATH\Libraries\tcpdf\tcpdf.php(7769): TCPDF_STATIC::fopenLocal('file://example.pdf', 'wb')
+ 4 APPPATH\Controllers\Certificates.php(50): TCPDF->Output('example.pdf', 'F')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:15:36 --> fopen(C:\xampp\htdocs\dostx-registration\handa\app\assets/cert-templates/pagsubay.pdf): Failed to open stream: No such file or directory
+in APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\fpdi\\src\\PdfParser\\StreamReader.php', 42)
+ 2 APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php(42): fopen('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf', 'rb')
+ 3 APPPATH\Libraries\fpdi\src\FpdiTrait.php(177): setasign\Fpdi\PdfParser\StreamReader::createByFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf')
+ 4 APPPATH\Libraries\fpdi\src\FpdiTrait.php(233): setasign\Fpdi\Tcpdf\Fpdi->getPdfReaderId('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf', [])
+ 5 APPPATH\Libraries\fpdi\src\FpdiTrait.php(216): setasign\Fpdi\Tcpdf\Fpdi->setSourceFileWithParserParams('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf')
+ 6 APPPATH\Controllers\Certificates.php(35): setasign\Fpdi\Tcpdf\Fpdi->setSourceFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:16:04 --> fopen(C:\xampp\htdocs\dostx-registration\handa\app\assets/cert-templates/pagsubay.pdf): Failed to open stream: No such file or directory
+in APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\fpdi\\src\\PdfParser\\StreamReader.php', 42)
+ 2 APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php(42): fopen('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf', 'rb')
+ 3 APPPATH\Libraries\fpdi\src\FpdiTrait.php(177): setasign\Fpdi\PdfParser\StreamReader::createByFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf')
+ 4 APPPATH\Libraries\fpdi\src\FpdiTrait.php(233): setasign\Fpdi\Tcpdf\Fpdi->getPdfReaderId('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf', [])
+ 5 APPPATH\Libraries\fpdi\src\FpdiTrait.php(216): setasign\Fpdi\Tcpdf\Fpdi->setSourceFileWithParserParams('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf')
+ 6 APPPATH\Controllers\Certificates.php(35): setasign\Fpdi\Tcpdf\Fpdi->setSourceFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:16:23 --> fopen(C:\xampp\htdocs\dostx-registration\handa\app\assets/cert-templates/pagsubay.pdf): Failed to open stream: No such file or directory
+in APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\fpdi\\src\\PdfParser\\StreamReader.php', 42)
+ 2 APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php(42): fopen('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf', 'rb')
+ 3 APPPATH\Libraries\fpdi\src\FpdiTrait.php(177): setasign\Fpdi\PdfParser\StreamReader::createByFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf')
+ 4 APPPATH\Libraries\fpdi\src\FpdiTrait.php(233): setasign\Fpdi\Tcpdf\Fpdi->getPdfReaderId('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf', [])
+ 5 APPPATH\Libraries\fpdi\src\FpdiTrait.php(216): setasign\Fpdi\Tcpdf\Fpdi->setSourceFileWithParserParams('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf')
+ 6 APPPATH\Controllers\Certificates.php(35): setasign\Fpdi\Tcpdf\Fpdi->setSourceFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:16:26 --> fopen(C:\xampp\htdocs\dostx-registration\handa\app\assets/cert-templates/pagsubay.pdf): Failed to open stream: No such file or directory
+in APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\fpdi\\src\\PdfParser\\StreamReader.php', 42)
+ 2 APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php(42): fopen('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf', 'rb')
+ 3 APPPATH\Libraries\fpdi\src\FpdiTrait.php(177): setasign\Fpdi\PdfParser\StreamReader::createByFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf')
+ 4 APPPATH\Libraries\fpdi\src\FpdiTrait.php(233): setasign\Fpdi\Tcpdf\Fpdi->getPdfReaderId('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf', [])
+ 5 APPPATH\Libraries\fpdi\src\FpdiTrait.php(216): setasign\Fpdi\Tcpdf\Fpdi->setSourceFileWithParserParams('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf')
+ 6 APPPATH\Controllers\Certificates.php(35): setasign\Fpdi\Tcpdf\Fpdi->setSourceFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\assets/cert-templates/pagsubay.pdf')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:17:41 --> Class "FPDF" not found
+in APPPATH\Libraries\fpdi\src\FpdfTpl.php on line 18.
+ 1 APPPATH\Libraries\fpdi\src\autoload.php(18): require_once()
+ 2 APPPATH\Libraries\fpdi\src\Fpdi.php(23): CodeIgniter\Router\AutoRouter::{closure}('setasign\\Fpdi\\FpdfTpl')
+ 3 APPPATH\Libraries\fpdi\src\autoload.php(18): require_once('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\fpdi\\src\\Fpdi.php')
+ 4 APPPATH\Controllers\Certificates.php(24): CodeIgniter\Router\AutoRouter::{closure}('setasign\\Fpdi\\Fpdi')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:17:53 --> Call to undefined method TCPDF::setSourceFile()
+in APPPATH\Controllers\Certificates.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:18:29 --> fopen(file:///path/to/save/example.pdf): Failed to open stream: No such file or directory
+in APPPATH\Libraries\tcpdf\include\tcpdf_static.php on line 1811.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(file:///path/to/save/example.pdf): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\tcpdf\\include\\tcpdf_static.php', 1811)
+ 2 APPPATH\Libraries\tcpdf\include\tcpdf_static.php(1811): fopen('file:///path/to/save/example.pdf', 'wb')
+ 3 APPPATH\Libraries\tcpdf\tcpdf.php(7769): TCPDF_STATIC::fopenLocal('file:///path/to/save/example.pdf', 'wb')
+ 4 APPPATH\Controllers\Certificates.php(55): TCPDF->Output('/path/to/save/example.pdf', 'F')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:19:06 --> Undefined variable $pdfWithText
+in APPPATH\Controllers\Certificates.php on line 36.
+ 1 APPPATH\Controllers\Certificates.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pdfWithText', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Controllers\\Certificates.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:29:25 --> Call to protected method TCPDF::SetPageFormat() from scope App\Controllers\Certificates
+in APPPATH\Controllers\Certificates.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:32:04 --> fopen(C:\xampp\htdocs\dostx-registration\handa\app\path_to_existing_pdf.pdf): Failed to open stream: No such file or directory
+in APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\path_to_existing_pdf.pdf): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Libraries\\fpdi\\src\\PdfParser\\StreamReader.php', 42)
+ 2 APPPATH\Libraries\fpdi\src\PdfParser\StreamReader.php(42): fopen('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\path_to_existing_pdf.pdf', 'rb')
+ 3 APPPATH\Libraries\fpdi\src\FpdiTrait.php(177): setasign\Fpdi\PdfParser\StreamReader::createByFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\path_to_existing_pdf.pdf')
+ 4 APPPATH\Libraries\fpdi\src\FpdiTrait.php(233): setasign\Fpdi\Tcpdf\Fpdi->getPdfReaderId('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\path_to_existing_pdf.pdf', [])
+ 5 APPPATH\Libraries\fpdi\src\FpdiTrait.php(216): setasign\Fpdi\Tcpdf\Fpdi->setSourceFileWithParserParams('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\path_to_existing_pdf.pdf')
+ 6 APPPATH\Controllers\Certificates.php(30): setasign\Fpdi\Tcpdf\Fpdi->setSourceFile('C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\path_to_existing_pdf.pdf')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:32:39 --> Call to undefined method TCPDF::useTemplate()
+in APPPATH\Controllers\Certificates.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:38:04 --> Undefined variable $text
+in APPPATH\Controllers\Certificates.php on line 37.
+ 1 APPPATH\Controllers\Certificates.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $text', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Controllers\\Certificates.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 21:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 21:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 21:59:06 --> Call to undefined method setasign\Fpdi\Tcpdf\Fpdi::addTTFfont()
+in APPPATH\Controllers\Certificates.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 22:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 22:07:09 --> Call to undefined method TCPDF::addTTFfont()
+in APPPATH\Controllers\Certificates.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 22:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 22:31:12 --> Undefined variable $fontFilePath
+in APPPATH\Controllers\Certificates.php on line 39.
+ 1 APPPATH\Controllers\Certificates.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fontFilePath', 'C:\\xampp\\htdocs\\dostx-registration\\handa\\app\\Controllers\\Certificates.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 22:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 22:31:57 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Certificates.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 22:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 22:32:33 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Certificates.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 22:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-25 22:34:09 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Certificates.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Certificates->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificates))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(82): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-25 22:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-25 22:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
