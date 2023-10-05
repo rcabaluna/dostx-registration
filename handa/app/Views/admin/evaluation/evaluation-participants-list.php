@@ -65,8 +65,8 @@
                                 <td><small><?=$evaluationRow['agency_name']?></small></td>
                                 <td><small><?=$evaluationRow['email']?></small></td>
                                 <td><small><?=$evaluationRow['sex']?></small></td>
-                                <td><small><?=$attendanceRow['regDesc']?></small></td>
-                                <td><small><?=$attendanceRow['provDesc']?></small></td>
+                                <td><small><?=$evaluationRow['regDesc']?></small></td>
+                                <td><small><?=$evaluationRow['provDesc']?></small></td>
                                 <td><small><?=$evaluationRow['privileges']?></small></td>
                                 <td><small><?=$evaluationRow['sourceinfo']?></small></td>
                                 <td class="text-right"><?=$evaluationRow['responsiveness']?></td>
