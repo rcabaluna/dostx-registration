@@ -48,7 +48,7 @@ class Home extends BaseController
             }
         }
 
-        $data['pagetitle'] = "HANDA 2023 - Login";
+        $data['pagetitle'] = "RSTW 2023 Mindanao Mindanao - Login";
         return view('login',$data);
     }
 

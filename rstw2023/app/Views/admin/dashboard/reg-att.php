@@ -4,7 +4,7 @@
     <div class="card">
         <div class="card-body">
             <h4></h4>
-            <h4>HANDA Pilipinas 2023 - Forums Participants' Statistics</h4>
+            <h4>RSTW 2023 Mindanao - Forums Participants' Statistics</h4>
             <div class="m-t-25">
                 <table class="table" id="no-participants-table">
                     <thead>

@@ -46,7 +46,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                <button type="button" onclick="save_attendance()" class="btn btn-danger">Confirm Attendance</button>
+                <button type="button" onclick="save_attendance()" class="btn btn-success">Confirm Attendance</button>
             </div>
           </div>
       </div>

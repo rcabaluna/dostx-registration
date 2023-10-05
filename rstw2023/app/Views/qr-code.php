@@ -15,23 +15,29 @@
                                     <img class="img-fluid" src="<?=base_url('assets/images/logo/handa-logo-black.png')?>">
                                 </div>
                                 <div class="mt-3 col-12">
-                                <p class="text-dark">
-                                Thank you for registering for HANDA Pilipinas 2023 Mindanao Leg! Your participation is invaluable in driving the success of this event. We're excited to have you join us in promoting sustainable communities. Just keep updated on the event details and receive important announcements. Your dedication is inspiring positive change!</p>
-                                    <p class="text-center text-dark">Please download the QR code and present it to the registration booth.</p>
+                                <h1 class="text-center my-3">Thank You for Registering!</h1>
+                                <p>
+                                We are excited to see you celebrate Science and Technology Week with us.</p>
+                                <p>For the complete Schedule of Activities, please visit: <a href="https://simplebooklet.com/rstw2023activities">simplebooklet.com/rstw2023activities</a></p>
+                                <p>For concerns or inquiries, feel free to message us at Facebook <a href="https://www.facebook.com/DOST10Ph">DOST Regional Office 10</a>.</p>
+                                <p>Have a great day, ka-Agham!</p>
+
+                                <hr>
+                                    <p class="text-center">Please download the QR code and present it to the registration booth.</p>
                                 </div>
                                 <div class="col-md-12">
                                     <img class="img-fluid mx-auto d-block" src="<?=base_url('uploads/qr/'.$userid)?>.png">
-                                    <p class="text-center font-weight-semibold text-dark"><?=$userid?></p>
+                                    <p class="text-center font-weight-semibold"><?=$userid?></p>
                                 </div>
                                 <div class="col-md-12 mt-3 text-center">
-                                    <a class="btn btn-danger custom-class" download="<?=$userid?>.png" href="<?=base_url('uploads/qr/'.$userid)?>.png" target="_blank">
+                                    <a class="btn btn-success custom-class" download="<?=$userid?>.png" href="<?=base_url('uploads/qr/'.$userid)?>.png" target="_blank">
                                         Download
                                     </a>
                                 </div>
                                 <?php if (session()->get('logged_in')) {
                                     ?>
                                     <div class="col-md-12 mt-3 text-center">
-                                        <a class="text-danger" href="<?php if(isset($_SESSION['previous_url'])) {
+                                        <a class="text-success" href="<?php if(isset($_SESSION['previous_url'])) {
                                             echo $_SESSION['previous_url'];
                                         }else{ echo "#"; }?>">
                                             <u>Register Another</u>

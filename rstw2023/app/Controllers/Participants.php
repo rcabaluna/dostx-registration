@@ -22,7 +22,7 @@ class Participants extends BaseController
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
         }
 
-        $data['pagetitle'] = "HANDA Pilipinas 2023 - Participants List";
+        $data['pagetitle'] = "RSTW 2023 Mindanao Mindanao - Participants List";
         $param['event'] = $this->request->getGet('event');
         $data['events'] = $this->participantsModel->get_all_data('tblevents');
         $data['participants'] = $this->participantsModel->get_participants_list('tblparticipants',$param);

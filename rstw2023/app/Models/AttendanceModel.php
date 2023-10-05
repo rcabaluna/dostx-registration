@@ -27,9 +27,6 @@ class AttendanceModel extends Model
 
         $builder = $this->db->table($tablename);
         $builder->select('*');
-        $builder->join('tblsector', 'tblsector.sectorid = tblparticipants.sector');
-        $builder->join('refregion', 'refregion.regCode = tblparticipants.address_region');
-        $builder->join('refprovince', 'refprovince.provCode = tblparticipants.address_province');
         $builder->join('tblevents', 'tblevents.shorthand = tblparticipants.event');
         $builder->where($param);
         $query   = $builder->get();
@@ -60,9 +57,6 @@ class AttendanceModel extends Model
         $builder = $this->db->table($tablename);
         $builder->select('*,tblattendance.date_registered AS attendance_date');
         $builder->join('tblparticipants', 'tblparticipants.regnumber = tblattendance.regnumber');
-        $builder->join('tblsector', 'tblsector.sectorid = tblparticipants.sector');
-        $builder->join('refregion', 'refregion.regCode = tblparticipants.address_region');
-        $builder->join('refprovince', 'refprovince.provCode = tblparticipants.address_province');
         $builder->join('tblevents', 'tblevents.shorthand = tblattendance.event');
 
         if ($param['event'] != 'all' && $param['event'] != '') {
@@ -86,9 +80,6 @@ class AttendanceModel extends Model
         $builder = $this->db->table($tablename);
         $builder->select('tblparticipants.*,tblattendance.date_registered AS date_registered,tblevents.shorthand,refregion.regDesc,refprovince.provDesc,tblsector.sectorname,tblevents.name');
         $builder->join('tblparticipants', 'tblparticipants.regnumber = tblattendance.regnumber');
-        $builder->join('tblsector', 'tblsector.sectorid = tblparticipants.sector');
-        $builder->join('refregion', 'refregion.regCode = tblparticipants.address_region');
-        $builder->join('refprovince', 'refprovince.provCode = tblparticipants.address_province');
         $builder->join('tblevents', 'tblevents.shorthand = tblparticipants.event');
         $query = $builder->orderBy('tblattendance.date_registered','DESC');
         $query = $builder->limit(5);
@@ -101,9 +92,6 @@ class AttendanceModel extends Model
 
         $builder = $this->db->table($tablename);
         $builder->select('*');
-        $builder->join('tblsector', 'tblsector.sectorid = tblparticipants.sector');
-        $builder->join('refregion', 'refregion.regCode = tblparticipants.address_region');
-        $builder->join('refprovince', 'refprovince.provCode = tblparticipants.address_province');
         $builder->join('tblevents', 'tblevents.shorthand = tblparticipants.event');
         $builder->like('lastname',$param['lastname'],'both');
         $builder->like('firstname',$param['firstname'],'both');
@@ -134,7 +122,7 @@ class AttendanceModel extends Model
     public function replicate_participants_data($tablename,$param)
     {
         $builder = $this->db->table('tblparticipants');
-        $columns = 'regnumber, title, lastname, firstname, middle_initial, suffix, contactno, email, sex, position, sector, address_region, address_province, agency_name, privileges, event';
+        $columns = 'regnumber, title, lastname, firstname, middle_initial, suffix, contactno, email, sex, position, agency_name, agency_address, privileges, event';
 
         $builder->select($columns);
         $builder->where('regnumber', $param['regnumber']); // Filter based on the regnumber condition
