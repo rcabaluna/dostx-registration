@@ -60,7 +60,15 @@
                         </div>
                     </div>
                     <div id="evaluation-form-container">
-                        <form id="evaluation-form">
+                        <?php if($eventx['eval_expire'] == 1){ ?>
+                            <h3 class="text-center mb-3">Evaluation for This Event Is Now Closed</h3>
+                            <p>Thank you for your participation in <b><?=$eventx['name'];?></b>. We appreciate your valuable feedback and insights. The evaluation for this event is now closed.</p>
+
+                                <p>If you have any questions or need further assistance, please feel free to contact at <a href="mailto:handapilipinas@region10.dost.gov.ph">email</a>.</p>
+
+                            <p>Stay tuned for future events and opportunities to engage with us!</p>
+                        <?php }else{ ?>
+                            <form id="evaluation-form">
                             <div class="form-row" id="personal-info-form">
                                 <h3>Personal Information</h3>
                                 <div class="form-group col-md-12">
@@ -464,6 +472,7 @@
                                 </div>
                             </div>
                         </form>
+                        <?php } ?>
                     </div>
                 </div>
             </div>
