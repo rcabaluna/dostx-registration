@@ -20,9 +20,6 @@ class Home extends BaseController
 
     public function login()
     {
-
-        var_dump(1);
-        exit();
         if ($_POST) {
             $check = $this->homeModel->get_data('tbluser',array('username' => $this->request->getPost('username')));
 
