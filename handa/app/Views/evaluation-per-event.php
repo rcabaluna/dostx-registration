@@ -64,7 +64,7 @@
                             <h3 class="text-center mb-3">Evaluation for This Event Is Now Closed</h3>
                             <p>Thank you for your participation in <b><?=$eventx['name'];?></b>. We appreciate your valuable feedback and insights. The evaluation for this event is now closed.</p>
 
-                                <p>If you have any questions or need further assistance, please feel free to contact at <a href="mailto:handapilipinas@region10.dost.gov.ph">email</a>.</p>
+                                <p>If you have any questions or need further assistance, please feel free to contact at <a href="mailto:handapilipinas@region10.dost.gov.ph">handapilipinas@region10.dost.gov.ph</a>.</p>
 
                             <p>Stay tuned for future events and opportunities to engage with us!</p>
                         <?php }else{ ?>
