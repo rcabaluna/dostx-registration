@@ -33,8 +33,8 @@
                             <th>Sex</th>
                             <th>Address</th>
                             <th>Agency Name</th>
-                            <th>Sector/Affiliation</th>
                             <th>Position</th>
+                            <th>Sector/Affiliation</th>
                             <th>Event</th>
                             <th>Privileges</th>
                             <th>Attendance Date</th>
@@ -59,8 +59,8 @@
                             <td><?=$attendanceRow['sex']?></td>
                             <td><small><?=$attendanceRow['regDesc']." - <br>".$attendanceRow['provDesc']?></small></td>
                             <td><?=$attendanceRow['agency_name']?></td>
-                            <td><?=$attendanceRow['sectorname']?></td>
                             <td><?=$attendanceRow['position']?></td>
+                            <td><?=$attendanceRow['sectorname']?></td>
                             <td><small><?=$attendanceRow['name']?></small></td>
                             <td><?=($attendanceRow['privileges']) ? $attendanceRow['privileges'] : '-' ?></td>
                             <td><?=date("M d, Y h:i A",strtotime($attendanceRow['attendance_date'].'+8 hours'))?></td>
