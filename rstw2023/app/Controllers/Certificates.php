@@ -115,7 +115,7 @@ class Certificates extends BaseController
             $pdf->setFont('Helvetica', '', 10);
 
             // FULL NAME
-            $name = ucwords(strtolower($data['fullname']));
+            $name = $data['fullname'];
             $textWidth = $pdf->GetStringWidth($name);
             $x = (245 - $textWidth) / 2;
             $y = 62;
