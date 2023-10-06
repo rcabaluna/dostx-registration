@@ -45,7 +45,7 @@ class Certificates extends BaseController
             $pdf->setFont($fontData, '', 40);
             $pdf->SetTextColor(231,86,36);
 
-            $name = ucwords(strtolower($data['fullname']));
+            $name = $data['fullname'];
             $textWidth = $pdf->GetStringWidth($name);
 
             $x = (297 - $textWidth) / 2;
