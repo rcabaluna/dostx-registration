@@ -31,8 +31,7 @@
                             <th>Affiliation</th>
                             <th>Email Address</th>
                             <th>Gender</th>
-                            <th>Address (Region)</th>
-                            <th>Address (Province)</th>
+                            <th>Address</th>
                             <th>Privileges</th>
                             <th>How did you hear about this event?</th>
                             <th class="text-right" data-toggle="tooltip" data-placement="top" title="I spent an acceptable amount of time to complete this training."><small><span hidden>I spent an acceptable amount of time to complete this training. </span><b>(Responsiveness)</b></small></th>
@@ -65,8 +64,9 @@
                                 <td><small><?=$evaluationRow['agency_name']?></small></td>
                                 <td><small><?=$evaluationRow['email']?></small></td>
                                 <td><small><?=$evaluationRow['sex']?></small></td>
-                                <td><small><?=$evaluationRow['regDesc']?></small></td>
-                                <td><small><?=$evaluationRow['provDesc']?></small></td>
+                                <td>
+                                    <small><?=$evaluationRow['regDesc']." - <br>".$evaluationRow['provDesc']?></small>
+                                </td>
                                 <td><small><?=$evaluationRow['privileges']?></small></td>
                                 <td><small><?=$evaluationRow['sourceinfo']?></small></td>
                                 <td class="text-right"><?=$evaluationRow['responsiveness']?></td>

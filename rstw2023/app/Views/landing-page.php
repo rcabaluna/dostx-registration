@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-        <title>HANDA PILIPINAS 2023</title>
+        <title>RSTW 2023 Mindanao Mindanao</title>
         <meta content="" name="description" />
         <meta content="" name="keywords" />
 
@@ -77,7 +77,7 @@
                 <div class="container position-relative" data-aos="fade-up">
                     <div class="row">
                         <div class="col-lg-6">
-                            <h2>About HANDA Pilipinas 2023</h2>
+                            <h2>About RSTW 2023 Mindanao Mindanao</h2>
                             <p>
                                 Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
                                 est ut optio sequi unde.

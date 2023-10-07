@@ -28,7 +28,6 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-// $routes->get('/handa','Home::index');
 $routes->get('/registration/event/(:any)', 'Registration::event/$1');
 $routes->post('/reg-process', 'Registration::registerProccess');
 $routes->get('/qr-code/(:any)', 'Registration::QRCode');

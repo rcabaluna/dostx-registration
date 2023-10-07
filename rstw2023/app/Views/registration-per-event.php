@@ -29,6 +29,10 @@
                                             <b>Date and Time:</b>
                                             <?=$eventx['datetime'];?>
                                         </h5>
+                                        <h5>
+                                            <b>Description:</b>
+                                        </h5>
+                                        <?=$eventx['description'];?>
                                     </div>
                                     <hr>
                                     <?php if ($eventx['is_closed'] == 0) {
@@ -55,10 +59,8 @@
                                             Contact Number <br />
                                             Email Address <br />
                                             Sex <br />
-                                            Address (Region) <br />
                                             Name of Agency/Institution <br />
                                             Position <br />
-                                            Sector or Affiliation <br />
                                             Previleges
                                         </p>
                                         <p class="text-dark"><b>Access and Correction</b></p>
@@ -67,7 +69,7 @@
                                             personal information the DOST-X holds about you, as well as the right to ask for its correction, if found erroneous, or deletion on reasonable grounds.
                                         </p>
 
-                                        <button class="btn btn-danger float-right custom-class" onclick="show_registration_details()">Next</button>
+                                        <button class="btn btn-success float-right custom-class" onclick="show_registration_details()">Next</button>
                                         <?php
                                     }else{
                                         ?>
@@ -134,17 +136,7 @@
                                 </div>
                             </div>
                             <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="">Contact Number</label>
-                                    <input type="number" class="form-control" name="contactno" placeholder="Contact Number" />
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="inputEmail4">Email Address</label>
-                                    <input type="email" class="form-control" name="email" placeholder="Email Address" />
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-4">
                                     <label for="inputEmail4">Sex <small class="text-danger">*</small></label>
                                     <select class="form-control" name="sex" required>
                                         <option value=""></option>
@@ -152,43 +144,30 @@
                                         <option value="Female">Female</option>
                                     </select>
                                 </div>
-                                <div class="form-group col-md-6">
-                                    <label for="inputEmail4">Address (Region) <small class="text-danger">*</small></label>
-                                    <select class="form-control" name="address_region" id="seladdress-region" onchange="get_provinces_list()" required>
-                                        <option value=""></option>
-                                        <?php foreach ($regions as $regionsRow) {
-                                                            ?>
-                                        <option value="<?=$regionsRow['regCode']?>"><?=$regionsRow['regDesc']?></option>
-                                        <?php
-                                                        }?>
-                                    </select>
+                                <div class="form-group col-md-4">
+                                    <label for="">Contact Number</label>
+                                    <input type="number" class="form-control" name="contactno" placeholder="Contact Number" />
                                 </div>
-                                <div class="form-group col-md-6">
-                                    <label for="inputEmail4">Address (Province) <small class="text-danger">*</small></label>
-                                    <select class="form-control" id="seladdress-provinces" name="address_province" required>
-                                        <option value=""></option>
-                                    </select>
+                                <div class="form-group col-md-4">
+                                    <label for="inputEmail4">Email Address</label>
+                                    <input type="email" class="form-control" name="email" placeholder="Email Address" />
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <label class="form-label">Agency/Unit/LGU</label>
+                                    <label class="form-label">Name of Office / Business Firm</label>
                                     <input type="text" name="agency_name" class="form-control" placeholder="Name of Institution/Agency" />
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label class="form-label">Position</label>
-                                    <input type="text" name="position" class="form-control" placeholder="Position" />
+                                    <label class="form-label">Office / Business Firm Address</label>
+                                    <input type="text" name="agency_address" class="form-control" placeholder="Name of Institution/Agency" />
                                 </div>
+                                
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputEmail4">Sector or Affiliation<small class="text-danger">*</small></label>
-                                    <select class="form-control" name="sector" required>
-                                        <option></option>
-                                        <?php foreach ($sectors as $sectorsRow) { ?>
-                                        <option value="<?=$sectorsRow['sectorid']?>"><?=$sectorsRow['sectorname']?></option>
-                                        <?php } ?>
-                                    </select>
+                                    <label class="form-label">Position</label>
+                                    <input type="text" name="position" class="form-control" placeholder="Position" />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Privileges</label>
@@ -212,7 +191,7 @@
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-12">
-                                    <button type="submit" class="btn btn-danger custom-class float-right">Register</button>
+                                    <button type="submit" class="btn btn-success custom-class float-right">Register</button>
                                 </div>
                             </div>
                         </form>

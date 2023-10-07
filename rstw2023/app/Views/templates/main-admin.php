@@ -109,8 +109,8 @@
     </head>
 
     <body>
-        <div class="app is-danger is-folded">
-            <div class="layout is-side-nav-dark">
+        <div class="app is-success is-folded">
+            <div class="layout">
                 <!-- Header START -->
                 <div class="header">
                     <div class="logo logo-dark">
