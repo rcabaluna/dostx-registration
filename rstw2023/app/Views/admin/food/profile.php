@@ -30,21 +30,27 @@
         </li>
         <li class="row">
             <p class="text-dark col-sm-4 col-4 font-weight-semibold text-dark">
+                <span>Address: </span> 
+            </p>
+            <p class="text-dark col font-weight-semibold"> <?=$regDesc." - ".$provDesc?></p>
+        </li>
+        <li class="row">
+            <p class="text-dark col-sm-4 col-4 font-weight-semibold text-dark">
                 <span>Agency: </span> 
             </p>
             <p class="text-dark col font-weight-semibold"> <?=$agency_name?></p>
         </li>
         <li class="row">
             <p class="text-dark col-sm-4 col-4 font-weight-semibold text-dark">
-                <span>Agency Address: </span> 
-            </p>
-            <p class="text-dark col font-weight-semibold"> <?=$agency_address?></p>
-        </li>
-        <li class="row">
-            <p class="text-dark col-sm-4 col-4 font-weight-semibold text-dark">
                 <span>Position: </span> 
             </p>
             <p class="text-dark col font-weight-semibold"> <?=$position?></p>
+        </li>
+        <li class="row">
+            <p class="text-dark col-sm-4 col-4 font-weight-semibold text-dark">
+                <span>Sector: </span> 
+            </p>
+            <p class="text-dark col font-weight-semibold"> <?=$sectorname?></p>
         </li>
     </ul>
 </div>

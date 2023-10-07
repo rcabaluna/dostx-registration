@@ -17,7 +17,7 @@
                         </div>
                     </div>
                     <hr />
-                    <h4>Attendance (Search Participant) <button class="btn btn-tone btn-success btn-xs" data-toggle="modal" data-target="#search-user-mdl">Search</button></h4>
+                    <h4>Attendance (Search Participant) <button class="btn btn-tone btn-danger btn-xs" data-toggle="modal" data-target="#search-user-mdl">Search</button></h4>
                     <div class="m-t-25">
                         <table class="table table-hover table-condensed" id="participants-table">
                             <thead>
@@ -26,15 +26,15 @@
                                     <th>Registration No.</th>
                                     <th>Title</th>
                                     <th>Name</th>
-                                    <th>Contact No.</th>
-                                    <th>Email</th>
                                     <th>Sex</th>
+                                    <th>Address</th>
                                     <th>Agency Name</th>
-                                    <th>Agency Address</th>
                                     <th>Position</th>
+                                    <th>Sector/Affiliation</th>
                                     <th>Event</th>
                                     <th>Privileges</th>
                                     <th>Date Registered</th>
+                                    <!-- <th>Actions</th> -->
                                 </tr>
                             </thead>
                             <tbody>
@@ -52,17 +52,20 @@
                                         echo $participantsRow['middle_initial'] ? " " . $participantsRow['middle_initial'] : '';
                                         ?>
                                     </td>
-                                    <td><?=$participantsRow['contactno']?></td>
-                                    <td><?=$participantsRow['email']?></td>
-                                    <td><?=$participantsRow['sex']?></td>
-                                    <td><?=$participantsRow['agency_name']?></td>
-                                    <td><?=$participantsRow['agency_address']?></td>
-                                    <td><?=$participantsRow['position']?></td>
-                                    <td><small><?=$participantsRow['name']?></small></td>
+                                    <td><?= $participantsRow['sex'] ?></td>
+                                    <td>
+                                        <small><?= $participantsRow['regDesc'] . " - <br>" . $participantsRow['provDesc'] ?></small>
+                                    </td>
+                                    <td><?= $participantsRow['agency_name'] ?></td>
+                                    <td><?= $participantsRow['position'] ?></td>
+                                    <td><?= $participantsRow['sectorname'] ?></td>
+                                    <td>
+                                        <small><?= $participantsRow['name'] ?></small>
+                                    </td>
                                     <td><?= $participantsRow['privileges'] ? $participantsRow['privileges'] : '-' ?></td>
                                     <td><?= date("M d, Y h:i A", strtotime($participantsRow['date_registered'] . '+8 hours')) ?></td>
                                     <!-- <td>
-                                                        <button type="button" class="btn btn-success btn-rounded btn-tone btn-xs" onclick="set_delete_link(<?= $participantsRow[
+                                                        <button type="button" class="btn btn-danger btn-rounded btn-tone btn-xs" onclick="set_delete_link(<?= $participantsRow[
                                                             'participantid'
                                                         ] ?>)" data-toggle="modal" data-target="#exampleModal">
                                                             <i class="anticon anticon-delete"></i>
@@ -106,7 +109,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                    <button type="submit" class="btn btn-success">Search</button>
+                    <button type="submit" class="btn btn-danger">Search</button>
                 </div>
             </form>
         </div>
@@ -132,7 +135,7 @@
                         <input type="hidden" id="regnumber" name="regnumber">
 
                         <div class="m-t-20">
-                            <button type="submit" class="btn btn-success" id="confirm-attendance-options-mdl">Confirm Attendance</button><br>
+                            <button type="submit" class="btn btn-danger" id="confirm-attendance-options-mdl">Confirm Attendance</button><br>
                             <button type="button" spw class="mt-3 btn btn-link btn-xs" onclick="event_selector()">Register to Another Forum</button>
                         </div>
                     </div>
@@ -170,7 +173,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="submit" class="btn btn-danger">Submit</button>
                     </div>
                 </form>
             </div>

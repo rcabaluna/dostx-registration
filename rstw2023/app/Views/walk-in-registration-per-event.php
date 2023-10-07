@@ -6,14 +6,14 @@
         color: #2a2a2a !important;
     }
 </style>
-<div class="container-fluid h-100 px-0">
+<div class="container-fluid d-flex h-100 px-0">
     <div class="main-content">
     <div class="row align-items-center w-100" style="margin-left: 0px;">
         <div class="col-md-12 col-lg-12 m-h-auto">
             <div class="card shadow-lg">
                 <div class="card-body">
                     <div class="align-items-center justify-content-between m-b-1">
-                        <div class="row mb-4">
+                        <div class="row mb-3">
                             <div class="col-12">
                                 <img class="img-fluid" src="<?=base_url("assets/images/logo/walk-in-reg-header.png");?>">
                             </div>
@@ -47,7 +47,7 @@
                                 <div class="form-group col-md-2">
                                     <label class="font-weight-semibold">Title (e.g. Dr., Mr., Mrs.) <small class="text-danger">*</small></label>
                                     <input type="hidden" name="event" value="<?=$uri->getSegment(3)?>">
-                                    <select name="title" class="form-control " required>
+                                    <select name="title" class="form-control form-control-lg" required>
                                         <option value=""></option>
                                         <option value="Mr.">Mr.</option>
                                         <option value="Ms.">Ms.</option>
@@ -60,19 +60,19 @@
                                 </div>
                                 <div class="form-group col-md-3">
                                     <label class="font-weight-semibold">Last Name <small class="text-danger">*</small></label>
-                                    <input type="text" class="form-control " name="lastname" placeholder="Last Name" required>
+                                    <input type="text" class="form-control form-control-lg" name="lastname" placeholder="Last Name" required>
                                 </div>
                                 <div class="form-group col-md-3">
                                     <label class="font-weight-semibold">First Name  <small class="text-danger">*</small></label>
-                                    <input type="text" class="form-control " name="firstname" placeholder="First Name" required>
+                                    <input type="text" class="form-control form-control-lg" name="firstname" placeholder="First Name" required>
                                 </div>
                                 <div class="form-group col-md-3">
                                     <label class="font-weight-semibold">Middle Initial </label>
-                                    <input type="text" class="form-control " name="middle_initial" placeholder="Middle Initial">
+                                    <input type="text" class="form-control form-control-lg" name="middle_initial" placeholder="Middle Initial">
                                 </div>
                                 <div class="form-group col-md-1">
                                     <label class="font-weight-semibold">Suffix</label>
-                                    <select name="suffix" class="form-control ">
+                                    <select name="suffix" class="form-control form-control-lg">
                                         <option value=""></option>
                                         <option value="Sr.">Sr.</option>
                                         <option value="Jr.">Jr.</option>
@@ -86,7 +86,7 @@
                             <div class="form-row">
                                 <div class="form-group col-md-4">
                                     <label for="inputEmail4">Sex <small class="text-danger">*</small></label>
-                                    <select class="form-control " name="sex" required>
+                                    <select class="form-control form-control-lg" name="sex" required>
                                         <option value=""></option>
                                         <option value="Male">Male</option>
                                         <option value="Female">Female</option>
@@ -95,25 +95,50 @@
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="">Contact Number</label>
-                                    <input type="number" maxlength="11" class="form-control " name="contactno" placeholder="Contact Number">
+                                    <input type="number" maxlength="11" class="form-control form-control-lg" name="contactno" placeholder="Contact Number">
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="inputEmail4">Email Address</label>
-                                    <input type="email" class="form-control " name="email" placeholder="Email Address">
+                                    <input type="email" class="form-control form-control-lg" name="email" placeholder="Email Address">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                
+                                <div class="form-group col-md-4">
+                                    <label for="inputEmail4">Address (Region) <small class="text-danger">*</small></label>
+                                    <select class="form-control form-control-lg" name="address_region" id="seladdress-region" onchange="get_provinces_list()" required>
+                                        <option value=""></option>
+                                        <?php foreach ($regions as $regionsRow) {
+                                            ?>
+                                            <option value="<?=$regionsRow['regCode']?>"><?=$regionsRow['regDesc']?></option>
+                                            <?php
+                                        }?>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputEmail4">Address (Province) <small class="text-danger">*</small></label>
+                                    <select class="form-control form-control-lg" id="seladdress-provinces" name="address_province" required>
+                                        <option value=""></option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputEmail4">Sector or Affiliation<small class="text-danger">*</small></label>
+                                    <select class="form-control form-control-lg" name="sector" required>
+                                        <option></option>
+                                        <?php foreach ($sectors as $sectorsRow) { ?>
+                                            <option value="<?=$sectorsRow['sectorid']?>"><?=$sectorsRow['sectorname']?></option>
+                                        <?php } ?>
+                                    </select>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-4">
-                                    <label class="form-label">Name of Office / Business Firm</label>
-                                    <input type="text" name="agency_name" class="form-control " placeholder="Name of Office / Business Firm">
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label class="form-label">Office / Business Firm Address</label>
-                                    <input type="text" name="agency_address" class="form-control " placeholder="Office / Business Firm Address">
+                                    <label class="form-label">Name of Institution/Agency</label>
+                                    <input type="text" name="agency_name" class="form-control form-control-lg" placeholder="Name of Institution/Agency">
                                 </div>    
                                 <div class="form-group col-md-4">
                                     <label class="form-label">Position</label>
-                                    <input type="text" name="position" class="form-control " placeholder="Position">
+                                    <input type="text" name="position" class="form-control form-control-lg" placeholder="Position">
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="inputEmail4">Privileges</label>
@@ -137,7 +162,7 @@
                             </div>
                                 <div class="form-row">
                                 <div class="form-group col-md-12 mb-0">
-                                    <button type="submit" class="btn btn-success custom-class float-right mb-2">Register</button>
+                                    <button type="submit" class="btn btn-danger custom-class float-right mb-2">Register</button>
                                     <button type="reset" id="reset-btn" class="btn btn-danger btn-tone custom-class">Clear</button>
                                 </div>
                             </div>

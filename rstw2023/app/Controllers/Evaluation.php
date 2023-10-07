@@ -111,7 +111,7 @@ class Evaluation extends BaseController
     }
 
     public function evaluationSuccess(){
-        $data['pagetitle'] = "RSTW 2023 Mindanao Mindanao | Evaluation Successful";
+        $data['pagetitle'] = "HANDA Pilipinas 2023 | Evaluation Successful";
         $data['certnumber'] = $this->request->getGet('certnumber');
 
         $evaldata =  $this->evaluationModel->get_single_data('tblevaluation', array('certnumber_hashed' => $data['certnumber']));
@@ -130,7 +130,7 @@ class Evaluation extends BaseController
         if ($_SESSION['usertype'] != 'admin' && $_SESSION['eventaccess'] != $param['event']) {
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
         }
-        $data['pagetitle'] = "RSTW 2023 Mindanao Mindanao | Evaluation - Participants List";
+        $data['pagetitle'] = "HANDA Pilipinas 2023 | Evaluation - Participants List";
         $data['events'] = $this->evaluationModel->get_all_data('tblevents');
         $data['evaluation'] = $this->evaluationModel->get_participants_list('tblevaluation',$param);
 

@@ -15,7 +15,7 @@ class Food extends BaseController
     }
 
     public function index(){
-        $data['pagetitle'] = "RSTW 2023 Mindanao Mindanao - Attendance List";
+        $data['pagetitle'] = "HANDA Pilipinas 2023 - Attendance List";
         $param['type'] = $this->request->getGet('type');
         $data['redeem'] = $this->foodModel->get_redeemed_list('tblfoodredeem',$param);
         return view('admin/food/food-redeemed-list',$data);
@@ -64,7 +64,7 @@ class Food extends BaseController
     }
 
     public function scanQRCode(){
-        $data['pagetitle'] = 'RSTW 2023 Mindanao Mindanao - Attendance QR Scanner';
+        $data['pagetitle'] = 'HANDA Pilipinas 2023 - Attendance QR Scanner';
         return view('admin/food/scan-qr-code',$data);
     }
 

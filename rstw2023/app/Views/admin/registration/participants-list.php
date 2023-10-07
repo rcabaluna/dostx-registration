@@ -31,12 +31,13 @@
                             <th>Contact No</th>
                             <th>Email</th>
                             <th>Sex</th>
+                            <th>Address</th>
                             <th>Agency Name</th>
-                            <th>Agency Address</th>
                             <th>Position</th>
+                            <th>Sector/Affiliation</th>
                             <th>Event</th>
                             <th>Privileges</th>
-                            <th>Date Registered</th>
+                            <th>Participants Date</th>
                             <!-- <th>Actions</th> -->
                         </tr>
                     </thead>
@@ -57,9 +58,12 @@
                             <td><?=$participantsRow['contactno']?></td>
                             <td><?=$participantsRow['email']?></td>
                             <td><?=$participantsRow['sex']?></td>
+                            <td>
+                                <small><?=$participantsRow['regDesc']." - <br>".$participantsRow['provDesc']?></small>
+                            </td>
                             <td><?=$participantsRow['agency_name']?></td>
-                            <td><?=$participantsRow['agency_address']?></td>
                             <td><?=$participantsRow['position']?></td>
+                            <td><?=$participantsRow['sectorname']?></td>
                             <td>
                                 <small><?=$participantsRow['name']?></small>
                             </td>
@@ -172,7 +176,7 @@
             var shorthand = $(this).closest("tr").attr('shorthand');
             
             $("#regnumber-options-mdl").html(data[3]);
-            $("#event-title-options-mdl").html(data[10]);
+            $("#event-title-options-mdl").html(data[11]);
             $("#qr-options-mdl").attr("src", "<?=base_url('uploads/qr/')?>"+data[1]+".png");
             $("#delete-icon-options-mdl").attr("onclick", "set_delete_link("+participantid+")");
             $("#confirm-attendance-options-mdl").attr("onclick","confirm_forum_attendance('"+shorthand+"','"+data[1]+"')");

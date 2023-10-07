@@ -24,19 +24,21 @@
                 <table class="table" id="attendance-table">
                     <thead>
                         <tr>
-                        <th>No.</th>
-                        <th>Registration No.</th>
-                        <th>Title</th>
-                        <th>Name</th>
-                        <th>Contact No.</th>
-                        <th>Email</th>
-                        <th>Sex</th>
-                        <th>Agency Name</th>
-                        <th>Agency Address</th>
-                        <th>Position</th>
-                        <th>Event</th>
-                        <th>Privileges</th>
-                        <th>Attendance Date</th>
+                            <th>No.</th>
+                            <th>Registration No.</th>
+                            <th>Title</th>
+                            <th>Name</th>
+                            <th>Contact No</th>
+                            <th>Email</th>
+                            <th>Sex</th>
+                            <th>Address (Region)</th>
+                            <th>Address (Province)</th>
+                            <th>Agency Name</th>
+                            <th>Position</th>
+                            <th>Sector/Affiliation</th>
+                            <th>Event</th>
+                            <th>Privileges</th>
+                            <th>Attendance Date</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
@@ -56,9 +58,11 @@
                             <td><?=$attendanceRow['contactno']?></td>
                             <td><?=$attendanceRow['email']?></td>
                             <td><?=$attendanceRow['sex']?></td>
+                            <td><small><?=$attendanceRow['regDesc']?></small></td>
+                            <td><small><?=$attendanceRow['provDesc']?></small></td>
                             <td><?=$attendanceRow['agency_name']?></td>
-                            <td><?=$attendanceRow['agency_address']?></td>
                             <td><?=$attendanceRow['position']?></td>
+                            <td><?=$attendanceRow['sectorname']?></td>
                             <td><small><?=$attendanceRow['name']?></small></td>
                             <td><?=($attendanceRow['privileges']) ? $attendanceRow['privileges'] : '-' ?></td>
                             <td><?=date("M d, Y h:i A",strtotime($attendanceRow['attendance_date'].'+8 hours'))?></td>

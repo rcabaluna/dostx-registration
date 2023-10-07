@@ -199,7 +199,7 @@
                             </div>
                             <div class="form-row" id="css-feedback-form-1">
                                 <div class="form-group col-md-12">
-                                    <h4>CUSTOMER SATISFACTION FEEDBACK - RSTW 2023 Mindanao Mindanao</h4>
+                                    <h4>CUSTOMER SATISFACTION FEEDBACK - HANDA PILIPINAS 2023</h4>
                                     <p>
                                         How will you rate our service? <br />
                                         <i>(Paano mo mamarkahan ang aming serbisyo?)</i>
@@ -363,7 +363,7 @@
                             </div>
                             <div class="form-row" id="css-feedback-form-2">
                                 <div class="form-group col-md-12">
-                                    <h4>CUSTOMER SATISFACTION FEEDBACK - RSTW 2023 Mindanao Mindanao</h4>
+                                    <h4>CUSTOMER SATISFACTION FEEDBACK - HANDA PILIPINAS 2023</h4>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4">

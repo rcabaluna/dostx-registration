@@ -53,7 +53,7 @@
                                         </div>
                                         <div class="form-group">
                                             <div class="d-flex align-items-center justify-content-between float-right">
-                                                <button class="btn btn-info">Login</button>
+                                                <button class="btn btn-danger">Login</button>
                                             </div>
                                         </div>
                                     </form>

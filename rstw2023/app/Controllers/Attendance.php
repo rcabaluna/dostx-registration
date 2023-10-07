@@ -16,7 +16,7 @@ class Attendance extends BaseController
     }
 
     public function index(){
-        $data['pagetitle'] = "RSTW 2023 Mindanao Mindanao - Attendance List";
+        $data['pagetitle'] = "HANDA Pilipinas 2023 - Attendance List";
         $param['event'] = $this->request->getGet('event');
         $data['events'] = $this->attendanceModel->get_all_data('tblevents');
         $data['attendance'] = $this->attendanceModel->get_attendance_list('tblattendance',$param);
@@ -78,7 +78,7 @@ class Attendance extends BaseController
     }
 
     public function scanQRCode(){
-        $data['pagetitle'] = 'RSTW 2023 Mindanao Mindanao - Attendance QR Scanner';
+        $data['pagetitle'] = 'HANDA Pilipinas 2023 - Attendance QR Scanner';
         return view('admin/attendance/scan-qr-code',$data);
     }
 
@@ -107,7 +107,7 @@ class Attendance extends BaseController
             $data['events'] = $this->attendanceModel->get_available_events($param);
 
         } 
-        $data['pagetitle'] = 'RSTW 2023 Mindanao Mindanao - Attendance (Search Participant)';
+        $data['pagetitle'] = 'HANDA Pilipinas 2023 - Attendance (Search Participant)';
         return view('admin/attendance/search-user',$data);
     }
     

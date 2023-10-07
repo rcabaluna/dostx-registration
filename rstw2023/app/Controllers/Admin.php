@@ -16,20 +16,20 @@ class Admin extends BaseController
     public function registrationList(){
 
         $data['events'] = $this->adminModel->get_all_data('tblevents');
-        $data['pagetitle'] = 'RSTW 2023 Mindanao | Registration Links';
+        $data['pagetitle'] = 'HANDA 2023 - Admin | Registration Links';
         return view('admin/registration/registration-link-list', $data);
     }
 
     public function registrationWalkInList(){
         $data['events'] = $this->adminModel->get_all_data('tblevents');
-        $data['pagetitle'] = 'RSTW 2023 Mindanao Mindanao - Admin | Walk-in Registration Links';
+        $data['pagetitle'] = 'HANDA 2023 - Admin | Walk-in Registration Links';
         return view('admin/registration/w-registration-link-list', $data);
     }
 
     public function evaluationList()
     {
         $data['events'] = $this->adminModel->get_all_data('tblevents');
-        $data['pagetitle'] = 'RSTW 2023 Mindanao Mindanao - Admin | Evaluation Links';
+        $data['pagetitle'] = 'HANDA Pilipinas 2023 - Admin | Evaluation Links';
         return view('admin/evaluation/evaluation-link-list', $data);
     }
 
@@ -62,7 +62,7 @@ class Admin extends BaseController
         }
 
 
-        $data['pagetitle'] = 'RSTW 2023 Mindanao Mindanao - User Links';
+        $data['pagetitle'] = 'HANDA Pilipinas 2023 - User Links';
 
         return view('user-link-deck',$data);
         

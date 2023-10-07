@@ -3,7 +3,7 @@
 <div class="main-content">
     <div class="card">
         <div class="card-body">
-            <h4>RSTW 2023 Mindanao Mindanao - Forums Training Evaluation Summary</h4>
+            <h4>HANDA Pilipinas 2023 - Forums Training Evaluation Summary</h4>
             <div class="m-t-25">
                 <table class="table table-hover" id="no-participants-table">
                     <thead>
