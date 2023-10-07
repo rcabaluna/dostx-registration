@@ -32,45 +32,49 @@ class Attendance extends BaseController
         $profile = $this->attendanceModel->get_data('tblparticipants',array('regnumber' => $data['regnumber']));
         $eventsToAttend = explode(", ",$profile['event']);
 
-        foreach ($eventsToAttend as $eventsToAttendRow) {
-            if ($eventsToAttendRow == "Day 1") {
-                $eventDate = "2023-10-10";
-                if ($eventDate == $currentDate) {
-                    $check = $this->attendanceModel->get_att_data('tblattendance',array('regnumber' => $input, 'date(attendance_date)' => $eventDate));
-                    if (!$check) {
-                        return view("attendance/profile",$profile);
-                    }else{
-                        echo "EXISTS";
-                        exit();
+        if ($profile) {
+            foreach ($eventsToAttend as $eventsToAttendRow) {
+                if ($eventsToAttendRow == "Day 1") {
+                    $eventDate = "2023-10-10";
+                    if ($eventDate == $currentDate) {
+                        $check = $this->attendanceModel->get_att_data('tblattendance',array('regnumber' => $input, 'date(attendance_date)' => $eventDate));
+                        if (!$check) {
+                            return view("attendance/profile",$profile);
+                        }else{
+                            echo "EXISTS";
+                            exit();
+                        }
                     }
-                }
-            }else if ($eventsToAttendRow == "Day 2") {
-                $eventDate = "2023-10-11";
-                if ($eventDate == $currentDate) {
-                    $check = $this->attendanceModel->get_att_data('tblattendance',array('regnumber' => $input, 'date(attendance_date)' => $eventDate));
-                    if (!$check) {
-                        return view("attendance/profile",$profile);
-                    }else{
-                        echo "EXISTS";
-                        exit();
+                }else if ($eventsToAttendRow == "Day 2") {
+                    $eventDate = "2023-10-11";
+                    if ($eventDate == $currentDate) {
+                        $check = $this->attendanceModel->get_att_data('tblattendance',array('regnumber' => $input, 'date(attendance_date)' => $eventDate));
+                        if (!$check) {
+                            return view("attendance/profile",$profile);
+                        }else{
+                            echo "EXISTS";
+                            exit();
+                        }
                     }
-                }
-            }else if ($eventsToAttendRow == "Day 3") {
-                $eventDate = "2023-10-12";
-                if ($eventDate == $currentDate) {
-                    $check = $this->attendanceModel->get_att_data('tblattendance',array('regnumber' => $input, 'date(attendance_date)' => $eventDate));
-                    if (!$check) {
-                        return view("attendance/profile",$profile);
-                    }else{
-                        echo "EXISTS";
-                        exit();
+                }else if ($eventsToAttendRow == "Day 3") {
+                    $eventDate = "2023-10-12";
+                    if ($eventDate == $currentDate) {
+                        $check = $this->attendanceModel->get_att_data('tblattendance',array('regnumber' => $input, 'date(attendance_date)' => $eventDate));
+                        if (!$check) {
+                            return view("attendance/profile",$profile);
+                        }else{
+                            echo "EXISTS";
+                            exit();
+                        }
                     }
                 }
             }
+        }else{
+                
+            echo "INVALID";
+            exit();
         }
 
-        echo "INVALID";
-        exit();
     }
 
     public function AttendanceSave(){
