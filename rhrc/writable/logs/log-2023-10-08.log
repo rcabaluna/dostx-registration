@@ -1,0 +1,1006 @@
+INFO - 2023-10-08 02:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:20:46 --> Invalid file: "dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(15): view('dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:22:41 --> Undefined array key "usertype"
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usertype"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Controllers\\Home.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:26:58 --> Class "App\Models\DashboardModel" not found
+in APPPATH\Controllers\Dashboard.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-08 02:29:44 --> mysqli_sql_exception: Unknown column 'a.targetparticipants' in 'field list' in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `a`.`nam...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`nam...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`nam...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`nam...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\rhrc\app\Models\DashboardModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dostx-registration\rhrc\app\Controllers\Dashboard.php(20): App\Models\DashboardModel->get_par_att_data()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Dashboard->regAtt()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\rhrc\index.php(81): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 02:29:44 --> Unknown column 'a.targetparticipants' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`name`, `a`.`venue`, `a`.`datetime`, `a`.`shorthand`, `a`.`targetparticipants`, `a`.`buffer`, (SELECT COUNT(b.participantid) FROM tblparticipants b WHERE b.event = a.shorthand) AS participantsno, (SELECT COUNT(*) FROM tblattendance c WHERE c.event = a.shorthand) AS attendanceno
+FROM `tblevents` `a`
+GROUP BY `a`.`shorthand`
+ORDER BY `a`.`eventid` ASC', [], false)
+ 2 APPPATH\Models\DashboardModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Dashboard.php(20): App\Models\DashboardModel->get_par_att_data()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->regAtt()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-08 02:30:10 --> mysqli_sql_exception: Unknown column 'a.buffer' in 'field list' in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `a`.`nam...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`nam...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`nam...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`nam...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\rhrc\app\Models\DashboardModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dostx-registration\rhrc\app\Controllers\Dashboard.php(20): App\Models\DashboardModel->get_par_att_data()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Dashboard->regAtt()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\rhrc\index.php(81): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 02:30:10 --> Unknown column 'a.buffer' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`name`, `a`.`venue`, `a`.`datetime`, `a`.`shorthand`, `a`.`targetparticipants`, `a`.`buffer`, (SELECT COUNT(b.participantid) FROM tblparticipants b WHERE b.event = a.shorthand) AS participantsno, (SELECT COUNT(*) FROM tblattendance c WHERE c.event = a.shorthand) AS attendanceno
+FROM `tblevents` `a`
+GROUP BY `a`.`shorthand`
+ORDER BY `a`.`eventid` ASC', [], false)
+ 2 APPPATH\Models\DashboardModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Dashboard.php(20): App\Models\DashboardModel->get_par_att_data()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->regAtt()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:30:30 --> Division by zero
+in APPPATH\Views\admin\dashboard\reg-att.php on line 33.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/dashboard/reg-att', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(22): view('admin/dashboard/reg-att', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->regAtt()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:31:36 --> Invalid file: "participants-list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('participants-list.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('participants-list', [], true)
+ 3 APPPATH\Controllers\Participants.php(22): view('participants-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Participants->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Participants))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:33:17 --> Invalid file: "participants-list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('participants-list.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('participants-list', [], true)
+ 3 APPPATH\Controllers\Participants.php(22): view('participants-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Participants->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Participants))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:33:40 --> Invalid file: "admin/partcipants/participants-list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/partcipants/participants-list.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/partcipants/participants-list', [], true)
+ 3 APPPATH\Controllers\Participants.php(22): view('admin/partcipants/participants-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Participants->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Participants))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:34:42 --> Invalid file: "admin/registration-link-list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/registration-link-list.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/registration-link-list', [], true)
+ 3 APPPATH\Controllers\Admin.php(20): view('admin/registration-link-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->registrationList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:35:30 --> Undefined array key "shorthand"
+in APPPATH\Views\admin\registration\participants-list.php on line 47.
+ 1 APPPATH\Views\admin\registration\participants-list.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "shorthand"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\admin\\registration\\participants-list.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\admin\\registration\\participants-list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/registration/participants-list', [], true)
+ 5 APPPATH\Controllers\Participants.php(22): view('admin/registration/participants-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Participants->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Participants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:35:51 --> Undefined array key "name"
+in APPPATH\Views\admin\registration\participants-list.php on line 68.
+ 1 APPPATH\Views\admin\registration\participants-list.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\admin\\registration\\participants-list.php', 68)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\admin\\registration\\participants-list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/registration/participants-list', [], true)
+ 5 APPPATH\Controllers\Participants.php(22): view('admin/registration/participants-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Participants->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Participants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:38:02 --> Invalid file: "admin/registration-link-list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/registration-link-list.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/registration-link-list', [], true)
+ 3 APPPATH\Controllers\Admin.php(20): view('admin/registration-link-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->registrationList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:38:15 --> Invalid file: "attendance/scan-qr-code.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('attendance/scan-qr-code.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('attendance/scan-qr-code', [], true)
+ 3 APPPATH\Controllers\Attendance.php(104): view('attendance/scan-qr-code', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->scanQRCode()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:38:33 --> Invalid file: "attendance/scan-qr-code.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('attendance/scan-qr-code.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('attendance/scan-qr-code', [], true)
+ 3 APPPATH\Controllers\Attendance.php(104): view('attendance/scan-qr-code', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->scanQRCode()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-08 02:38:53 --> mysqli_sql_exception: Unknown column 'tblattendance.date_registered' in 'field list' in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *, `tbla...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tbla...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tbla...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbla...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\rhrc\app\Models\AttendanceModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dostx-registration\rhrc\app\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Attendance->index()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\rhrc\index.php(81): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 02:38:53 --> Unknown column 'tblattendance.date_registered' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *, `tblattendance`.`date_registered` AS `attendance_date`
+FROM `tblattendance`
+JOIN `tblparticipants` ON `tblparticipants`.`regnumber` = `tblattendance`.`regnumber`
+JOIN `tblsector` ON `tblsector`.`sectorid` = `tblparticipants`.`sector`
+JOIN `refregion` ON `refregion`.`regCode` = `tblparticipants`.`address_region`
+JOIN `refprovince` ON `refprovince`.`provCode` = `tblparticipants`.`address_province`
+JOIN `tblevents` ON `tblevents`.`shorthand` = `tblattendance`.`event`
+ORDER BY `tblattendance`.`attendanceid` DESC', [], false)
+ 2 APPPATH\Models\AttendanceModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:40:07 --> Undefined array key "name"
+in APPPATH\Views\admin\attendance\attendance-list.php on line 66.
+ 1 APPPATH\Views\admin\attendance\attendance-list.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\admin\\attendance\\attendance-list.php', 66)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\admin\\attendance\\attendance-list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/attendance/attendance-list', [], true)
+ 5 APPPATH\Controllers\Attendance.php(22): view('admin/attendance/attendance-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-08 02:41:16 --> mysqli_sql_exception: Unknown table 'rhrc.a' in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `a`.*\nFR...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*\nFR...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*\nFR...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*\nFR...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\rhrc\app\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dostx-registration\rhrc\app\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Attendance->index()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\rhrc\index.php(81): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 02:41:16 --> Unknown table 'rhrc.a'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*
+FROM `tblattendance`
+JOIN `tblparticipants` ON `tblparticipants`.`regnumber` = `tblattendance`.`regnumber`
+JOIN `tblsector` ON `tblsector`.`sectorid` = `tblparticipants`.`sector`
+JOIN `refregion` ON `refregion`.`regCode` = `tblparticipants`.`address_region`
+JOIN `refprovince` ON `refprovince`.`provCode` = `tblparticipants`.`address_province`
+ORDER BY `tblattendance`.`attendanceid` DESC', [], false)
+ 2 APPPATH\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-08 02:42:20 --> mysqli_sql_exception: Unknown column 'a.participantid' in 'field list' in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `a`.`par...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`par...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`par...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`par...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\rhrc\app\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dostx-registration\rhrc\app\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Attendance->index()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\rhrc\index.php(81): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 02:42:20 --> Unknown column 'a.participantid' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`participantid`, `a`.`regnumber`, `a`.`title`, `a`.`lastname`, `a`.`firstname`, `a`.`middle_initial`, `a`.`suffix`, `a`.`contactno`, `a`.`email`, `a`.`sex`, `a`.`position`, `a`.`sector`, `a`.`address_region`, `a`.`address_province`, `a`.`agency_name`, `a`.`privileges`, `a`.`event`, `a`.`date_registered`
+FROM `tblattendance`
+JOIN `tblparticipants` ON `tblparticipants`.`regnumber` = `tblattendance`.`regnumber`
+JOIN `tblsector` ON `tblsector`.`sectorid` = `tblparticipants`.`sector`
+JOIN `refregion` ON `refregion`.`regCode` = `tblparticipants`.`address_region`
+JOIN `refprovince` ON `refprovince`.`provCode` = `tblparticipants`.`address_province`
+ORDER BY `tblattendance`.`attendanceid` DESC', [], false)
+ 2 APPPATH\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-08 02:42:45 --> mysqli_sql_exception: Not unique table/alias: 'a' in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `a`.`par...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`par...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`par...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`par...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\rhrc\app\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dostx-registration\rhrc\app\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Attendance->index()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\rhrc\index.php(81): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 02:42:45 --> Not unique table/alias: 'a'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`participantid`, `a`.`regnumber`, `a`.`title`, `a`.`lastname`, `a`.`firstname`, `a`.`middle_initial`, `a`.`suffix`, `a`.`contactno`, `a`.`email`, `a`.`sex`, `a`.`position`, `a`.`sector`, `a`.`address_region`, `a`.`address_province`, `a`.`agency_name`, `a`.`privileges`, `a`.`event`, `a`.`date_registered`
+FROM `tblattendance` `a`
+JOIN `tblparticipants` `a` ON `tblparticipants`.`regnumber` = `tblattendance`.`regnumber`
+JOIN `tblsector` `b` ON `tblsector`.`sectorid` = `tblparticipants`.`sector`
+JOIN `refregion` `c` ON `refregion`.`regCode` = `tblparticipants`.`address_region`
+JOIN `refprovince` `d` ON `refprovince`.`provCode` = `tblparticipants`.`address_province`
+ORDER BY `a`.`attendanceid` DESC', [], false)
+ 2 APPPATH\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-08 02:43:07 --> mysqli_sql_exception: Table 'rhrc.tblattendancee' doesn't exist in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `a`.`par...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`par...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`par...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`par...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\rhrc\app\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dostx-registration\rhrc\app\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Attendance->index()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\rhrc\index.php(81): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 02:43:07 --> Table 'rhrc.tblattendancee' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`participantid`, `a`.`regnumber`, `a`.`title`, `a`.`lastname`, `a`.`firstname`, `a`.`middle_initial`, `a`.`suffix`, `a`.`contactno`, `a`.`email`, `a`.`sex`, `a`.`position`, `a`.`sector`, `a`.`address_region`, `a`.`address_province`, `a`.`agency_name`, `a`.`privileges`, `a`.`event`, `a`.`date_registered`
+FROM `tblattendancee`
+JOIN `tblparticipants` `a` ON `tblparticipants`.`regnumber` = `tblattendance`.`regnumber`
+JOIN `tblsector` `b` ON `tblsector`.`sectorid` = `tblparticipants`.`sector`
+JOIN `refregion` `c` ON `refregion`.`regCode` = `tblparticipants`.`address_region`
+JOIN `refprovince` `d` ON `refprovince`.`provCode` = `tblparticipants`.`address_province`
+ORDER BY `e`.`attendanceid` DESC', [], false)
+ 2 APPPATH\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-08 02:43:17 --> mysqli_sql_exception: Table 'rhrc.tblattendancee' doesn't exist in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `a`.`par...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`par...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`par...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`par...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\rhrc\app\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dostx-registration\rhrc\app\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Attendance->index()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\rhrc\index.php(81): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 02:43:17 --> Table 'rhrc.tblattendancee' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`participantid`, `a`.`regnumber`, `a`.`title`, `a`.`lastname`, `a`.`firstname`, `a`.`middle_initial`, `a`.`suffix`, `a`.`contactno`, `a`.`email`, `a`.`sex`, `a`.`position`, `a`.`sector`, `a`.`address_region`, `a`.`address_province`, `a`.`agency_name`, `a`.`privileges`, `a`.`event`, `a`.`date_registered`
+FROM `tblattendancee`
+JOIN `tblparticipants` `a` ON `tblparticipants`.`regnumber` = `tblattendance`.`regnumber`
+JOIN `tblsector` `b` ON `tblsector`.`sectorid` = `tblparticipants`.`sector`
+JOIN `refregion` `c` ON `refregion`.`regCode` = `tblparticipants`.`address_region`
+JOIN `refprovince` `d` ON `refprovince`.`provCode` = `tblparticipants`.`address_province`
+ORDER BY `e`.`attendanceid` DESC', [], false)
+ 2 APPPATH\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-08 02:43:53 --> mysqli_sql_exception: Unknown column 'tblparticipants.regnumber' in 'on clause' in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `a`.`par...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`par...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`par...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`par...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\rhrc\app\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dostx-registration\rhrc\app\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Attendance->index()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\rhrc\index.php(81): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 02:43:53 --> Unknown column 'tblparticipants.regnumber' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`participantid`, `a`.`regnumber`, `a`.`title`, `a`.`lastname`, `a`.`firstname`, `a`.`middle_initial`, `a`.`suffix`, `a`.`contactno`, `a`.`email`, `a`.`sex`, `a`.`position`, `a`.`sector`, `a`.`address_region`, `a`.`address_province`, `a`.`agency_name`, `a`.`privileges`, `a`.`event`, `a`.`date_registered`
+FROM `tblattendance` `e`
+JOIN `tblparticipants` `a` ON `tblparticipants`.`regnumber` = `tblattendance`.`regnumber`
+JOIN `tblsector` `b` ON `tblsector`.`sectorid` = `tblparticipants`.`sector`
+JOIN `refregion` `c` ON `refregion`.`regCode` = `tblparticipants`.`address_region`
+JOIN `refprovince` `d` ON `refprovince`.`provCode` = `tblparticipants`.`address_province`
+ORDER BY `e`.`attendanceid` DESC', [], false)
+ 2 APPPATH\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-08 02:44:05 --> mysqli_sql_exception: Unknown column 'tblparticipants.regnumber' in 'on clause' in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `a`.`par...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`par...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`par...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`par...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\rhrc\app\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dostx-registration\rhrc\app\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Attendance->index()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\rhrc\index.php(81): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 02:44:05 --> Unknown column 'tblparticipants.regnumber' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`participantid`, `a`.`regnumber`, `a`.`title`, `a`.`lastname`, `a`.`firstname`, `a`.`middle_initial`, `a`.`suffix`, `a`.`contactno`, `a`.`email`, `a`.`sex`, `a`.`position`, `a`.`sector`, `a`.`address_region`, `a`.`address_province`, `a`.`agency_name`, `a`.`privileges`, `a`.`event`, `a`.`date_registered`
+FROM `tblattendance` `e`
+JOIN `tblparticipants` `a` ON `tblparticipants`.`regnumber` = `tblattendance`.`regnumber`
+JOIN `tblsector` `b` ON `tblsector`.`sectorid` = `tblparticipants`.`sector`
+JOIN `refregion` `c` ON `refregion`.`regCode` = `tblparticipants`.`address_region`
+JOIN `refprovince` `d` ON `d`.`provCode` = `a`.`address_province`
+ORDER BY `e`.`attendanceid` DESC', [], false)
+ 2 APPPATH\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-08 02:44:07 --> mysqli_sql_exception: Unknown column 'tblparticipants.regnumber' in 'on clause' in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `a`.`par...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`par...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`par...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`par...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\rhrc\app\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dostx-registration\rhrc\app\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Attendance->index()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\rhrc\index.php(81): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 02:44:07 --> Unknown column 'tblparticipants.regnumber' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`participantid`, `a`.`regnumber`, `a`.`title`, `a`.`lastname`, `a`.`firstname`, `a`.`middle_initial`, `a`.`suffix`, `a`.`contactno`, `a`.`email`, `a`.`sex`, `a`.`position`, `a`.`sector`, `a`.`address_region`, `a`.`address_province`, `a`.`agency_name`, `a`.`privileges`, `a`.`event`, `a`.`date_registered`
+FROM `tblattendance` `e`
+JOIN `tblparticipants` `a` ON `tblparticipants`.`regnumber` = `tblattendance`.`regnumber`
+JOIN `tblsector` `b` ON `tblsector`.`sectorid` = `tblparticipants`.`sector`
+JOIN `refregion` `c` ON `refregion`.`regCode` = `tblparticipants`.`address_region`
+JOIN `refprovince` `d` ON `d`.`provCode` = `a`.`address_province`
+ORDER BY `e`.`attendanceid` DESC', [], false)
+ 2 APPPATH\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-08 02:44:13 --> mysqli_sql_exception: Unknown column 'tblsector.sectorid' in 'on clause' in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `a`.`par...', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`par...')
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`par...')
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`par...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\rhrc\app\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dostx-registration\rhrc\app\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Attendance->index()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\rhrc\index.php(81): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 02:44:13 --> Unknown column 'tblsector.sectorid' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`participantid`, `a`.`regnumber`, `a`.`title`, `a`.`lastname`, `a`.`firstname`, `a`.`middle_initial`, `a`.`suffix`, `a`.`contactno`, `a`.`email`, `a`.`sex`, `a`.`position`, `a`.`sector`, `a`.`address_region`, `a`.`address_province`, `a`.`agency_name`, `a`.`privileges`, `a`.`event`, `a`.`date_registered`
+FROM `tblattendance` `e`
+JOIN `tblparticipants` `a` ON `a`.`regnumber` = `e`.`regnumber`
+JOIN `tblsector` `b` ON `tblsector`.`sectorid` = `tblparticipants`.`sector`
+JOIN `refregion` `c` ON `refregion`.`regCode` = `tblparticipants`.`address_region`
+JOIN `refprovince` `d` ON `d`.`provCode` = `a`.`address_province`
+ORDER BY `e`.`attendanceid` DESC', [], false)
+ 2 APPPATH\Models\AttendanceModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Attendance.php(21): App\Models\AttendanceModel->get_attendance_list('tblattendance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:44:24 --> Undefined array key "regDesc"
+in APPPATH\Views\admin\attendance\attendance-list.php on line 44.
+ 1 APPPATH\Views\admin\attendance\attendance-list.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "regDesc"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\admin\\attendance\\attendance-list.php', 44)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\admin\\attendance\\attendance-list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/attendance/attendance-list', [], true)
+ 5 APPPATH\Controllers\Attendance.php(22): view('admin/attendance/attendance-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:44:46 --> Undefined array key "sectorname"
+in APPPATH\Views\admin\attendance\attendance-list.php on line 48.
+ 1 APPPATH\Views\admin\attendance\attendance-list.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sectorname"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\admin\\attendance\\attendance-list.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\admin\\attendance\\attendance-list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/attendance/attendance-list', [], true)
+ 5 APPPATH\Controllers\Attendance.php(22): view('admin/attendance/attendance-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:44:53 --> Undefined array key "attendance_date"
+in APPPATH\Views\admin\attendance\attendance-list.php on line 50.
+ 1 APPPATH\Views\admin\attendance\attendance-list.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "attendance_date"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\admin\\attendance\\attendance-list.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\admin\\attendance\\attendance-list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/attendance/attendance-list', [], true)
+ 5 APPPATH\Controllers\Attendance.php(22): view('admin/attendance/attendance-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:45:00 --> Undefined array key "attendanceid"
+in APPPATH\Views\admin\attendance\attendance-list.php on line 52.
+ 1 APPPATH\Views\admin\attendance\attendance-list.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "attendanceid"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\admin\\attendance\\attendance-list.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\admin\\attendance\\attendance-list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/attendance/attendance-list', [], true)
+ 5 APPPATH\Controllers\Attendance.php(22): view('admin/attendance/attendance-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:50:16 --> Undefined array key "name"
+in APPPATH\Views\admin\attendance\search-user.php on line 63.
+ 1 APPPATH\Views\admin\attendance\search-user.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\admin\\attendance\\search-user.php', 63)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\admin\\attendance\\search-user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/attendance/search-user', [], true)
+ 5 APPPATH\Controllers\Attendance.php(131): view('admin/attendance/search-user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Attendance->AttendanceSearchUser()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:52:24 --> Invalid file: "admin/registration-link-list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/registration-link-list.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/registration-link-list', [], true)
+ 3 APPPATH\Controllers\Admin.php(20): view('admin/registration-link-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->registrationList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 02:52:31 --> Invalid file: "admin/evaluation-link-list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/evaluation-link-list.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/evaluation-link-list', [], true)
+ 3 APPPATH\Controllers\Admin.php(33): view('admin/evaluation-link-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->evaluationList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 02:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 02:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 16:09:32 --> Invalid file: "admin/registration-link-list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/registration-link-list.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/registration-link-list', [], true)
+ 3 APPPATH\Controllers\Admin.php(20): view('admin/registration-link-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->registrationList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 16:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 16:09:44 --> Invalid file: "admin/registration-link-list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/registration-link-list.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/registration-link-list', [], true)
+ 3 APPPATH\Controllers\Admin.php(20): view('admin/registration-link-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->registrationList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 16:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 16:15:16 --> Undefined variable $eventx
+in APPPATH\Views\registration-per-event.php on line 21.
+ 1 APPPATH\Views\registration-per-event.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventx', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('registration-per-event', [], true)
+ 5 APPPATH\Controllers\Registration.php(28): view('registration-per-event', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->event()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 16:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 16:15:25 --> Undefined variable $eventx
+in APPPATH\Views\registration-per-event.php on line 21.
+ 1 APPPATH\Views\registration-per-event.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventx', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('registration-per-event', [], true)
+ 5 APPPATH\Controllers\Registration.php(28): view('registration-per-event', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->event()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 16:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 16:16:05 --> Request URI segment is out of range: "4"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(4)
+ 2 APPPATH\Controllers\Registration.php(144): CodeIgniter\HTTP\URI->getSegment(4)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->walkinRegistration()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 16:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 16:17:09 --> Request URI segment is out of range: "3"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Views\walk-in-registration-per-event.php(49): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\walk-in-registration-per-event.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('walk-in-registration-per-event', [], true)
+ 6 APPPATH\Controllers\Registration.php(148): view('walk-in-registration-per-event', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->walkinRegistration()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 16:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 16:17:29 --> Request URI segment is out of range: "3"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Views\walk-in-registration-per-event.php(49): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\walk-in-registration-per-event.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('walk-in-registration-per-event', [], true)
+ 6 APPPATH\Controllers\Registration.php(149): view('walk-in-registration-per-event', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->walkinRegistration()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 16:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 16:17:58 --> Request URI segment is out of range: "3"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Views\walk-in-registration-per-event.php(49): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\walk-in-registration-per-event.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('walk-in-registration-per-event', [], true)
+ 6 APPPATH\Controllers\Registration.php(149): view('walk-in-registration-per-event', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->walkinRegistration()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 16:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 16:20:39 --> Undefined array key "event"
+in APPPATH\Models\RegistrationModel.php on line 88.
+ 1 APPPATH\Models\RegistrationModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "event"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Models\\RegistrationModel.php', 88)
+ 2 APPPATH\Controllers\Registration.php(175): App\Models\RegistrationModel->check_user_exists_by_name('tblparticipants', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->walkinRegistrationProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 16:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 16:20:47 --> Undefined array key "event"
+in APPPATH\Models\RegistrationModel.php on line 88.
+ 1 APPPATH\Models\RegistrationModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "event"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Models\\RegistrationModel.php', 88)
+ 2 APPPATH\Controllers\Registration.php(175): App\Models\RegistrationModel->check_user_exists_by_name('tblparticipants', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->walkinRegistrationProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 16:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 16:20:53 --> Undefined array key "event"
+in APPPATH\Models\RegistrationModel.php on line 88.
+ 1 APPPATH\Models\RegistrationModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "event"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Models\\RegistrationModel.php', 88)
+ 2 APPPATH\Controllers\Registration.php(175): App\Models\RegistrationModel->check_user_exists_by_name('tblparticipants', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->walkinRegistrationProcess()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 16:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 16:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 17:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 23:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 23:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 23:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 23:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 23:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 23:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 23:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 23:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 23:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 23:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,213 @@
+INFO - 2023-10-07 22:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-07 22:43:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'D0$Tregion10', 'rhrc', 3306, '', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\rhrc\app\Models\RegistrationModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dostx-registration\rhrc\app\Controllers\Registration.php(27): App\Models\RegistrationModel->get_data_where('tblevents', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Registration->event()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\rhrc\index.php(81): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\dostx-registration\rhrc\app\Models\RegistrationModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\dostx-registration\rhrc\app\Controllers\Registration.php(27): App\Models\RegistrationModel->get_data_where('tblevents', Array)
+#5 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Registration->event()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dostx-registration\rhrc\index.php(81): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-07 22:43:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblevents`
+WHERE `shorthand` = :shorthand:', [...], false)
+ 3 APPPATH\Models\RegistrationModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Registration.php(27): App\Models\RegistrationModel->get_data_where('tblevents', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->event()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-07 22:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-07 22:44:09 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'D0$Tregion10', 'rhrc', 3306, '', 0)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dostx-registration\rhrc\app\Models\RegistrationModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dostx-registration\rhrc\app\Controllers\Registration.php(27): App\Models\RegistrationModel->get_data_where('tblevents', Array)
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Registration->event()
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+#8 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dostx-registration\rhrc\index.php(81): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\dostx-registration\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\dostx-registration\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\dostx-registration\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\dostx-registration\rhrc\app\Models\RegistrationModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\dostx-registration\rhrc\app\Controllers\Registration.php(27): App\Models\RegistrationModel->get_data_where('tblevents', Array)
+#5 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(919): App\Controllers\Registration->event()
+#6 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+#7 C:\xampp\htdocs\dostx-registration\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dostx-registration\rhrc\index.php(81): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-07 22:44:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblevents`
+WHERE `shorthand` = :shorthand:', [...], false)
+ 3 APPPATH\Models\RegistrationModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Registration.php(27): App\Models\RegistrationModel->get_data_where('tblevents', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->event()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-07 22:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-07 22:44:47 --> Undefined array key "is_closed"
+in APPPATH\Views\registration-per-event.php on line 34.
+ 1 APPPATH\Views\registration-per-event.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "is_closed"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('registration-per-event', [], true)
+ 5 APPPATH\Controllers\Registration.php(31): view('registration-per-event', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->event()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-07 22:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-07 22:44:59 --> Undefined array key "is_closed"
+in APPPATH\Views\registration-per-event.php on line 34.
+ 1 APPPATH\Views\registration-per-event.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "is_closed"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('registration-per-event', [], true)
+ 5 APPPATH\Controllers\Registration.php(31): view('registration-per-event', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->event()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-07 22:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-07 22:45:00 --> Undefined array key "is_closed"
+in APPPATH\Views\registration-per-event.php on line 34.
+ 1 APPPATH\Views\registration-per-event.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "is_closed"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('registration-per-event', [], true)
+ 5 APPPATH\Controllers\Registration.php(31): view('registration-per-event', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->event()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-07 22:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-07 22:45:00 --> Undefined array key "is_closed"
+in APPPATH\Views\registration-per-event.php on line 34.
+ 1 APPPATH\Views\registration-per-event.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "is_closed"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('registration-per-event', [], true)
+ 5 APPPATH\Controllers\Registration.php(31): view('registration-per-event', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->event()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-07 22:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-07 22:47:11 --> Undefined array key "is_closed"
+in APPPATH\Views\registration-per-event.php on line 34.
+ 1 APPPATH\Views\registration-per-event.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "is_closed"', 'C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('registration-per-event', [], true)
+ 5 APPPATH\Controllers\Registration.php(31): view('registration-per-event', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->event()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-07 22:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-07 22:47:53 --> Request URI segment is out of range: "3"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Views\registration-per-event.php(97): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('registration-per-event', [], true)
+ 6 APPPATH\Controllers\Registration.php(31): view('registration-per-event', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->event()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-07 22:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-07 22:47:55 --> Request URI segment is out of range: "3"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Views\registration-per-event.php(97): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('registration-per-event', [], true)
+ 6 APPPATH\Controllers\Registration.php(31): view('registration-per-event', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->event()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-07 22:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-07 22:48:16 --> Request URI segment is out of range: "3"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Views\registration-per-event.php(97): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('registration-per-event', [], true)
+ 6 APPPATH\Controllers\Registration.php(31): view('registration-per-event', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->event()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-07 22:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-07 22:48:40 --> Request URI segment is out of range: "3"
+in SYSTEMPATH\HTTP\URI.php on line 560.
+ 1 SYSTEMPATH\HTTP\URI.php(560): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+ 2 APPPATH\Views\registration-per-event.php(97): CodeIgniter\HTTP\URI->getSegment(3)
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\dostx-registration\\rhrc\\app\\Views\\registration-per-event.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('registration-per-event', [], true)
+ 6 APPPATH\Controllers\Registration.php(31): view('registration-per-event', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Registration->event()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(81): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-07 22:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 22:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

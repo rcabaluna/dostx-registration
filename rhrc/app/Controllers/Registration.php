@@ -140,9 +140,8 @@ class Registration extends BaseController
 	# WALK-IN REGISTRATION
 
 	public function walkinRegistration(){
-		$uri = service('uri');
-        $eventshorthand = $uri->getSegment(4);
-
+		$data['pagetitle'] = "6th Regional Health Research Conference - Northern Mindanao";
+        $eventshorthand = 'rhrc';
         $data['eventx'] = $this->registrationModel->get_data_where('tblevents',array('shorthand' => $eventshorthand));
 		$data['regions'] = $this->registrationModel->get_all_data('refregion');
         if ($data['eventx']) {
@@ -160,6 +159,7 @@ class Registration extends BaseController
 
 		$data = array();
 		$privilegesArr = array();
+		$eventsAttendArr = array();
 
 		
 		foreach ($datax AS $key => $value) {
@@ -168,10 +168,18 @@ class Registration extends BaseController
 			if ($value['name'] == 'privileges[]') {
 				array_push($privilegesArr,$value['value']);
 			}
+
+			if ($value['name'] == 'event[]') {
+				array_push($eventsAttendArr,$value['value']);
+			}
 		}
 
 		unset($data['privileges[]']);
+		unset($data['event[]']);
+
 		$data['privileges'] = implode(", ",$privilegesArr);
+		$data['event'] = implode(", ",$eventsAttendArr);
+
 
 			$check = $this->registrationModel->check_user_exists_by_name('tblparticipants',$data);
 			if ($check) {

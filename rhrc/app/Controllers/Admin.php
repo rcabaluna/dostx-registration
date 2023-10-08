@@ -17,15 +17,9 @@ class Admin extends BaseController
 
         $data['events'] = $this->adminModel->get_all_data('tblevents');
         $data['pagetitle'] = '6th RHRC - Admin | Registration Links';
-        return view('admin/registration-link-list', $data);
+        return view('admin/registration/registration-link-list', $data);
     }
-
-    public function registrationWalkInList(){
-        $data['events'] = $this->adminModel->get_all_data('tblevents');
-        $data['pagetitle'] = '6th RHRC - Admin | Walk-in Registration Links';
-        return view('admin/w-registration-link-list', $data);
-    }
-
+    
     public function evaluationList()
     {
         $data['events'] = $this->adminModel->get_all_data('tblevents');

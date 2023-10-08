@@ -10,20 +10,20 @@
 
         <!-- Favicons -->
         <link href="<?=base_url('assets/images/logo/favicon.png') ?>" rel="icon" />
-        <link href="<?=base_url('assets2/img/apple-touch-icon.png') ?>" rel="apple-touch-icon" />
+        <link href="<?=base_url('assets/handa/assets2/img/apple-touch-icon.png') ?>" rel="apple-touch-icon" />
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet" />
 
         <!-- Vendor CSS Files -->
-        <link href="<?=base_url('assets2/vendor/aos/aos.css') ?>" rel="stylesheet" />
-        <link href="<?=base_url('assets2/vendor/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet" />
-        <link href="<?=base_url('assets2/vendor/bootstrap-icons/bootstrap-icons.css') ?>" rel="stylesheet" />
-        <link href="<?=base_url('assets2/vendor/glightbox/css/glightbox.min.css') ?>" rel="stylesheet" />
-        <link href="<?=base_url('assets2/vendor/swiper/swiper-bundle.min.css') ?>" rel="stylesheet" />
+        <link href="<?=base_url('assets/handa/assets2/vendor/aos/aos.css') ?>" rel="stylesheet" />
+        <link href="<?=base_url('assets/handa/assets2/vendor/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet" />
+        <link href="<?=base_url('assets/handa/assets2/vendor/bootstrap-icons/bootstrap-icons.css') ?>" rel="stylesheet" />
+        <link href="<?=base_url('assets/handa/assets2/vendor/glightbox/css/glightbox.min.css') ?>" rel="stylesheet" />
+        <link href="<?=base_url('assets/handa/assets2/vendor/swiper/swiper-bundle.min.css') ?>" rel="stylesheet" />
 
         <!-- Template Main CSS File -->
-        <link href="<?=base_url('assets2/css/style.css') ?>" rel="stylesheet" />
+        <link href="<?=base_url('assets/handa/assets2/css/style.css') ?>" rel="stylesheet" />
 
         <!-- =======================================================
   * Template Name: TheEvent
@@ -40,7 +40,7 @@
             <div class="container-fluid container-xxl d-flex align-items-center">
                 <div id="logo" class="me-auto">
                     <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
-                    <a href="<?=base_url('/handa')?>" id="nav-logox" class="scrollto"><img src="<?=base_url('assets2/img/logo.png') ?>" alt="" title="" /></a>
+                    <a href="<?=base_url('/handa')?>" id="nav-logox" class="scrollto"><img src="<?=base_url('assets/handa/assets2/img/logo.png') ?>" alt="" title="" /></a>
                 </div>
 
                 <nav id="navbar" class="navbar order-last order-lg-0">
@@ -62,10 +62,10 @@
         <section id="hero">
             <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
             <div class="supporter-logo">
-                                <img src="http://localhost/handa-registration/assets2/img/logo-head.png" class="img-fluid" alt="">
+                                <img src="http://localhost/handa-registration/assets/handa/assets2/img/logo-head.png" class="img-fluid" alt="">
                             </div>
                 <p class="mb-4 pb-0 font-weight-slim">October 4-6, 2023, Limketkai Center, Cagayan de Oro City</p>
-                <a href="<?=base_url('assets2/img/handa-teaser.mp4')?>" class="glightbox play-btn mb-4"></a>
+                <a href="<?=base_url('assets/handa/assets2/img/handa-teaser.mp4')?>" class="glightbox play-btn mb-4"></a>
                 <a href="#about" class="about-btn scrollto">About <b>HANDA</b></a>
             </div>
         </section>
@@ -140,7 +140,7 @@
                                     <p>DOST-X brings you the first DRRM Exposition in Mindanao, featuring various technologies and forums open and FREE for the general public. 
 </p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/opening.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/opening-ceremony"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/opening.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/opening-ceremony"><small>Register</small></a></div>
                             </div>
                             <div class="row schedule-item">
                                 <div class="col-md-2"><time>12:30 PM - 1:30 PM</time></div>
@@ -148,7 +148,7 @@
                                 <div class="col-md-6">
                                     <h4>Press Conference</h4>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/presscon.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/presscon"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/presscon.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/presscon"><small>Register</small></a></div>
                             </div>
                             <div class="row schedule-item">
                                 <div class="col-md-2"><time>1:30 PM - 2:00 PM</time></div>
@@ -158,7 +158,7 @@
                                     <p>Ceremonial MOU Signing on the partnership between DOST and some LGU Executives about mutual support in achieving the objectives of HANDA Pilipinas.
 </p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/mousigning.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/mousigning"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/mousigning.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/mousigning"><small>Register</small></a></div>
                             </div>
                             <div class="row schedule-item">
                                 <div class="col-md-2"><time>12:30 PM - 8:00 PM</time></div>
@@ -168,7 +168,7 @@
                                     <p>Experience the DRR Innovations in tbe country and explore how these can be of pratcical use to enhance the resilience of our communities. Explore a captivating showcase of cool technologies, interactive displays, and inspiring stories of survival. 
 </p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/drrm exhibits.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/drrm-exhibits"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/drrm exhibits.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/drrm-exhibits"><small>Register</small></a></div>
                             </div>
                             <div class="row schedule-item">
                                 <div class="col-md-2"><time>1:00 PM - 5:00 PM</time></div>
@@ -180,7 +180,7 @@ Luxe Hotel</div>
 <p>Join us in improving flood risk information and hazard assessment while exploring the PAGASA Flood Forecasting and  Monitoring Systems of  the 8 Major River Basins in Mindanao.</p>
 
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/pagsubay.png')?>" alt="">
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/pagsubay.png')?>" alt="">
                                     <a href="https://registration.region10.dost.gov.ph/handa/registration/event/pagsubay"><small>Register</small></a>
                                 </div>
                             </div>
@@ -195,7 +195,7 @@ Luxe Hotel</div>
 <p>The forum on ManDO presents the sharing of best practices from Gawad Kalasag (GK) seal Beyond Compliant LGU awardees, highlighting the Local Chief Executives'
 priority actions in risk management. DOST attached agencies will also present their respective Bamboo Innovations as measures in managing risks.</p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/mando.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/mando"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/mando.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/mando"><small>Register</small></a></div>
                             </div>
 
                             <div class="row schedule-item">
@@ -207,7 +207,7 @@ Luxe Hotel</div>
                                     <p>Let us discuss the opportunities of Bamboo in Disaster Risk Reduction and its promise in the growing trend of Carbon Crediting. Tala-Kawayan will showcase two (2) panel discussions featuring speakers from the industry and policy sectors.
 </p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/talakawayan.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/talakawayan"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/talakawayan.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/talakawayan"><small>Register</small></a></div>
                             </div>
                             <div class="row schedule-item">
                                 <div class="col-md-2"><time>2:00 PM - 4:00 PM</time></div>
@@ -221,7 +221,7 @@ Cagayan de Oro City</div>
 
 </p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/drrmtechexpo.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/drrmtechexpo"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/drrmtechexpo.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/drrmtechexpo"><small>Register</small></a></div>
                             </div>
                         </div>
                         <!-- End Schdule Day 1 -->
@@ -243,7 +243,7 @@ Cagayan de Oro City</div>
                                     <h4>PANAGTIGI: DRRM-CCA Quiz Bowl</h4>
                                     <p>PANAGTIGI fosters camaraderie and healthy competition that focuses on Disaster Risk Reduction and Management (DRRM) and Climate Change Adaptation (CCA), allowing DOST-SEI scholars to showcase their intellectual prowess while building connections with like-minded individuals.</p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/panagtigi-quizbowl.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/panagtigi-quizbowl"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/panagtigi-quizbowl.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/panagtigi-quizbowl"><small>Register</small></a></div>
                             </div>
                             <div class="row schedule-item">
                                 <div class="col-md-2"><time>10:00 AM - 8:00 PM</time></div>
@@ -253,7 +253,7 @@ Cagayan de Oro City</div>
                                     <p>Experience the DRR Exhibit and delve into a world of preparedness and resilience FOR FREE. Explore a captivating showcase of cool technologies, interactive displays, and inspiring stories of survival. 
 </p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/drrm exhibits.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/drrm-exhibits"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/drrm exhibits.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/drrm-exhibits"><small>Register</small></a></div>
                             </div>
                             <div class="row schedule-item">
                                 <div class="col-md-2"><time>8:30 AM - 5:00 PM</time></div>
@@ -263,7 +263,7 @@ Cagayan de Oro City</div>
                                     <p>Experts from DOST PAGASA and PHIVOLCS discuss the MAGHANDA Module for LDRRM Officers, media and information officers that contains comprehensive information about warning systems for disaster risk management and decision-making. 
 </p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/maghanda.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/maghanda"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/maghanda.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/maghanda"><small>Register</small></a></div>
                             </div>
                             <div class="row schedule-item">
                                 <div class="col-md-2"><time>9:00 AM - 12:00 PM</time></div>
@@ -273,7 +273,7 @@ Cagayan de Oro City</div>
                                     <p>Join us as we dive headfirst into the world of DOST-developed technologies for disaster prevention, preparedness, response, and rehabilitation.
 </p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/drrmtechcomm.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/drrmtechcomm"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/drrmtechcomm.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/drrmtechcomm"><small>Register</small></a></div>
                             </div>
                             <div class="row schedule-item">
                                 <div class="col-md-2"><time>1:00 PM - 4:00 PM</time></div>
@@ -283,7 +283,7 @@ Cagayan de Oro City</div>
                                     <p>In the face of adversity, let us come together as one resilient nation. GeoRiskPH is your compass, guiding you through the hazards, and your anchor, helping you build a future where resilience is championed.
 </p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/georiskph.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/georiskph"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/georiskph.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/georiskph"><small>Register</small></a></div>
                             </div>
                             <div class="row schedule-item">
                                 <div class="col-md-2"><time>1:00 PM - 4:00 PM</time></div>
@@ -292,7 +292,7 @@ Cagayan de Oro City</div>
                                     <h4>Bringing-in Resources for Everyone’s Agenda on Kalusugan (BREAK) for Emergencies and Disasters: Nutritious and Ready-to-Eat (RTE) Food and Beverage Technologies</h4>
                                     <p>Join this DOST-FNRI forum, where experts and enthusiasts feature technologies that ensure everyone's health during emergencies and disasters.</p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/fnriforum.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/fnriforum"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/fnriforum.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/fnriforum"><small>Register</small></a></div>
                             </div>
                         </div>
                         <!-- End Schdule Day 2 -->
@@ -315,7 +315,7 @@ Cagayan de Oro City</div>
                                     <p>Experience the DRR Exhibit and delve into a world of preparedness and resilience FOR FREE. Explore a captivating showcase of cool technologies, interactive displays, and inspiring stories of survival. 
 </p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/drrm exhibits.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/drrm-exhibits"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/drrm exhibits.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/drrm-exhibits"><small>Register</small></a></div>
                             </div>
                             <div class="row schedule-item">
                                 <div class="col-md-2"><time>10:00 AM - 12:00 PM</time></div>
@@ -325,7 +325,7 @@ Cagayan de Oro City</div>
                                     <p>This TikTok challenge is to raise awareness about disaster prevention and mitigation measures, encouraging users to create engaging and informative content that educates viewers on how to prepare and respond to various types of disasters.
 </p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/handatiktok.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/handatiktok"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/handatiktok.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/handatiktok"><small>Register</small></a></div>
                             </div>
                             <div class="row schedule-item">
                                 <div class="col-md-2"><time>9:00 AM - 11:55 PM</time></div>
@@ -335,7 +335,7 @@ Cagayan de Oro City</div>
                                     <p>Do you want to know about cutting-edge strategies and collaborative solutions that will  empower our communities to thrive in the face of a changing climate? Let us unite into forging sustainable actions for climate change adaptation through this iCARE forum.  #iCAREbecauseweCARE
 </p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/icare.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/icare"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/icare.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/icare"><small>Register</small></a></div>
                             </div>
                             <div class="row schedule-item">
                                 <div class="col-md-2"><time>2:00 PM - 4:50 PM</time></div>
@@ -345,7 +345,7 @@ Cagayan de Oro City</div>
                                     <p>LGUs are provided a platform to present their needs, gaps, and challenges in disaster risk reduction and management. The activity will serve as a venue for LGUs to invest in DRR innovations, collaborate with  inventiors, research development and academic institutions on the conceptualization of solutions for their DRRM-related needs. 
 </p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/pag-usad.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/pag-usad"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/pag-usad.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/pag-usad"><small>Register</small></a></div>
                             </div>
                             <div class="row schedule-item">
                                 <div class="col-md-2"><time>1:00 PM - 4:00 PM</time></div>
@@ -354,7 +354,7 @@ Cagayan de Oro City</div>
                                     <h4>CLOSING/AWARDING CEREMONY</h4>
                                     <p>To recognize partners, participating organizations, and to give a glimpse of what to look forward in the Visayas leg in Tacloban on 8-10 November 2023.</p>
                                 </div>
-                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets2/img/programs/closing.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/closing"><small>Register</small></a></div>
+                                <div class="col-md-2 text-center"><img class="w-100" src="<?=base_url('assets/handa/assets2/img/programs/closing.png')?>" alt=""><a href="https://registration.region10.dost.gov.ph/handa/registration/event/closing"><small>Register</small></a></div>
                             </div>
                         </div>
                         <!-- End Schdule Day 2 -->
@@ -372,7 +372,7 @@ Cagayan de Oro City</div>
 
                     <div class="row g-0">
                         <div class="col-lg-6 venue-map">
-                            <img src="<?=base_url('assets2/img/map.png')?>" alt="">
+                            <img src="<?=base_url('assets/handa/assets2/img/map.png')?>" alt="">
                         </div>
 
                         <div class="col-lg-6 venue-info">
@@ -436,7 +436,7 @@ Cagayan de Oro City</div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-md-6 footer-info">
-                            <img src="<?=base_url('assets2/img/logo.png') ?>" alt="TheEvenet" />
+                            <img src="<?=base_url('assets/handa/assets2/img/logo.png') ?>" alt="TheEvenet" />
                             <p>
                                 In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore
                                 consequatur ad voluptate cupiditate debitis accusamus repellat cumque.
@@ -483,14 +483,14 @@ Cagayan de Oro City</div>
         <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
         <!-- Vendor JS Files -->
-        <script src="<?=base_url('assets2/vendor/aos/aos.js') ?>"></script>
-        <script src="<?=base_url('assets2/vendor/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
-        <script src="<?=base_url('assets2/vendor/glightbox/js/glightbox.min.js') ?>"></script>
-        <script src="<?=base_url('assets2/vendor/swiper/swiper-bundle.min.js') ?>"></script>
-        <script src="<?=base_url('assets2/js/jquery.min.js') ?>"></script>
+        <script src="<?=base_url('assets/handa/assets2/vendor/aos/aos.js') ?>"></script>
+        <script src="<?=base_url('assets/handa/assets2/vendor/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+        <script src="<?=base_url('assets/handa/assets2/vendor/glightbox/js/glightbox.min.js') ?>"></script>
+        <script src="<?=base_url('assets/handa/assets2/vendor/swiper/swiper-bundle.min.js') ?>"></script>
+        <script src="<?=base_url('assets/handa/assets2/js/jquery.min.js') ?>"></script>
 
         <!-- Template Main JS File -->
-        <script src="<?=base_url('assets2/js/main.js') ?>"></script>
+        <script src="<?=base_url('assets/handa/assets2/js/main.js') ?>"></script>
         <script>
             $(document).ready(function() {
                 // Detect when the user scrolls

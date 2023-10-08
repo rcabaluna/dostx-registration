@@ -26,7 +26,7 @@
                             <div class="card shadow-lg">
                                 <div class="card-body">
                                     <div class="d-flex align-items-center justify-content-between m-b-30">
-                                        <img class="img-fluid" alt="" src="<?=base_url('assets/images/logo/logo-black-login.png')?>">
+                                        <img class="img-fluid"src="<?=base_url('assets/images/logo/logo-black-login.png')?>">
                                         <h2 class="m-b-0">Log In</h2>
                                     </div>
                                     <?php if (isset($invalid)) {
@@ -36,7 +36,7 @@
                                         </div>
                                         <?php
                                     }?>
-                                    <form action="<?=base_url('login')?>" method="POST">
+                                    <form action="<?=base_url('/login')?>" method="POST">
                                         <div class="form-group">
                                             <label class="font-weight-semibold" for="userName">Username:</label>
                                             <div class="input-affix">
