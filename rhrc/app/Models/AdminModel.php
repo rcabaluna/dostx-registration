@@ -10,7 +10,10 @@ class AdminModel extends Model
     public function get_all_data($tablename){
 
         $builder = $this->db->table($tablename);
+        $$builder->limit(1);
+        
         $query   = $builder->get();
+        
 
         return $query->getResultArray();
     }
