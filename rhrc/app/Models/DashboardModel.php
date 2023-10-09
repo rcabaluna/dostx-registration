@@ -12,6 +12,7 @@ class DashboardModel extends Model
             ->select('a.name, a.venue, a.datetime, a.shorthand, a.targetparticipants, a.buffer')
             ->select('(SELECT COUNT(b.participantid) FROM tblparticipants b) AS participantsno', false)
             ->select('(SELECT COUNT(*) FROM tblattendance c WHERE c.event = a.shorthand) AS attendanceno', false)
+            ->limit(1)
             ->groupBy('a.shorthand')
             ->orderBy('a.eventid', 'ASC');
         $query = $builder->get();
