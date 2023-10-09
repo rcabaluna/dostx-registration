@@ -174,5 +174,24 @@ class Attendance extends BaseController
 
 		$ciqrcode->generate($params);
 	}
+
+    public function generateQRCodex()
+	{
+		
+        $ciqrcode = new Ciqrcode();
+
+        $xx = $this->attendanceModel->get_all_data('tblevents');
+        foreach ($xx as $xxRow) {
+        
+            $qr_image=$xxRow['shorthand'].'.png';
+            $strData = 'https://registration.region10.dost.gov.ph/rstw2023/registration/event/'.$xxRow['shorthand'];
+            $params['data'] = $strData;
+            $params['level'] = 'H';
+            $params['size'] = 8;
+            $params['savename'] =FCPATH.STORE_QR.'programs/'.$qr_image;
+
+            $ciqrcode->generate($params);
+        }
+	}
     
 }
