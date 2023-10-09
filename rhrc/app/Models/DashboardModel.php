@@ -23,16 +23,14 @@ class DashboardModel extends Model
 
         $builder = $this->db->table('tblevaluation a');
         $builder->select('b.name');
+        $builder->select('a.event');
         $builder->select('COUNT(a.evaluationid) AS noofrespondents');
-        $builder->select('ROUND(AVG(IFNULL(a.responsiveness, 0)), 1) AS responsiveness', false);
-        $builder->select('ROUND(AVG(IFNULL(a.reliability, 0)), 1) AS reliability', false);
-        $builder->select('ROUND(AVG(IFNULL(a.access_and_facilities, 0)), 1) AS access_and_facilities', false);
-        $builder->select('ROUND(AVG(IFNULL(a.communication, 0)), 1) AS communication', false);
-        $builder->select('ROUND(AVG(IFNULL(a.cash, 0)), 1) AS cash', false);
-        $builder->select('ROUND(AVG(IFNULL(a.integrity, 0)), 1) AS integrity', false);
-        $builder->select('ROUND(AVG(IFNULL(a.assurance, 0)), 1) AS assurance', false);
-        $builder->select('ROUND(AVG(IFNULL(a.outcome, 0)), 1) AS outcome', false);
-        $builder->select('ROUND(AVG(IFNULL(a.overall_satisfaction, 0)), 1) AS overall_satisfaction', false);
+        $builder->select('ROUND(AVG(IFNULL(a.q13a, 0)), 1) AS q13a', false);
+        $builder->select('ROUND(AVG(IFNULL(a.q13b, 0)), 1) AS q13b', false);
+        $builder->select('ROUND(AVG(IFNULL(a.q13c, 0)), 1) AS q13c', false);
+        $builder->select('ROUND(AVG(IFNULL(a.q13d, 0)), 1) AS q13d', false);
+        $builder->select('ROUND(AVG(IFNULL(a.q13e, 0)), 1) AS q13e', false);
+        $builder->select('ROUND(AVG(IFNULL(a.q13f, 0)), 1) AS q13f', false);
         $builder->join('tblevents b', 'b.shorthand = a.event');
         $builder->groupBy('b.shorthand');
         $builder->orderBy('b.eventid');

@@ -9,34 +9,31 @@
                     <thead>
                         <tr>
                             <th>Event</th>
-                            <th class="text-right">No. of Respondents</th>
-                            <th class="text-right"><small>I spent an acceptable amount of time to complete this training. <b>(Responsiveness)</b></small></th>
-                            <th class="text-right"><small>The office accurately informed and followed the training’s requirements and steps. <b>(Reliability)</b></small></th>
-                            <th class="text-right"><small>My training process (including steps) was simple and convenient. <b>(Access and Facilities)</b></small></th>
-                            <th class="text-right"><small>I easily found information about the training from the office staff or internet. <b>(Communication)</b></small></th>
-                            <th class="text-right"><small>I did not pay any fees for this training. <b>(Cash Free)</b></small></th>
-                            <th class="text-right"><small>I am confident this training was secure. <b>(Integrity)</b></small></th>
-                            <th class="text-right"><small>The office staff was quick to respond to my queries. <b>(Assurance)</b></small></th>
-                            <th class="text-right"><small>I got what I needed from this government office <b>(Outcome)</b></small></th>
-                            <th class="text-right"><small><b>Overall Satisfaction</b></small></th>
+                            <th>No. of Respondents</th>
+                            <th>OVERALL MANAGEMENT</th>
+                            <th>PLATFORM</th>
+                            <th>TRAINER/RESOURCE SPEAKER</th>
+                            <th>SECRETARIAT/FACILITATOR</th>
+                            <th>PROGRAM</th>
+                            <th>TIME ALLOCATION</th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php foreach ($evalCount as $evalCountRow) { ?>
                             <tr>
-                                <td><a href="<?=base_url("evaluation/participants?event=all")?>"><b><?=$evalCountRow['name']?></b></a></td>
+                                <td><a href="<?=base_url("evaluation/participants?event=".$evalCountRow['event'])?>"><b><?=$evalCountRow['name']?></b></a></td>
                                 <td class="text-right"><?=$evalCountRow['noofrespondents']?></td>
-                                <td class="text-right"><?=$evalCountRow['responsiveness']?></td>
-                                <td class="text-right"><?=$evalCountRow['reliability']?></td>
-                                <td class="text-right"><?=$evalCountRow['access_and_facilities']?></td>
-                                <td class="text-right"><?=$evalCountRow['communication']?></td>
-                                <td class="text-right"><?=$evalCountRow['cash']?></td>
-                                <td class="text-right"><?=$evalCountRow['integrity']?></td>
-                                <td class="text-right"><?=$evalCountRow['assurance']?></td>
-                                <td class="text-right"><?=$evalCountRow['outcome']?></td>
-                                <td class="text-right"><?=$evalCountRow['overall_satisfaction']?></td>
+                                <td class="text-right"><?=$evalCountRow['q13a']?></td>
+                                <td class="text-right"><?=$evalCountRow['q13b']?></td>
+                                <td class="text-right"><?=$evalCountRow['q13c']?></td>
+                                <td class="text-right"><?=$evalCountRow['q13d']?></td>
+                                <td class="text-right"><?=$evalCountRow['q13e']?></td>
+                                <td class="text-right"><?=$evalCountRow['q13f']?></td>
                             </tr>
                         <?php } ?>
+
+
+                        
                     </tbody>
                 </table>
             </div>

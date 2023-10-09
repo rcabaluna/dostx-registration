@@ -11,9 +11,9 @@
                         <label>Select forum/event:</label>
                         <select class="form-control" id="selevents" onchange="get_participants_by_event()">
                             <option value="all">All</option>
-                            <?php foreach ($events as $eventsRow) { ?>
-                            <option value="<?=$eventsRow['shorthand']?>"><?=$eventsRow['name']?></option>
-                            <?php } ?>
+                            <option value="day1">Day 1</option>
+                            <option value="day2">Day 2</option>
+                            <option value="day3">Day 3</option>
                         </select>
                     </div>
                     <?php
@@ -35,24 +35,20 @@
                             <th>Address (Province)</th>
                             <th>Privileges</th>
                             <th>How did you hear about this event?</th>
-                            <th class="text-right" data-toggle="tooltip" data-placement="top" title="I spent an acceptable amount of time to complete this training."><small><span hidden>I spent an acceptable amount of time to complete this training. </span><b>(Responsiveness)</b></small></th>
-                            <th class="text-right" data-toggle="tooltip" data-placement="top" title="The office accurately informed and followed the training’s requirements and steps."><small><span hidden>The office accurately informed and followed the training’s requirements and steps.</span> <b>(Reliability)</b></small></th>
-                            <th class="text-right" data-toggle="tooltip" data-placement="top" title="My training process (including steps) was simple and convenient."><small><span hidden>My training process (including steps) was simple and convenient.</span> <b>(Access and Facilities)</b></small></th>
-                            <th class="text-right" data-toggle="tooltip" data-placement="top" title="I easily found information about the training from the office staff or internet."><small><span hidden>I easily found information about the training from the office staff or internet.</span> <b>(Communication)</b></small></th>
-                            <th class="text-right" data-toggle="tooltip" data-placement="top" title="I did not pay any fees for this training."><small><span hidden>I did not pay any fees for this training.</span> <b>(Cash Free)</b></small></th>
-                            <th class="text-right" data-toggle="tooltip" data-placement="top" title="I am confident this training was secure."><small><span hidden>I am confident this training was secure.</span> <b>(Integrity)</b></small></th>
-                            <th class="text-right" data-toggle="tooltip" data-placement="top" title="The office staff was quick to respond to my queries."><small><span hidden>The office staff was quick to respond to my queries.</span> <b>(Assurance)</b></small></th>
-                            <th class="text-right" data-toggle="tooltip" data-placement="top" title="I got what I needed from this government office"><small><span hidden>I got what I needed from this government office</span> <b>(Outcome)</b></small></th>
-                            <th class="text-right"><small><b>Overall Satisfaction</b></small></th>
-                            <th>If you rated 2-Fair or 1-Poor in the OVERALL SATISFACTION.</th>
-                            <th>If you rated 5-Excellent in the OVERALL SATISFACTION</th>
-                            <th>How likely would you recommend our services to others?</th>
-                            <th>Other Requests</th>
-                            <th>Interested Technology</th>
-                            <th><span hidden>Do you have other questions you were not able to relay during the forum? If so, you can share it here and we'll try to get back to you.</span>Other Questions</small></th>
                             <th>Event</th>
-                            <th>Evaluation Date</th>
-                            <th></th>
+                            <th>Do you think holding this activity is necessary?</th>
+                            <th>Is the purpose of the activity clear to you?</th>
+                            <th>Do you think the objective of the activity was achieved?</th>
+                            <th>OVERALL MANAGEMENT</th>
+                            <th>PLATFORM</th>
+                            <th>TRAINER/RESOURCE SPEAKER</th>
+                            <th>SECRETARIAT/FACILITATOR</th>
+                            <th>PROGRAM</th>
+                            <th>TIME ALLOCATION</th>
+                            <th>What have you learned from the activity?</th>
+                            <th>What improvement can you suggest?</th>
+                            <th>Date Evaluated</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -69,23 +65,19 @@
                                 <td><small><?=$evaluationRow['provDesc']?></small></td>
                                 <td><small><?=$evaluationRow['privileges']?></small></td>
                                 <td><small><?=$evaluationRow['sourceinfo']?></small></td>
-                                <td class="text-right"><?=$evaluationRow['responsiveness']?></td>
-                                <td class="text-right"><?=$evaluationRow['reliability']?></td>
-                                <td class="text-right"><?=$evaluationRow['access_and_facilities']?></td>
-                                <td class="text-right"><?=$evaluationRow['communication']?></td>
-                                <td class="text-right"><?=$evaluationRow['cash']?></td>
-                                <td class="text-right"><?=$evaluationRow['integrity']?></td>
-                                <td class="text-right"><?=$evaluationRow['assurance']?></td>
-                                <td class="text-right"><?=$evaluationRow['outcome']?></td>
-                                <td class="text-right"><?=$evaluationRow['overall_satisfaction']?></td>
-                                <td><?=$evaluationRow['if_fair_poor']?></td>
-                                <td><?=$evaluationRow['if_excellent']?></td>
-                                <td><?=$evaluationRow['recommend']?></td>
-                                <td><?=$evaluationRow['other_request']?></td>
-                                <td><?=$evaluationRow['interest_technology']?></td>
-                                <td><?=$evaluationRow['other_questions']?></td>
-                                <td><small><?=$evaluationRow['name']?></small></td>
-                                <td><?=date("M d, Y h:i A",strtotime($evaluationRow['date_registered'].'+8 hours'))?></td>
+                                <td><small><?=$evaluationRow['event']?></small></td>
+                                <td class="text-right"><?=($evaluationRow['q10']) ? 'Yes' : 'No';?></td>
+                                <td class="text-right"><?=($evaluationRow['q11']) ? 'Yes' : 'No';?></td>
+                                <td class="text-right"><?=($evaluationRow['q12']) ? 'Yes' : 'No';?></td>
+                                <td class="text-right"><?=$evaluationRow['q13a']?></td>
+                                <td class="text-right"><?=$evaluationRow['q13b']?></td>
+                                <td class="text-right"><?=$evaluationRow['q13c']?></td>
+                                <td class="text-right"><?=$evaluationRow['q13d']?></td>
+                                <td class="text-right"><?=$evaluationRow['q13e']?></td>
+                                <td class="text-right"><?=$evaluationRow['q13f']?></td>
+                                <td><?=$evaluationRow['learnings']?></td>
+                                <td><?=$evaluationRow['suggestions']?></td>
+                                <td><?=date("M d, Y h:i A",strtotime($evaluationRow['date_evaluated'].'+8 hours'))?></td>
                                 <td><button onclick="set_delete_link(<?=$evaluationRow['evaluationid']?>)" class="btn btn-danger btn-tone btn-xs">Delete</button></td>
                             </tr>
                         <?php }?>
