@@ -24,7 +24,7 @@
 }
 
 .radio-toolbar input[type="radio"]:checked+label {
-    background-color: #de4436;
+    background-color: #3f87f5;
     color: white;
 
 }
@@ -210,248 +210,163 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4">
-                                        10. <b>I spent an acceptable amount of time to complete this training. (Responsiveness) <small class="text-danger">*</small></b> <br />
-                                        <i>(Ako ay gumugugol ng sapat na oras para makompleto ang pagsasanay na ito)</i>
+                                        10. <b>Do you think holding this activity is necessary? <small class="text-danger">*</small></b> <br />
                                     </label>
                                     <fieldset class="radio-toolbar mt-3">
-                                        <input type="radio" id="responsiveness1" name="responsiveness" value="1" >
-                                        <label for="responsiveness1">1</label>
-                                        <input type="radio" id="responsiveness2" name="responsiveness" value="2">
-                                        <label for="responsiveness2">2</label>
-                                        <input type="radio" id="responsiveness3" name="responsiveness" value="3">
-                                        <label for="responsiveness3">3</label>
-                                        <input type="radio" id="responsiveness4" name="responsiveness" value="4">
-                                        <label for="responsiveness4">4</label>
-                                        <input type="radio" id="responsiveness5" name="responsiveness" value="5">
-                                        <label for="responsiveness5">5</label>
+                                        <input type="radio" id="q10-1" name="q10" value="1" >
+                                        <label for="q10-1">Yes</label>
+                                        <input type="radio" id="q10-2" name="q10" value="0">
+                                        <label for="q10-2">No</label>
+                                    </fieldset>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="inputEmail4">
+                                        11. <b>Is the purpose of the activity clear to you? <small class="text-danger">*</small></b> <br />
+                                    </label>
+                                    <fieldset class="radio-toolbar mt-3">
+                                        <input type="radio" id="q11-1" name="q11" value="1" >
+                                        <label for="q11-1">Yes</label>
+                                        <input type="radio" id="q11-2" name="q11" value="0">
+                                        <label for="q11-2">No</label>
+                                    </fieldset>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="inputEmail4">
+                                        12. <b>Do you think the objective of the activity was achieved? <small class="text-danger">*</small></b> <br />
+                                    </label>
+                                    <fieldset class="radio-toolbar mt-3">
+                                        <input type="radio" id="q12-1" name="q12" value="1" >
+                                        <label for="q12-1">Yes</label>
+                                        <input type="radio" id="q12-2" name="q12" value="0">
+                                        <label for="q12-2">No</label>
+                                    </fieldset>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="inputEmail4">
+                                        13. <b>How do you find the management of the activity in terms of:</b>
+                                    </label>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="inputEmail4">
+                                        a. <b>OVERALL MANAGEMENT <small class="text-danger">*</small></b> <br />
+                                    </label>
+                                    <fieldset class="radio-toolbar mt-3">
+                                        <input type="radio" id="q13a-1" name="q13a" value="1" >
+                                        <label for="q13a-1">1</label>
+                                        <input type="radio" id="q13a-2" name="q13a" value="2">
+                                        <label for="q13a-2">2</label>
+                                        <input type="radio" id="q13a-3" name="q13a" value="3">
+                                        <label for="q13a-3">3</label>
+                                        <input type="radio" id="q13a-4" name="q13a" value="4">
+                                        <label for="q13a-4">4</label>
+                                        <input type="radio" id="q13a-5" name="q13a" value="5">
+                                        <label for="q13a-5">5</label>
                                         <p class="text-left">Strongly Disagree <span class="float-right">Strongly Agree</span></p>
                                     </fieldset>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4">
-                                        11. <b>The office accurately informed and followed the training’s requirements and steps. (Reliability) <small class="text-danger">*</small></b> <br />
-                                        <i>(Ang opisina ay masuring sumusunod sa panuntunan ng pagsasanay na ito)</i>
+                                        b. <b>PLATFORM <small class="text-danger">*</small></b> <br />
                                     </label>
                                     <fieldset class="radio-toolbar mt-3">
-                                        <input type="radio" id="reliability1" name="reliability" value="1" >
-                                        <label for="reliability1">1</label>
-                                        <input type="radio" id="reliability2" name="reliability" value="2">
-                                        <label for="reliability2">2</label>
-                                        <input type="radio" id="reliability3" name="reliability" value="3">
-                                        <label for="reliability3">3</label>
-                                        <input type="radio" id="reliability4" name="reliability" value="4">
-                                        <label for="reliability4">4</label>
-                                        <input type="radio" id="reliability5" name="reliability" value="5">
-                                        <label for="reliability5">5</label>
+                                        <input type="radio" id="q13b-1" name="q13b" value="1" >
+                                        <label for="q13b-1">1</label>
+                                        <input type="radio" id="q13b-2" name="q13b" value="2">
+                                        <label for="q13b-2">2</label>
+                                        <input type="radio" id="q13b-3" name="q13b" value="3">
+                                        <label for="q13b-3">3</label>
+                                        <input type="radio" id="q13b-4" name="q13b" value="4">
+                                        <label for="q13b-4">4</label>
+                                        <input type="radio" id="q13b-5" name="q13b" value="5">
+                                        <label for="q13b-5">5</label>
                                         <p class="text-left">Strongly Disagree <span class="float-right">Strongly Agree</span></p>
                                     </fieldset>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4">
-                                        12. <b>My training process (including steps) was simple and convenient. (Access and Facilities) <small class="text-danger">*</small></b> <br />
-                                        <i>(Ang mga hakbangan sa pagsasanay ay simple at madali.)</i>
+                                        c. <b>TRAINER/RESOURCE SPEAKER  <small class="text-danger">*</small></b> <br />
                                     </label>
                                     <fieldset class="radio-toolbar mt-3">
-                                        <input type="radio" id="access_and_facilities1" name="access_and_facilities" value="1" >
-                                        <label for="access_and_facilities1">1</label>
-                                        <input type="radio" id="access_and_facilities2" name="access_and_facilities" value="2">
-                                        <label for="access_and_facilities2">2</label>
-                                        <input type="radio" id="access_and_facilities3" name="access_and_facilities" value="3">
-                                        <label for="access_and_facilities3">3</label>
-                                        <input type="radio" id="access_and_facilities4" name="access_and_facilities" value="4">
-                                        <label for="access_and_facilities4">4</label>
-                                        <input type="radio" id="access_and_facilities5" name="access_and_facilities" value="5">
-                                        <label for="access_and_facilities5">5</label>
+                                        <input type="radio" id="q13c-1" name="q13c" value="1" >
+                                        <label for="q13c-1">1</label>
+                                        <input type="radio" id="q13c-2" name="q13c" value="2">
+                                        <label for="q13c-2">2</label>
+                                        <input type="radio" id="q13c-3" name="q13c" value="3">
+                                        <label for="q13c-3">3</label>
+                                        <input type="radio" id="q13c-4" name="q13c" value="4">
+                                        <label for="q13c-4">4</label>
+                                        <input type="radio" id="q13c-5" name="q13c" value="5">
+                                        <label for="q13c-5">5</label>
                                         <p class="text-left">Strongly Disagree <span class="float-right">Strongly Agree</span></p>
                                     </fieldset>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4">
-                                        13. <b>I easily found information about the training from the office staff or internet. (Communication) <small class="text-danger">*</small></b> <br />
-                                        <i>(Ang impormasyon tungkol sa pagsasanay ay madali kong malaman sa mga empleyado o sa internet.)</i>
+                                        d. <b>SECRETARIAT/FACILITATOR <small class="text-danger">*</small></b> <br />
                                     </label>
                                     <fieldset class="radio-toolbar mt-3">
-                                        <input type="radio" id="communication1" name="communication" value="1" >
-                                        <label for="communication1">1</label>
-                                        <input type="radio" id="communication2" name="communication" value="2">
-                                        <label for="communication2">2</label>
-                                        <input type="radio" id="communication3" name="communication" value="3">
-                                        <label for="communication3">3</label>
-                                        <input type="radio" id="communication4" name="communication" value="4">
-                                        <label for="communication4">4</label>
-                                        <input type="radio" id="communication5" name="communication" value="5">
-                                        <label for="communication5">5</label>
+                                        <input type="radio" id="q13d-1" name="q13d" value="1" >
+                                        <label for="q13d-1">1</label>
+                                        <input type="radio" id="q13d-2" name="q13d" value="2">
+                                        <label for="q13d-2">2</label>
+                                        <input type="radio" id="q13d-3" name="q13d" value="3">
+                                        <label for="q13d-3">3</label>
+                                        <input type="radio" id="q13d-4" name="q13d" value="4">
+                                        <label for="q13d-4">4</label>
+                                        <input type="radio" id="q13d-5" name="q13d" value="5">
+                                        <label for="q13d-5">5</label>
                                         <p class="text-left">Strongly Disagree <span class="float-right">Strongly Agree</span></p>
                                     </fieldset>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4">
-                                        14. <b>I did not pay any fees for this training. (Cash) <small class="text-danger">*</small></b> <br />
-                                        <i>(Ako ay walang binayaran sa pagsasanay na ito.)</i>
+                                        e. <b>PROGRAM <small class="text-danger">*</small></b> <br />
                                     </label>
                                     <fieldset class="radio-toolbar mt-3">
-                                        <input type="radio" id="cash1" name="cash" value="1" >
-                                        <label for="cash1">1</label>
-                                        <input type="radio" id="cash2" name="cash" value="2">
-                                        <label for="cash2">2</label>
-                                        <input type="radio" id="cash3" name="cash" value="3">
-                                        <label for="cash3">3</label>
-                                        <input type="radio" id="cash4" name="cash" value="4">
-                                        <label for="cash4">4</label>
-                                        <input type="radio" id="cash5" name="cash" value="5">
-                                        <label for="cash5">5</label>
+                                        <input type="radio" id="q13e-1" name="q13e" value="1" >
+                                        <label for="q13e-1">1</label>
+                                        <input type="radio" id="q13e-2" name="q13e" value="2">
+                                        <label for="q13e-2">2</label>
+                                        <input type="radio" id="q13e-3" name="q13e" value="3">
+                                        <label for="q13e-3">3</label>
+                                        <input type="radio" id="q13e-4" name="q13e" value="4">
+                                        <label for="q13e-4">4</label>
+                                        <input type="radio" id="q13e-5" name="q13e" value="5">
+                                        <label for="q13e-5">5</label>
                                         <p class="text-left">Strongly Disagree <span class="float-right">Strongly Agree</span></p>
                                     </fieldset>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4">
-                                        15. <b>I am confident this training was secure. (Integrity) <small class="text-danger">*</small></b> <br />
-                                        <i>(Ako ay tiwalang ang pagsasanay ay ligtas.)</i>
+                                        f. <b>TIME ALLOCATION <small class="text-danger">*</small></b> <br />
                                     </label>
                                     <fieldset class="radio-toolbar mt-3">
-                                        <input type="radio" id="integrity1" name="integrity" value="1" >
-                                        <label for="integrity1">1</label>
-                                        <input type="radio" id="integrity2" name="integrity" value="2">
-                                        <label for="integrity2">2</label>
-                                        <input type="radio" id="integrity3" name="integrity" value="3">
-                                        <label for="integrity3">3</label>
-                                        <input type="radio" id="integrity4" name="integrity" value="4">
-                                        <label for="integrity4">4</label>
-                                        <input type="radio" id="integrity5" name="integrity" value="5">
-                                        <label for="integrity5">5</label>
+                                        <input type="radio" id="q13f-1" name="q13f" value="1" >
+                                        <label for="q13f-1">1</label>
+                                        <input type="radio" id="q13f-2" name="q13f" value="2">
+                                        <label for="q13f-2">2</label>
+                                        <input type="radio" id="q13f-3" name="q13f" value="3">
+                                        <label for="q13f-3">3</label>
+                                        <input type="radio" id="q13f-4" name="q13f" value="4">
+                                        <label for="q13f-4">4</label>
+                                        <input type="radio" id="q13f-5" name="q13f" value="5">
+                                        <label for="q13f-5">5</label>
                                         <p class="text-left">Strongly Disagree <span class="float-right">Strongly Agree</span></p>
                                     </fieldset>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4">
-                                        16. <b>The office staff was quick to respond to my queries. (Assurance) <small class="text-danger">*</small></b> <br />
-                                        <i>(Maagap ang mga tauhan sa opisina sa pagsagot sa aking mga katanungan.)</i>
-                                    </label>
-                                    <fieldset class="radio-toolbar mt-3">
-                                        <input type="radio" id="assurance1" name="assurance" value="1" >
-                                        <label for="assurance1">1</label>
-                                        <input type="radio" id="assurance2" name="assurance" value="2">
-                                        <label for="assurance2">2</label>
-                                        <input type="radio" id="assurance3" name="assurance" value="3">
-                                        <label for="assurance3">3</label>
-                                        <input type="radio" id="assurance4" name="assurance" value="4">
-                                        <label for="assurance4">4</label>
-                                        <input type="radio" id="assurance5" name="assurance" value="5">
-                                        <label for="assurance5">5</label>
-                                        <p class="text-left">Strongly Disagree <span class="float-right">Strongly Agree</span></p>
-                                    </fieldset>
+                                        14. <b>What have you learned from the activity?</b> <br /> </label>
+                                    <input type="text" class="form-control" name="learnings" placeholder="Your answer" />
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4">
-                                        17. <b>I got what I needed from this government office (Outcome) <small class="text-danger">*</small></b> <br />
-                                        <i>(Nakuha ko ang kasagutan sa aking pakay sa opisinang ito.)</i>
-                                    </label>
-                                    <fieldset class="radio-toolbar mt-3">
-                                        <input type="radio" id="outcome1" name="outcome" value="1" >
-                                        <label for="outcome1">1</label>
-                                        <input type="radio" id="outcome2" name="outcome" value="2">
-                                        <label for="outcome2">2</label>
-                                        <input type="radio" id="outcome3" name="outcome" value="3">
-                                        <label for="outcome3">3</label>
-                                        <input type="radio" id="outcome4" name="outcome" value="4">
-                                        <label for="outcome4">4</label>
-                                        <input type="radio" id="outcome5" name="outcome" value="5">
-                                        <label for="outcome5">5</label>
-                                        <p class="text-left">Strongly Disagree <span class="float-right">Strongly Agree</span></p>
-                                    </fieldset>
-                                </div>
-                            </div>
-                            <div class="form-row" id="css-feedback-form-2">
-                                <div class="form-group col-md-12">
-                                    <h4>CUSTOMER SATISFACTION FEEDBACK - HANDA PILIPINAS 2023</h4>
+                                        15. <b>What improvement can you suggest?</b> <br /> </label>
+                                    <input type="text" class="form-control" name="suggestions" placeholder="Your answer" />
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4">
-                                        18.
-                                        <b>
-                                            OVERALL SATISFACTION (Pangkalahatang Kasiyahan) <small class="text-danger">*</small><br /><br />
-                                            Please select your responses using the following rating scale (5-excellent and 1-Poor)
-                                        </b>
-                                        <br />
-                                        <i>(Piliin ang iyong puna gamit ang mga sumusunod na marka (5-Mahusay at higit pa sa inaasahan at 1-Wala o maling natugunan.)</i>
-                                    </label>
-                                    <fieldset class="radio-toolbar mt-3">
-                                        <input type="radio" id="overall_satisfaction1" name="overall_satisfaction" value="1">
-                                        <label for="overall_satisfaction1">1</label>
-                                        <input type="radio" id="overall_satisfaction2" name="overall_satisfaction" value="2">
-                                        <label for="overall_satisfaction2">2</label>
-                                        <input type="radio" id="overall_satisfaction3" name="overall_satisfaction" value="3">
-                                        <label for="overall_satisfaction3">3</label>
-                                        <input type="radio" id="overall_satisfaction4" name="overall_satisfaction" value="4">
-                                        <label for="overall_satisfaction4">4</label>
-                                        <input type="radio" id="overall_satisfaction5" name="overall_satisfaction" value="5">
-                                        <label for="overall_satisfaction5">5</label>
-                                        <p class="text-left">Poor <span class="float-right">Excellent</span></p>
-                                    </fieldset>
-                                </div>
-                                <div class="form-group col-md-12">
-                                    <label for="inputEmail4">
-                                        19. <b>If you rated 2-Fair or 1-Poor in the OVERALL SATISFACTION, may we know the reason so that we can improve our services?</b> <br />
-                                        <i>(Magbigay ng komento o mungkahi para sa mga rating na 2-fair o 1-Poor upang mas mapabuti pa ang aming mga serbisyo)</i>
-                                    </label>
-                                    <input type="text" class="form-control" name="if_fair_poor" placeholder="Your answer" />
-                                </div>
-                                <div class="form-group col-md-12">
-                                    <label for="inputEmail4">
-                                        20. <b>If you rated 5-Excellent in the OVERALL SATISFACTION, we would appreciate your feedback to improve our services continuously.</b> <br />
-                                        <i>(Magbigay ng komento o mungkahi para sa mga rating na 5-Excellent upang tuloy-tuloy na mapabuti ang aming mga serbisyo.)</i>
-                                    </label>
-                                    <input type="text" class="form-control" name="if_excellent" placeholder="Your answer" />
-                                </div>
-                                <div class="form-group col-md-12">
-                                    <label for="inputEmail4">
-                                        21. <b>Considering your complete experience with our agency, how likely would you recommend our services to others? </b> <small class="text-danger">*</small> <br />
-                                        <i>(Base sa inyong pangkalahatang karanasan sa aming ahensya, gaano mo inirekomenda ang aming mga serbisyo?)</i>
-                                    </label>
-                                    <div class="radio">
-                                        <input id="recommend1" name="recommend" type="radio" value="Strongly Recommend"/>
-                                        <label for="recommend1">Strongly Recommend</label>
-                                    </div>
-                                    <div class="radio">
-                                        <input id="recommend2" name="recommend" type="radio" value="Will Recommend"/>
-                                        <label for="recommend2">Will Recommend</label>
-                                    </div>
-                                    <div class="radio">
-                                        <input id="recommend3" name="recommend" type="radio" value="Neutral"/>
-                                        <label for="recommend3">Neutral</label>
-                                    </div>
-                                    <div class="radio">
-                                        <input id="recommend4" name="recommend" type="radio" value=">Will Not Recommend"/>
-                                        <label for="recommend4">Will Not Recommend</label>
-                                    </div>
-                                    <div class="radio">
-                                        <input id="recommend5" name="recommend" type="radio" value="Strongly Not Recommend"/>
-                                        <label for="recommend5">Strongly Not Recommend</label>
-                                    </div>
-                                </div>
-                                <div class="form-group col-md-12">
-                                    <label for="inputEmail4">
-                                        22. <b>Other request/s or services needed </b> <br />
-                                        <i>(Iba pang tulong o serbisyong nais isangguni)</i>
-                                    </label>
-                                    <input type="text" class="form-control" name="other_request" placeholder="Your answer" />
-                                </div>
-                                <div class="form-group col-md-12">
-                                    <label for="inputEmail4">
-                                        23. <b>Is there a technology presented this morning you are interested in? </b> <br />
-                                        <i>We can link you using the information you shared with us</i>
-                                    </label>
-                                    <input type="text" class="form-control" name="interest_technology" placeholder="Your answer" />
-                                </div>
-                                <div class="form-group col-md-12">
-                                    <label for="inputEmail4">
-                                        24. <b>Do you have other questions you were not able to relay during the forum? If so, you can share it here and we’ll try to get back to you.</b> <br /> </label>
-                                    <input type="text" class="form-control" name="other_questions" placeholder="Your answer" />
-                                </div>
-                                <div class="form-group col-md-12">
-                                    <label for="inputEmail4">
-                                        25. <b>Would you like an electronic copy of your Certificate of Appearance? If not, please proceed to the registration area to request a hard copy.</b> <small class="text-danger">*</small> <br />
-                                        <i>(Gusto mo ba ng kopya sa elektronikong anyo ng iyong "Certificate of Appearance"? Kung hindi, mangyaring pumunta sa "registration area" para humiling ng kopya sa papel.)</i>
+                                        16. <b>Would you like an electronic copy of your Certificate of Appearance? If not, please proceed to the registration area to request a hard copy.</b> <small class="text-danger">*</small> <br />
                                     </label>
                                     <div class="radio">
                                         <input id="eca1" name="ecacopy" type="radio" value="1"/>
@@ -463,12 +378,12 @@
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="form-row">
                                 <div class="form-group col-md-12">
                                     <button type="button" id="back-btn" onclick="go_previous_form()" class="btn btn-default btn-tone">Back</button>
-                                    <button type="submit" id="next-btn-1" class="btn btn-danger float-right" disabled>Next</button>
-                                    <button type="submit" id="next-btn-2" class="btn btn-danger float-right" disabled>Next</button>
-                                    <button type="submit" id="submit-btn" class="btn btn-danger float-right"disabled><i class="anticon anticon-loading m-r-5"></i></i>Submit</button>
+                                    <button type="submit" id="next-btn-1" class="btn btn-primary float-right" disabled>Next</button>
+                                    <button type="submit" id="submit-btn" class="btn btn-primary float-right"disabled><i class="anticon anticon-loading m-r-5"></i></i>Submit</button>
                                 </div>
                             </div>
                         </form>
@@ -492,7 +407,6 @@
         $("#submit-btn").hide();
         $("#personal-info-form").show();
         $("#css-feedback-form-1").hide();
-        $("#css-feedback-form-2").hide();
         $("#back-btn").hide();
 
         // Attach the function to the change event of inputs and selects in #personal-info-form
@@ -534,26 +448,9 @@
         var totalSelectedRadioButtons = $('#css-feedback-form-1 input[type="radio"]:checked').length;
 
         if (totalSelectedRadioButtons === totalDistinctRadioNames) {
-            $('#next-btn-2').prop('disabled', false);
+            $('#submit-btn').prop('disabled', false);
         } else {
-            $('#next-btn-2').prop('disabled', true);
-        }
-    }
-    
-    // FORM VALIDATION CSS 2
-    $('#css-feedback-form-2 input[name="overall_satisfaction"], #css-feedback-form-2 input[name="recommend"], #css-feedback-form-2 input[name="ecacopy"]').change(checkInputs_css_part_2);
-    function checkInputs_css_part_2() {
-        var overallSatisfactionChecked = $('input[name="overall_satisfaction"]:checked').length > 0;
-        var recommendChecked = $('input[name="recommend"]:checked').length > 0;
-        var ecaChecked = $('input[name="ecacopy"]:checked').length > 0;
-        
-        if (ecaChecked) {
-            // Enable or disable the submit button based on conditions
-            if ((overallSatisfactionChecked && recommendChecked)) {
-                $('#submit-btn').prop('disabled', false);
-            } else {
-                $('#submit-btn').prop('disabled', true);
-            }
+            $('#submit-btn').prop('disabled', true);
         }
     }
 
@@ -561,27 +458,13 @@
         if (nextCounter == 1) {
             nextCounter += 1;
             $("#next-btn-1").hide();
-            $("#next-btn-2").show();
-            $("#submit-btn").hide();
+            $("#submit-btn").show();
             $("#personal-info-form").hide();
             $("#css-feedback-form-1").show();
             $("html,body").scrollTop(0);
             $("#back-btn").show();
-            $("#next-btn-2").prop("disabled", "disabled");
             checkInputs_personal_info();
             checkInputs_css_part_1();
-        } else if (nextCounter == 2) {
-            nextCounter += 1;
-            $("#next-btn-1").hide();
-            $("#next-btn-2").hide();
-            $("#submit-btn").show();
-            $("#css-feedback-form-1").hide();
-            $("#css-feedback-form-2").show();
-            $("html,body").scrollTop(0);
-            $("#back-btn").show();
-            checkInputs_css_part_1();
-        } else if (nextCounter == 3){
-            checkInputs_css_part_2();
         }
     }
 
@@ -606,7 +489,7 @@
     }
 
     $("#evaluation-form").submit(function (e) {
-        if (nextCounter != 3) {
+        if (nextCounter != 2) {
             show_next_btn();
         } else {
             evaluation_process();
@@ -622,16 +505,8 @@
             $(window).scrollTop(0);
             $("#back-btn").hide();
             $("#next-btn-1").show();
-            $("#next-btn-2").hide();
-            checkInputs_personal_info();
-            nextCounter -= 1;
-        } else if (nextCounter == 3) {
-            $("#css-feedback-form-1").show();
-            $("#css-feedback-form-2").hide();
-            $(window).scrollTop(0);
-            $("#next-btn-2").show();
             $("#submit-btn").hide();
-            checkInputs_css_part_1();
+            checkInputs_personal_info();
             nextCounter -= 1;
         }
     }

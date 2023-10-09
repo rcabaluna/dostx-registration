@@ -1,6 +1,4 @@
 <div class="col">
-    <p class="text-dark"><?=$name?><br><span><b><?=$venue?></b><br><b><?=$datetime?></b></span></p>
-    <hr>
     <ul class="list-unstyled m-t-10">
         <li class="row">
             <p class="text-dark col-sm-4 col-4 font-weight-semibold text-dark">
@@ -51,6 +49,12 @@
                 <span>Sector: </span> 
             </p>
             <p class="text-dark col font-weight-semibold"> <?=$sectorname?></p>
+        </li>
+        <li class="row">
+            <p class="text-dark col-sm-4 col-4 font-weight-semibold text-dark">
+                <span>Days/Events Registered: </span> 
+            </p>
+            <p class="text-dark col font-weight-semibold"> <?=$event?></p>
         </li>
     </ul>
 </div>

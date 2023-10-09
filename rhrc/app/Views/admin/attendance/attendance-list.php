@@ -21,6 +21,7 @@
                             <th>Position</th>
                             <th>Sector/Affiliation</th>
                             <th>Privileges</th>
+                            <th>Event</th>
                             <th>Attendance Date</th>
                             <th>Actions</th>
                         </tr>
@@ -47,6 +48,7 @@
                             <td><?=$attendanceRow['position']?></td>
                             <td><?=$attendanceRow['sectorname']?></td>
                             <td><?=($attendanceRow['privileges']) ? $attendanceRow['privileges'] : '-' ?></td>
+                            <td><?=$attendanceRow['event_present']?></td>
                             <td><?=date("M d, Y h:i A",strtotime($attendanceRow['attendance_date'].'+8 hours'))?></td>
                             <td>
                                 <button class="btn btn-danger btn-xs" onclick="set_delete_link(<?=$attendanceRow['attendanceid']?>)"><i class="anticon anticon-delete"></i></button>

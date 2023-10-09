@@ -46,7 +46,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                <button type="button" onclick="save_attendance()" class="btn btn-danger">Confirm Attendance</button>
+                <button type="button" onclick="save_attendance()" class="btn btn-primary">Confirm Attendance</button>
             </div>
           </div>
       </div>
@@ -101,8 +101,8 @@
           // $(selcameras).html(option);
 
           if (cameras.length > 0) {
-            // scanner.start(cameras[defaultcam]);
-            scanner.start(cameras[cameras.length-1]);
+            scanner.start(cameras[defaultcam]);
+            // scanner.start(cameras[cameras.length-1]);
 
             scanner.mirror = false;
           } else {

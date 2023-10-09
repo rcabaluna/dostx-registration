@@ -39,9 +39,13 @@ class AttendanceModel extends Model
 
     public function get_part_data($tablename,$param){
 
-        $builder = $this->db->table($tablename);
-        $builder->where('regnumber',$param['regnumber']);
-        $builder->like('event',$param['event'],'both');
+        $builder = $this->db->table($tablename.' a');
+        $builder->select('a.*, b.sectorname, c.regDesc,d.provDesc');
+        $builder->join('tblsector b', 'b.sectorid = a.sector');
+        $builder->join('refregion c', 'c.regCode = a.address_region');
+        $builder->join('refprovince d', 'd.provCode = a.address_province');
+        $builder->where('a.regnumber',$param['regnumber']);
+        $builder->like('a.event',$param['event'],'both');
         $query   = $builder->get();
 
         return $query->getRowArray();
@@ -68,7 +72,7 @@ class AttendanceModel extends Model
     public function get_attendance_list($tablename,$param){
 
         $builder = $this->db->table($tablename.' e');
-        $builder->select('a.participantid, a.regnumber, a.title, a.lastname, a.firstname, a.middle_initial, a.suffix, a.contactno, a.email, a.sex, a.position, a.sector, a.address_region, a.address_province, a.agency_name, a.privileges, a.event, a.date_registered,c.regDesc,d.provDesc,b.sectorname,e.attendance_date,e.attendanceid');
+        $builder->select('a.participantid, a.regnumber, a.title, a.lastname, a.firstname, a.middle_initial, a.suffix, a.contactno, a.email, a.sex, a.position, a.sector, a.address_region, a.address_province, a.agency_name, a.privileges, a.event, a.date_registered,c.regDesc,d.provDesc,b.sectorname,e.attendance_date,e.attendanceid,e.event as event_present');
         $builder->join('tblparticipants a', 'a.regnumber = e.regnumber');
         $builder->join('tblsector b', 'b.sectorid = a.sector');
         $builder->join('refregion c', 'c.regCode = a.address_region');

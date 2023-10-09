@@ -24,7 +24,7 @@ class Admin extends BaseController
     {
         $data['events'] = $this->adminModel->get_all_data('tblevents');
         $data['pagetitle'] = '6th RHRC - Admin | Evaluation Links';
-        return view('admin/evaluation-link-list', $data);
+        return view('admin/evaluation/evaluation-link-list', $data);
     }
     
 }
