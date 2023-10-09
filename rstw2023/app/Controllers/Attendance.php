@@ -184,11 +184,11 @@ class Attendance extends BaseController
         foreach ($xx as $xxRow) {
         
             $qr_image=$xxRow['shorthand'].'.png';
-            $strData = 'https://registration.region10.dost.gov.ph/rstw2023/registration/event/'.$xxRow['shorthand'];
+            $strData = 'https://registration.region10.dost.gov.ph/rstw2023/evaluation?event='.$xxRow['evallink'];
             $params['data'] = $strData;
             $params['level'] = 'H';
             $params['size'] = 8;
-            $params['savename'] =FCPATH.STORE_QR.'programs/'.$qr_image;
+            $params['savename'] =FCPATH.STORE_QR.'evaluation/'.$qr_image;
 
             $ciqrcode->generate($params);
         }
