@@ -40,13 +40,13 @@
                                 <div class="mt-3 col-12">
                                     <p class="text-dark">Thank you for taking the time to complete the evaluation form for <b><?=$eventx['name'];?></b>.</p>
                                     <p class="text-dark">Your feedback is incredibly important to us, and we truly value your insights.</p>
-                                    <p class="text-dark">If you ever have questions or require assistance, please feel free to reach out to us at <a href="mailto: handapilipinas@region10.dost.gov.ph">handapilipinas@region10.dost.gov.ph</a>. We're here to help.</p>
+                                    <p class="text-dark">If you ever have questions or require assistance, please feel free to reach out to us at <a href="mailto: normincohrd@region10.dost.gov.ph">normincohrd@region10.dost.gov.ph</a>. We're here to help.</p>
                                     <p class="text-dark">Once again, thank you for participating in this event. Your contributions are highly valued, and we look forward to serving you in future events.</p>
                                 </div>
                                <?php if($eventx['shorthand'] != 'opening-ceremony' && $eventx['shorthand'] != 'presscon' && $eventx['shorthand'] != 'mousigning' && $eventx['shorthand'] != 'closing-ceremony' && $eventx['shorthand'] != 'drrm-exhibits' && $eventx['shorthand'] != 'fnriforum'){
                                 ?>
                                  <div class="col-md-12 mt-3 text-center">
-                                    <a class="btn btn-danger custom-class" href="<?=base_url('certificates/cp?certnumber='.$certnumber)?>" target="_blank">
+                                    <a class="btn btn-primary custom-class" href="<?=base_url('certificates/cp?certnumber='.$certnumber)?>" target="_blank">
                                         Download Certificate
                                     </a>
                                 </div>
