@@ -99,7 +99,7 @@ class Evaluation extends BaseController
             $cp = '';
 
             $message = "<p>Good day, ".$data['title']." ".$data['fullname'].", </p>";
-            $message .= "<p>Thank you for attending the <b>".$events['name']."</b> during the HANDA PILIPINAS: Innovations in Disaster Risk Reduction and Management Exposition 2023 (Mindanao Leg), with the theme “Enhance resilience and sustainability for Mindanao!” on 4-6 October 2023 at the Limketkai Center, Cagayan de Oro City.</p>";
+            $message .= "<p>Thank you for attending the <b>".$events['name']."</b> during the 2023 Regional Science, Technology, and Innovation Week; with the theme “Creating and Protecting Wealth through a Sustainable Blue Economy” on 11-13 October 2023 at the Mindanao State University - Iligan Institute of Technology, Iligan City.</p>";
             $message .= "<p>With this, please find attached a electronic copy of your certificate.</p><br>";
             $message .= "<p>To download a copy of your Certificate of Participation , please access the link below:</p>";
             if ($data['event'] != 'opening-ceremony' && $data['event'] != 'presscon' && $data['event'] != 'closing-ceremony' && $data['event'] != 'rstw-exhibits' && $data['event'] != 'fnriforum') {
