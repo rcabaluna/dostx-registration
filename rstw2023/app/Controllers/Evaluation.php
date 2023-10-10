@@ -108,6 +108,8 @@ class Evaluation extends BaseController
             }else{
                 $cp = "n";
             }
+
+            $data['ecacopy'] = 0;
             if ($data['ecacopy'] == 1) {
                 $ca = "y";
                 $message .="<p><a href=".base_url()."certificates/ca?certnumber=".$data['certnumber_hashed'].">Download Certificate of Appearance</a></p>";
