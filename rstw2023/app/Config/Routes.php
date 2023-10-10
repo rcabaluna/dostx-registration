@@ -94,8 +94,7 @@ $routes->get('/food/delete', 'Food::deleteRedeem');
 
 $routes->get('user-links','Admin::userLinksDeck',['filter' => 'authGuard']);
 
-
-
+$routes->post('participants/retrieve-csv-data','RetrieveCSVData::index');
 
 /*
  * --------------------------------------------------------------------

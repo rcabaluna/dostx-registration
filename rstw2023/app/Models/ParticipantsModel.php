@@ -37,4 +37,53 @@ class ParticipantsModel extends Model
         $builder->delete();
     }
 
+    public function check_participant_data($tablename,$param){
+
+        $builder = $this->db->table($tablename);
+        $builder->where('event',$param['event']);
+        $builder->like('lastname',$param['lastname'],'left');
+        $builder->like('firstname',$param['firstname'],'left');
+        $builder->like('middle_initial',$param['middle_initial'],'left');
+        $builder->like('suffix',$param['suffix'],'left');
+
+        $query   = $builder->get();
+
+        return $query->getRowArray();
+    }
+
+    function get_doc_number($docnumber){
+
+        $prefix="";
+        try {
+                $this->db->transStart();
+                $generate = $this->db->query("SELECT prefix,`value` FROM tblgenerator WHERE code='$docnumber'  FOR UPDATE");
+
+                $value = $generate->getRow()->value;
+                $docprefix = $generate->getRow()->prefix;
+
+                $builder = $this->db->table('tblgenerator');
+                $builder->set('value', $value+1);
+                $builder->where('code', $docnumber);
+                $builder->update();
+                $this->db->transComplete();
+                
+                for($x=1;$x<=(3-strlen($value));$x++){
+                    $prefix.="0";
+                }    
+            return $docprefix.date("Y").$prefix.$value;
+
+		}catch (\Exception $e){
+            die($e->getMessage());
+		}
+    }
+
+    public function insert_data($tablename,$data){
+
+		
+        $builder = $this->db->table($tablename);
+        $builder->insert($data);
+
+        return $this->db->insertID();
+    }
+
 }

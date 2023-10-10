@@ -3,7 +3,7 @@
 <div class="main-content">
     <div class="card">
         <div class="card-body">
-            <h4>Participants List</h4>
+            <h4>Participants List <button class="btn btn-success btn-tone btn-xs float-right" onclick="retrieve_data()">Retrieve Data from Google Form</button></h4>
             <div class="align-items-center justify-content-between m-b-30">
                 <div class="row">
                 <?php if($_SESSION['usertype'] == 'admin'){  ?>
@@ -141,7 +141,26 @@
             $("#ul-three").addClass("open");
             $("#li-participants").addClass("active");
 
+            retrieve_data();
+
+            
         });
+
+
+        setInterval(retrieve_data, 5000);
+
+        function retrieve_data(){
+                var event = $("#selevents").val();
+
+                if (event != 'all') {
+                    $.post("<?=base_url('participants/retrieve-csv-data')?>",{
+                        event:event
+                    },function(data){
+                        console.log(data);
+                        
+                    });
+                }
+            }
 
         function set_delete_link(participantid){
             $("#options-mdl").modal("hide");
@@ -196,5 +215,7 @@
                 }
             });
         }
+
+        
     </script>
 <?= $this->endSection() ?>
