@@ -545,16 +545,16 @@
     function checkInputs_css_part_2() {
         var overallSatisfactionChecked = $('input[name="overall_satisfaction"]:checked').length > 0;
         var recommendChecked = $('input[name="recommend"]:checked').length > 0;
-        var ecaChecked = $('input[name="ecacopy"]:checked').length > 0;
+        // var ecaChecked = $('input[name="ecacopy"]:checked').length > 0;
         
-        if (ecaChecked) {
+        // if (ecaChecked) {
             // Enable or disable the submit button based on conditions
             if ((overallSatisfactionChecked && recommendChecked)) {
                 $('#submit-btn').prop('disabled', false);
             } else {
                 $('#submit-btn').prop('disabled', true);
             }
-        }
+        // }
     }
 
     function show_next_btn() {
