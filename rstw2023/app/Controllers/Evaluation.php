@@ -90,7 +90,7 @@ class Evaluation extends BaseController
         if ($data['event'] != 'rstw-exhibits' && $data['event'] != 'opening-ceremony' && $data['event'] != 'press-conference' && $data['event'] != 'closing-ceremony') {
             $subject = '['.$data['certnumber'].'] Certificate of Participation for '.$events['name'];
     
-            $email->setFrom('handapilipinas@region10.dost.gov.ph', 'DOST 10 Handa Pilipinas');
+            $email->setFrom('rstw@region10.dost.gov.ph', '2023 RSTW sa Amihanang Mindanao');
             $email->setTo($data['email']);
             $email->setSubject($subject);
 
