@@ -39,17 +39,18 @@ class Certificates extends BaseController
             $tplIdx = $pdf->importPage(1);    
             $pdf->useImportedPage($tplIdx, 0, 0, 297, 210);
 
-            $fontPath = APPPATH.'/cert-templates/fonts/Poppins-Bold.ttf';
+            $fontPath = APPPATH.'/cert-templates/fonts/lucian.ttf';
+
             $fontData = \TCPDF_FONTS::addTTFfont($fontPath, 'TrueTypeUnicode', '', 96);
 
-            $pdf->setFont($fontData, '', 40);
-            $pdf->SetTextColor(231,86,36);
+            $pdf->setFont($fontData, '', 70);
+            $pdf->SetTextColor(46,110,96);
 
             $name = $data['fullname'];
             $textWidth = $pdf->GetStringWidth($name);
 
-            $x = (297 - $textWidth) / 2;
-            $y = 98;
+            $x = (325 - $textWidth) / 2;
+            $y = 92;
             $pdf->Text($x, $y, $name);
 
           
