@@ -69,8 +69,10 @@ class EvaluationModel extends Model
         $builder = $this->db->table($tablename);
         $builder->select('*');
         $builder->join('tblevents', 'tblevents.shorthand = tblevaluation.event');
-        $builder->join('refregion', 'refregion.regCode = tblevaluation.address_region');
-        $builder->join('refprovince', 'refprovince.provCode = tblevaluation.address_province');
+        if ($param['event'] != 'rstw-exhibits' && $param['event'] != 'opening-ceremony' && $param['event'] != 'closing-ceremony' && $param['event'] != 'press-conference' ) {
+            $builder->join('refregion', 'refregion.regCode = tblevaluation.address_region');
+            $builder->join('refprovince', 'refprovince.provCode = tblevaluation.address_province');
+        }
 
         if ($param['event'] != 'all' && $param['event'] != '') {
             $builder->where($param);

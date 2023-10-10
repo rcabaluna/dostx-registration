@@ -10,8 +10,7 @@
                     <div class="col-md-12">
                         <label>Select forum/event:</label>
                         <select class="form-control" id="selevents" onchange="get_participants_by_event()">
-                            <option value="all">All</option>
-                            <?php foreach ($events as $eventsRow) { ?>
+                            <?php foreach ($events as $eventsRow) { ?>  
                             <option value="<?=$eventsRow['shorthand']?>"><?=$eventsRow['name']?></option>
                             <?php } ?>
                         </select>
@@ -20,7 +19,52 @@
                         }?>
                 </div>
             </div>
-            <div class="m-t-25">
+
+                
+                <div class="m-t-25">
+                <?php if ($eventcurrent['formtype'] == 'A') { ?>
+                    <table class="table table-responsive table-condensed table-hover" id="participants-table">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Name</th>
+                            <th>Sex</th>
+                            <th>Age</th>
+                            <th>Source Info</th>
+                            <th>Promotion of the Activity</th>
+                            <th>Invitation and Registration</th>
+                            <th>Information Materials</th>
+                            <th>Program Management</th>
+                            <th>Time Management</th>
+                            <th>Event</th>
+                            <th>Comments</th>
+                            <th>Evaluation Date</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php $counter = 0; foreach ($evaluation as $evaluationRow) { ?>
+                            <tr>
+                                <td><?=$counter+=1?></td>
+                                <td><?=$evaluationRow['fullname']?></td>
+                                <td><small><?=$evaluationRow['sex']?></small></td>
+                                <td><?=$evaluationRow['age']?></td>
+                                <td><?=$evaluationRow['sourceinfo']?></td>
+                                <td class="text-right"><?=$evaluationRow['qa']?></td>
+                                <td class="text-right"><?=$evaluationRow['qb']?></td>
+                                <td class="text-right"><?=$evaluationRow['qc']?></td>
+                                <td class="text-right"><?=$evaluationRow['qd']?></td>
+                                <td class="text-right"><?=$evaluationRow['qe']?></td>
+                                <td><?=$evaluationRow['comments']?></td>
+                                <td><small><?=$evaluationRow['name']?></small></td>
+                                <td><?=date("M d, Y h:i A",strtotime($evaluationRow['date_registered'].'+8 hours'))?></td>
+                                <td><button onclick="set_delete_link(<?=$evaluationRow['evaluationid']?>)" class="btn btn-danger btn-tone btn-xs">Delete</button></td>
+                            </tr>
+                        <?php }?>
+                    </tbody>
+                </table>
+                <?php }elseif ($eventcurrent['formtype'] == 'B') {
+                ?>               
                 <table class="table table-responsive table-condensed table-hover" id="participants-table">
                     <thead>
                         <tr>
@@ -33,7 +77,7 @@
                             <th>Gender</th>
                             <th>Address</th>
                             <th>Privileges</th>
-                            <th>How did you hear about this event?</th>
+                            <th>Source Info</th>
                             <th class="text-right" data-toggle="tooltip" data-placement="top" title="I spent an acceptable amount of time to complete this training."><small><span hidden>I spent an acceptable amount of time to complete this training. </span><b>(Responsiveness)</b></small></th>
                             <th class="text-right" data-toggle="tooltip" data-placement="top" title="The office accurately informed and followed the training’s requirements and steps."><small><span hidden>The office accurately informed and followed the training’s requirements and steps.</span> <b>(Reliability)</b></small></th>
                             <th class="text-right" data-toggle="tooltip" data-placement="top" title="My training process (including steps) was simple and convenient."><small><span hidden>My training process (including steps) was simple and convenient.</span> <b>(Access and Facilities)</b></small></th>
@@ -91,7 +135,44 @@
                         <?php }?>
                     </tbody>
                 </table>
+                
+                <?php
+            }elseif ($eventcurrent['formtype'] == 'C') {
+                ?>
+                <table class="table table-condensed table-hover" id="participants-table">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Name</th>
+                            <th>Sex</th>
+                            <th>Age</th>
+                            <th>Source Info</th>
+                            <th>Overall Satisfaction</th>
+                            <th>Event</th>
+                            <th>Date Evaluated</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php $counter = 0; foreach ($evaluation as $evaluationRow) { ?>
+                            <tr>
+                                <td><?=$counter+=1?></td>
+                                <td><?=$evaluationRow['fullname']?></td>
+                                <td><small><?=$evaluationRow['sex']?></small></td>
+                                <td><?=$evaluationRow['age']?></td>
+                                <td><?=$evaluationRow['sourceinfo']?></td>
+                                <td class="text-right"><?=$evaluationRow['overall_satisfaction']?></td>
+                                <td><small><?=$evaluationRow['name']?></small></td>
+                                <td><?=date("M d, Y h:i A",strtotime($evaluationRow['date_registered'].'+8 hours'))?></td>
+                                <td><button onclick="set_delete_link(<?=$evaluationRow['evaluationid']?>)" class="btn btn-danger btn-tone btn-xs">Delete</button></td>
+                            </tr>
+                        <?php }?>
+                    </tbody>
+                </table>
+                <?php
+            }?>
             </div>
+
         </div>
         
     </div>
@@ -133,11 +214,6 @@
                     <div class="mb-3">
                         <img id="qr-options-mdl" class="w-100" />
                     </div>
-                    <!-- <div class="m-t-20">
-                        <button type="button" class="btn btn-warning" id="confirm-attendance-options-mdl">Confirm Attendance</button><br>
-                        <button type="button" class="mt-3 btn btn-link btn-xs">Confirm to another Forum</button>
-
-                    </div> -->
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default btn-xs" data-dismiss="modal">Close</button>

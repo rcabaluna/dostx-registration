@@ -122,7 +122,7 @@
                     <div class="logo logo-white">
                         <a href="<?=base_url('/admin/dashboard')?>">
                             <img src="<?=base_url('assets/images/logo/logo-white.png')?>" alt="Logo"  width="80" />
-                            <img class="logo-fold" src="<?=base_url('assets/images/logo/logo-fold-white.png')?>" alt="Logo" />
+                            <img class="logo-fold" src="<?=base_url('assets/images/logo/logo-fold-white.png')?>" alt="Logo" style="margin-left: 10px;" />
                         </a>
                     </div>
                     <div class="nav-wrap">
@@ -228,7 +228,7 @@
                                         <a href="<?=base_url('/evaluation/links')?>">Links</a>
                                     </li>
                                     <li id="li-evaluation-participants">
-                                        <a href="<?=base_url('/evaluation/participants?event=all')?>">Participants List</a>
+                                        <a href="<?=base_url('/evaluation/participants?event=opening-ceremony')?>">Participants List</a>
                                     </li>
                                 </ul>
                             </li>
