@@ -46,7 +46,7 @@
                                <?php if($eventx['shorthand'] != 'opening-ceremony' && $eventx['shorthand'] != 'presscon' && $eventx['shorthand'] != 'mousigning' && $eventx['shorthand'] != 'closing-ceremony' && $eventx['shorthand'] != 'rstw-exhibits'){
                                 ?>
                                  <div class="col-md-12 mt-3 text-center">
-                                    <a class="btn btn-danger custom-class" href="<?=base_url('certificates/cp?certnumber='.$certnumber)?>" target="_blank">
+                                    <a class="btn btn-success custom-class" href="<?=base_url('certificates/cp?certnumber='.$certnumber)?>" target="_blank">
                                         Download Certificate
                                     </a>
                                 </div>
