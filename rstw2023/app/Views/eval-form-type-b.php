@@ -24,7 +24,7 @@
 }
 
 .radio-toolbar input[type="radio"]:checked+label {
-    background-color: #de4436;
+    background-color: #00c9a7;
     color: white;
 
 }
@@ -448,7 +448,7 @@
                                         24. <b>Do you have other questions you were not able to relay during the forum? If so, you can share it here and we’ll try to get back to you.</b> <br /> </label>
                                     <input type="text" class="form-control" name="other_questions" placeholder="Your answer" />
                                 </div>
-                                <div class="form-group col-md-12">
+                                <!-- <div class="form-group col-md-12">
                                     <label for="inputEmail4">
                                         25. <b>Would you like an electronic copy of your Certificate of Appearance? If not, please proceed to the registration area to request a hard copy.</b> <small class="text-danger">*</small> <br />
                                         <i>(Gusto mo ba ng kopya sa elektronikong anyo ng iyong "Certificate of Appearance"? Kung hindi, mangyaring pumunta sa "registration area" para humiling ng kopya sa papel.)</i>
@@ -461,14 +461,14 @@
                                         <input id="eca2" name="ecacopy" type="radio" value="0"/>
                                         <label for="eca2">No</label>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-12">
                                     <button type="button" id="back-btn" onclick="go_previous_form()" class="btn btn-default btn-tone">Back</button>
-                                    <button type="submit" id="next-btn-1" class="btn btn-danger float-right" disabled>Next</button>
-                                    <button type="submit" id="next-btn-2" class="btn btn-danger float-right" disabled>Next</button>
-                                    <button type="submit" id="submit-btn" class="btn btn-danger float-right"disabled><i class="anticon anticon-loading m-r-5"></i></i>Submit</button>
+                                    <button type="submit" id="next-btn-1" class="btn btn-success float-right" disabled>Next</button>
+                                    <button type="submit" id="next-btn-2" class="btn btn-success float-right" disabled>Next</button>
+                                    <button type="submit" id="submit-btn" class="btn btn-success float-right"disabled><i class="anticon anticon-loading m-r-5"></i></i>Submit</button>
                                 </div>
                             </div>
                         </form>
