@@ -39,18 +39,17 @@ class Certificates extends BaseController
             $tplIdx = $pdf->importPage(1);    
             $pdf->useImportedPage($tplIdx, 0, 0, 297, 210);
 
-            $fontPath = APPPATH.'/cert-templates/fonts/lucian.ttf';
-
+            $fontPath = APPPATH.'/cert-templates/fonts/Poppins-Bold.ttf';
             $fontData = \TCPDF_FONTS::addTTFfont($fontPath, 'TrueTypeUnicode', '', 96);
 
-            $pdf->setFont($fontData, '', 70);
-            $pdf->SetTextColor(46,110,96);
+            $pdf->setFont($fontData, '', 35);
+            $pdf->SetTextColor(12,35,78);
 
             $name = $data['fullname'];
             $textWidth = $pdf->GetStringWidth($name);
 
-            $x = (325 - $textWidth) / 2;
-            $y = 92;
+            $x = (297 - $textWidth) / 2;
+            $y = 88;
             $pdf->Text($x, $y, $name);
 
           
@@ -62,12 +61,12 @@ class Certificates extends BaseController
             $x = 260;
             $y = 203;
 
-            $pdf->setFont('Helvetica', '', 10);
+            $pdf->setFont('Helvetica', '', 5);
             // $pdf->Text($x, $y, $certnumber);
-            $html = '<a style="color: #e75624; text-decoration:none;" href="'.base_url('certificates/cp?certnumber=').$certnumber_hashed.'">'.$certnumber.'</a>';
+            $html = '<a style="color: #0c234e; text-decoration:none;" href="'.base_url('certificates/cp?certnumber=').$certnumber_hashed.'">'.$certnumber.'</a>';
 
             // Write HTML content to the PDF
-            $pdf->SetXY(263, 162);
+            $pdf->SetXY(260, 177.5);
 
             $pdf->writeHTML($html, true, false, true, false, '');
             $ciqrcode = new Ciqrcode();
@@ -81,7 +80,7 @@ class Certificates extends BaseController
             
             $ciqrcode->generate($params);
 
-            $pdf->Image($params['savename'], $x = 262, $y = 167, $w = 30, $h = 30, $type = '', $link = '', $align = '', $resize = false, $dpi = 300, $palign = '', $border = 0, $fitbox = false, $hidden = false, $fitonpage = false, $alt = false, $altimgs = []);
+            $pdf->Image($params['savename'], $x = 259, $y = 157, $w = 20, $h = 20, $type = '', $link = '', $align = '', $resize = false, $dpi = 300, $palign = '', $border = 0, $fitbox = false, $hidden = false, $fitonpage = false, $alt = false, $altimgs = []);
 
             
             $pdf->SetTitle('Certificate of Participation | '.$data['certnumber'].' - '.$name);
